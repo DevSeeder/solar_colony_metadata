@@ -1,0 +1,592 @@
+{
+    "config": [
+        {
+            "path": "techs[].metricValues",
+            "values": {
+                "capacity": "Ah",
+                "initialVoltage": "V",
+                "maxTemperatureResistance": "celsius",
+                "cycleLife": "cycles",
+                "energyDensity": "Wh/kg",
+                "powerDensity": "W/kg",
+                "earthDevelopmentCost": "USD",
+                "installationTime": "h",
+                "installationPeople": "un",
+                "developmentTime": "h",
+                "developmentPeople": "un",
+                "weight": "Kg",
+                "totalEnergyStorage": "Wh"
+            }
+        },
+        {
+            "path": "designs[]",
+            "values": {
+                "width": "m",
+                "length": "m",
+                "height": "mm",
+                "upgrade": "%"
+            }
+        },
+        {
+            "path": "upgrades[]",
+            "values": {
+                "upgrade": "%"
+            }
+        }
+    ],
+    "techs": [
+        {
+            "key": "leadAcid",
+            "softName": "Bateria de Chumbo-Ácido",
+            "stepLevel": 1,
+            "requiredLevel": 1,
+            "metricValues": {
+                "units": 10,
+                "capacity": 100,
+                "initialVoltage": 12,
+                "maxTemperatureResistance": 100,
+                "cycleLife": 300,
+                "energyDensity": 30,
+                "powerDensity": 180,
+                "earthDevelopmentCost": 1500,
+                "installationTime": 20,
+                "installationPeople": 2,
+                "developmentTime": 50,
+                "developmentPeople": 3,
+                "weight": 300,
+                "extraRequiredRoles": [
+                    {
+                        "key": "metallurgical",
+                        "qtd": 1
+                    }
+                ],
+                "totalEnergyStorage": 12000
+            },
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0,
+                        "method": "sulfuricAcidBuilding",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    },
+                    {
+                        "sequence": 0.1,
+                        "method": "leadSmelting",
+                        "requiredRoles": [
+                            "metallurgical"
+                        ]
+                    }
+                ]
+            },
+            "extraMaterials": [
+                {
+                    "name": "sulfuricAcid",
+                    "qtd": 10,
+                    "mode": "*"
+                },
+                {
+                    "name": "lead",
+                    "qtd": 100,
+                    "mode": "*"
+                }
+            ]
+        },
+        {
+            "key": "sulfurFlowBattery",
+            "softName": "Bateria de Fluxo de Enxofre",
+            "stepLevel": 2,
+            "requiredLevel": 5,
+            "metricValues": {
+                "units": 10,
+                "capacity": 750,
+                "initialVoltage": 2.0,
+                "maxTemperatureResistance": 75,
+                "cycleLife": 1500,
+                "energyDensity": 70,
+                "powerDensity": 90,
+                "earthDevelopmentCost": 8000,
+                "installationTime": 40,
+                "installationPeople": 2,
+                "developmentTime": 100,
+                "developmentPeople": 3,
+                "weight": 1400,
+                "extraRequiredRoles": [
+                    {
+                        "key": "chemical",
+                        "qtd": 1
+                    }
+                ],
+                "totalEnergyStorage": 15000
+            },
+            "extraMaterials": [
+                {
+                    "name": "water",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "sulfur",
+                    "qtd": 5,
+                    "mode": "*"
+                },
+                {
+                    "name": "graphite",
+                    "qtd": 1,
+                    "mode": "*"
+                },
+                {
+                    "name": "copper",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lithiumSalt",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lithium",
+                    "qtd": 1,
+                    "mode": "simple"
+                }
+            ],
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0.1,
+                        "method": "cathodePreparation",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    },
+                    {
+                        "sequence": 0.2,
+                        "method": "anodePreparation",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    },
+                    {
+                        "sequence": 0.3,
+                        "method": "electrolyteInjection",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "key": "lithiumIon",
+            "softName": "Bateria de Íon de Lítio",
+            "stepLevel": 3,
+            "requiredLevel": 10,
+            "metricValues": {
+                "units": 10,
+                "capacity": 1000,
+                "initialVoltage": 3.7,
+                "maxTemperatureResistance": 85,
+                "cycleLife": 2000,
+                "energyDensity": 200,
+                "powerDensity": 300,
+                "earthDevelopmentCost": 3000,
+                "installationTime": 20,
+                "installationPeople": 1,
+                "developmentTime": 60,
+                "developmentPeople": 2,
+                "weight": 10,
+                "extraRequiredRoles": [],
+                "totalEnergyStorage": 18850
+            },
+            "extraMaterials": [
+                {
+                    "name": "water",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lithiumOxid",
+                    "qtd": 2,
+                    "mode": "adv"
+                },
+                {
+                    "name": "graphite",
+                    "qtd": 1,
+                    "mode": "*"
+                },
+                {
+                    "name": "copper",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lithiumSalt",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lithium",
+                    "qtd": 3,
+                    "mode": "simple"
+                }
+            ],
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0,
+                        "method": "cathodePreparation",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    },
+                    {
+                        "sequence": 0.1,
+                        "method": "anodePreparation",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    },
+                    {
+                        "sequence": 0.2,
+                        "method": "electrolyteInjection",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "key": "solidState",
+            "softName": "Bateria de Estado Sólido",
+            "stepLevel": 4,
+            "requiredLevel": 15,
+            "metricValues": {
+                "units": 10,
+                "capacity": 500,
+                "initialVoltage": 4.0,
+                "maxTemperatureResistance": 0,
+                "cycleLife": 5000,
+                "energyDensity": 400,
+                "powerDensity": 500,
+                "earthDevelopmentCost": 6000,
+                "installationTime": 30,
+                "installationPeople": 1,
+                "developmentTime": 75,
+                "developmentPeople": 2,
+                "weight": 80,
+                "extraRequiredRoles": [],
+                "totalEnergyStorage": 20000
+            },
+            "extraMaterials": [
+                {
+                    "name": "water",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lithiumOxid",
+                    "qtd": 2,
+                    "mode": "adv"
+                },
+                {
+                    "name": "graphite",
+                    "qtd": 1,
+                    "mode": "*"
+                },
+                {
+                    "name": "copper",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lithiumSulfur",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lithium",
+                    "qtd": 3,
+                    "mode": "simple"
+                },
+                {
+                    "name": "sulfur",
+                    "qtd": 1,
+                    "mode": "simple"
+                }
+            ],
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0.1,
+                        "method": "anodePreparation",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    },
+                    {
+                        "sequence": 0.2,
+                        "method": "solidElectrolyteInjection",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    },
+                    {
+                        "sequence": 0.3,
+                        "method": "cathodePreparation",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "key": "supercapacitor",
+            "softName": "Supercapacitor",
+            "stepLevel": 5,
+            "requiredLevel": 20,
+            "metricValues": {
+                "units": 10,
+                "capacity": 1000,
+                "initialVoltage": 2.7,
+                "maxTemperatureResistance": 75,
+                "cycleLife": 100000,
+                "energyDensity": 10,
+                "powerDensity": 1000,
+                "earthDevelopmentCost": 3000,
+                "installationTime": 20,
+                "installationPeople": 1,
+                "developmentTime": 80,
+                "developmentPeople": 3,
+                "weight": 50,
+                "extraRequiredRoles": [
+                    {
+                        "key": "materialsEngineer",
+                        "qtd": 1
+                    }
+                ],
+                "totalEnergyStorage": 27000
+            },
+            "extraMaterials": [
+                [
+                    {
+                        "name": "carbon",
+                        "qtd": 1,
+                        "mode": "*"
+                    },
+                    {
+                        "name": "lithiumSalt",
+                        "qtd": 1,
+                        "mode": "adv"
+                    },
+                    {
+                        "name": "copper",
+                        "qtd": 1,
+                        "mode": "adv"
+                    },
+                    {
+                        "name": "lithium",
+                        "qtd": 1,
+                        "mode": "simple"
+                    },
+                    {
+                        "name": "silica",
+                        "qtd": 1,
+                        "mode": "*"
+                    },
+                    {
+                        "name": "silicon",
+                        "qtd": 2,
+                        "mode": "*"
+                    }
+                ]
+            ],
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0.1,
+                        "method": "electrodePreparation",
+                        "requiredRoles": [
+                            "materialsEngineer"
+                        ]
+                    },
+                    {
+                        "sequence": 0.2,
+                        "method": "electrolyteInjection",
+                        "requiredRoles": [
+                            "chemical"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "buildingMethods": {
+        "development": [
+            {
+                "sequence": 1,
+                "method": "electrochemicalAssembly",
+                "requiredRoles": [
+                    "chemical"
+                ]
+            }
+        ],
+        "refinement": {
+            "steps": [
+                "chemicalCleaning",
+                "chargeDischargeCycle",
+                "thermalInsulation"
+            ],
+            "requiredRoles": [
+                "chemical",
+                "materialsEngineer"
+            ]
+        }
+    },
+    "maintenance": {
+        "factor": 0.5,
+        "materials": [
+            {
+                "material": "lead",
+                "qtd": 50,
+                "techs": [
+                    "leadAcid"
+                ]
+            },
+            {
+                "material": "sulfur",
+                "qtd": 5,
+                "techs": ["sulfurFlowBattery", "solidState"]
+            },
+            {
+                "material": "lithium",
+                "qtd": 6,
+                "techs": ["lithiumIon"]
+            },
+            {
+                "material": "carbon",
+                "qtd": 1,
+                "techs": ["supercapacitor"]
+            }
+        ]
+    },
+    "materials": [
+        {
+            "name": "silica",
+            "qtd": 30
+        }
+    ],
+    "designs": [
+        {
+            "key": "box",
+            "stepLevel": 1,
+            "requiredLevel": 1,
+            "width": 0.5,
+            "length": 0.5,
+            "height": 300
+        },
+        {
+            "key": "cylindrical",
+            "stepLevel": 2,
+            "requiredLevel": 5,
+            "upgrade": 20,
+            "width": 0.3,
+            "length": 0.3,
+            "height": 500
+        },
+        {
+            "key": "flatPack",
+            "stepLevel": 3,
+            "requiredLevel": 10,
+            "upgrade": 45,
+            "width": 0.5,
+            "length": 0.7,
+            "height": 200
+        },
+        {
+            "key": "integrated",
+            "stepLevel": 4,
+            "requiredLevel": 20,
+            "upgrade": 90,
+            "width": 1.2,
+            "length": 1.2,
+            "height": 300
+        }
+    ],
+    "upgrades": [
+        {
+            "key": "TwoSerialCells",
+            "upgrade": 100,
+            "requiredLevel": 5,
+            "minimumStep": 1,
+            "costMaterials": [
+                {
+                    "material": "lead",
+                    "qtd": 100,
+                    "techs": [
+                        "leadAcid"
+                    ]
+                },
+                {
+                    "material": "sulfur",
+                    "qtd": 10,
+                    "techs": ["sulfurFlowBattery", "solidState"]
+                },
+                {
+                    "material": "lithium",
+                    "qtd": 12,
+                    "techs": ["lithiumIon"]
+                },
+                {
+                    "material": "carbon",
+                    "qtd": 2,
+                    "techs": ["supercapacitor"]
+                }
+            ]
+        },
+        {
+            "key": "FourSerialCells",
+            "upgrade": 100,
+            "requiredLevel": 10,
+            "minimumStep": 1,
+            "minimumUpgrade": 1,
+            "costMaterials": [
+                {
+                    "material": "lead",
+                    "qtd": 200,
+                    "techs": [
+                        "leadAcid"
+                    ]
+                },
+                {
+                    "material": "sulfur",
+                    "qtd": 20,
+                    "techs": ["sulfurFlowBattery", "solidState"]
+                },
+                {
+                    "material": "lithium",
+                    "qtd": 24,
+                    "techs": ["lithiumIon"]
+                },
+                {
+                    "material": "carbon",
+                    "qtd": 4,
+                    "techs": ["supercapacitor"]
+                }
+            ]
+        }
+    ],
+    "requiredRoles": [
+        {
+            "key": "materialsEngineer",
+            "qtd": 1
+        },
+        {
+            "key": "chemical",
+            "qtd": 1
+        }
+    ]
+}

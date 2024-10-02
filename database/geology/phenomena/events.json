@@ -1,0 +1,18 @@
+{
+    "config": [
+        {
+            "path": "events",
+            "frequency": "times/year",
+            "intensity": "richter",
+            "duration": "s"
+        }
+    ],
+    "events": [
+        {
+            "key": "moonquakes",
+            "frequency": 3,
+            "intensity": 5,
+            "duration": 15
+        }
+    ]
+}

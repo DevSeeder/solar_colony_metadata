@@ -1,0 +1,10 @@
+{
+    "config": {
+        "cargoSpaceTravelTime": "d",
+        "avgLightIntensityBySquadMeter": "wats/h"
+    },
+    "values": {
+        "cargoSpaceTravelTime": 3,
+        "avgLightIntensityBySquadMeter": 1361
+    }
+}

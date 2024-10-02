@@ -1,0 +1,412 @@
+{
+    "config": [
+        {
+            "path": "recipes[]",
+            "values": {
+                "processes.time": "h",
+                "processes.energyCost": "W"
+            }
+        }
+    ],
+    "recipes": [
+        {
+            "material": "leadIodide",
+            "processes": [
+                {
+                    "time": 2.5,
+                    "energyCost": 1500,
+                    "materials": [
+                        {
+                            "material": "lead",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "iode",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "lithiumOxid",
+            "processes": [
+                {
+                    "time": 1,
+                    "energyCost": 1000,
+                    "materials": [
+                        {
+                            "material": "lithium",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "oxigen",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "graphite",
+            "processes": [
+                {
+                    "time": 10,
+                    "energyCost": 30000,
+                    "materials": [
+                        {
+                            "material": "carbon",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "sulfuricAcid",
+            "processes": [
+                {
+                    "time": 1.5,
+                    "energyCost": 1500,
+                    "materials": [
+                        {
+                            "material": "water",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "sulfurOxid",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "sulfur",
+                            "qtd": 1,
+                            "mode": "simple"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "sulfuricOxid",
+            "processes": [
+                {
+                    "time": 1.5,
+                    "energyCost": 1500,
+                    "materials": [
+                        {
+                            "material": "sulfur",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "oxigen",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "lithiumSalt",
+            "processes": [
+                {
+                    "time": 1,
+                    "energyCost": 1500,
+                    "materials": [
+                        {
+                            "material": "lithium",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "carbon",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "oxigen",
+                            "qtd": 3,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "lithiumSulfur",
+            "processes": [
+                {
+                    "time": 2,
+                    "energyCost": 2000,
+                    "materials": [
+                        {
+                            "material": "lithium",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "sulfur",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "castSalt",
+            "processes": [
+                {
+                    "time": 7,
+                    "energyCost": 850,
+                    "materials": [
+                        {
+                            "material": "sodium",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "chlorine",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "chlorine",
+            "processes": [
+                {
+                    "time": 7,
+                    "energyCost": 6000,
+                    "materials": [
+                        {
+                            "material": "magnesiumChloride",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "moonCement",
+            "processes": [
+                {
+                    "time": 40,
+                    "energyCost": 40000,
+                    "materials": [
+                        {
+                            "material": "silicon",
+                            "qtd": 400,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "calciumOxid",
+                            "qtd": 300,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "aluminiumOxid",
+                            "qtd": 15,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "ironOxid",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "water",
+                            "qtd": 5,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "steel",
+            "processes": [
+                {
+                    "time": 7,
+                    "energyCost": 6000,
+                    "materials": [
+                        {
+                            "material": "silicon",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "calcium",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "iron",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "oxigen",
+                            "qtd": 1,
+                            "mode": "adv"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "wheel",
+            "processes": [
+                {
+                    "time": 2,
+                    "energyCost": 2000,
+                    "materials": [
+                        {
+                            "material": "aluminium",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "rubber",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "rubber",
+            "processes": [
+                {
+                    "time": 2,
+                    "energyCost": 3000,
+                    "materials": [
+                        {
+                            "material": "carbon",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "hidrogen",
+                            "qtd": 4,
+                            "mode": "1"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "carbonDioxide",
+            "processes": [
+                {
+                    "time": 2,
+                    "energyCost": 1000,
+                    "materials": [
+                        {
+                            "material": "carbon",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "oxigen",
+                            "qtd": 2,
+                            "mode": "1"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "sodiumHidroxide",
+            "processes": [
+                {
+                    "time": 4,
+                    "energyCost": 4000,
+                    "materials": [
+                        {
+                            "material": "sodium",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "water",
+                            "qtd": 0.25,
+                            "mode": "1"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "aluminosilicates",
+            "processes": [
+                {
+                    "time": 5,
+                    "energyCost": 5000,
+                    "materials": [
+                        {
+                            "material": "aluminium",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "silicon",
+                            "qtd": 1,
+                            "mode": "1"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "glass",
+            "processes": [
+                {
+                    "time": 1,
+                    "energyCost": 400,
+                    "materials": [
+                        {
+                            "material": "silicon",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "aluminium",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        }
+    ]
+}

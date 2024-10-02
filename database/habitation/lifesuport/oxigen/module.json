@@ -1,0 +1,246 @@
+{
+    "config": [
+        {
+            "path": "techs[]",
+            "values": {
+                "energyCostByHourByPerson": "W",
+                "productionByHour": "g",
+                "durability": "years",
+                "building.energyCost": "W",
+                "building.time": "h",
+                "size.width": "m",
+                "size.length": "m",
+                "size.height": "m",
+                "upgrades[].energyCostByLight": "w"
+            }
+        },
+        {
+            "path": "consume",
+            "values": {
+                "byPersonByDay": "Kg",
+                "lostByYear": "%"
+            }
+        }
+    ],
+    "techs": [
+        {
+            "key": "sabatierReaction",
+            "peopleReference": 50,
+            "stepLevel": 1,
+            "levelRequired": 1,
+            "energyCostByHourByPerson": 326,
+            "productionByHour": 40,
+            "durability": 7,
+            "building": {
+                "energyCost": 200000,
+                "time": 100,
+                "requiredRoles": [
+                    {
+                        "key": "chemical",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "materialsEngineer",
+                        "qtd": 1
+                    }
+                ],
+                "requiredMaterials": [
+                    {
+                        "material": "aluminosilicates",
+                        "qtd": 14,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "aluminium",
+                        "qtd": 1000,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "graphite",
+                        "qtd": 4,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "sodiumHidroxide",
+                        "qtd": 1,
+                        "mode": "adv"
+                    }
+                ]
+            },
+            "maintenance": {
+                "factor": 0.25,
+                "requiredBots": 1,
+                "requiredMaterials": [
+                    {
+                        "material": "aluminium",
+                        "qtd": 100,
+                        "mode": "*"
+                    }
+                ]
+            },
+            "fuelByKg": [
+                {
+                    "material": "carbonDioxide",
+                    "qtd": 1
+                },
+                {
+                    "material": "hidrogen",
+                    "qtd": 0.5
+                },
+                {
+                    "material": "water",
+                    "qtd": 0.5
+                }
+            ],
+            "subproductByKg": [
+                {
+                    "material": "methane",
+                    "qtd": 1
+                },
+                {
+                    "material": "hidrogen",
+                    "qtd": 0.5
+                }
+            ],
+            "size": {
+                "width": 6,
+                "length": 6,
+                "height": 4
+            },
+            "upgrades": [
+                {
+                    "key": "photoelectrochemicalCellHybridSystem",
+                    "upgrade": 25,
+                    "upgradeAction": "upEnergyEfficiency",
+                    "requiredMaterials": [{
+                        "material": "graphite",
+                        "qtd": 4,
+                        "mode": "*"
+                    }]
+                }
+            ]
+        },
+        {
+            "key": "microalgaeTank",
+            "peopleReference": 50,
+            "stepLevel": 2,
+            "levelRequired": 15,
+            "energyCostByHourByPerson": 2.5,
+            "energyCostByHour": 125,
+            "productionByHour": 40,
+            "durability":11,
+            "building": {
+                "energyCost": 40000,
+                "time": 60,
+                "requiredRoles": [
+                    {
+                        "key": "chemical",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "materialsEngineer",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "bioEngineer",
+                        "qtd": 1
+                    }
+                ],
+                "requiredMaterials": [
+                    {
+                        "material": "glass",
+                        "qtd": 50,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "calcium",
+                        "qtd": 20,
+                        "mode": "adv"
+                    },
+                    {
+                        "material": "water",
+                        "qtd": 500,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "microalgae",
+                        "qtd": 200,
+                        "mode": "*"
+                    }
+                ]
+            },
+            "maintenance": {
+                "factor": 0.25,
+                "requiredBots": 1,
+                "requiredMaterials": [
+                    {
+                        "material": "glass",
+                        "qtd": 10,
+                        "mode": "*"
+                    }
+                ]
+            },
+            "fuelByKg": [
+                {
+                    "material": "carbonDioxide",
+                    "qtd": 1
+                },
+                {
+                    "material": "light",
+                    "qtd": 500,
+                    "ref": "µmol m⁻² s⁻¹"
+                }
+            ],
+            "algaeKgByPerson": 4,
+            "subproductByKg": [
+                {
+                    "material": "biomass",
+                    "qtd": 1
+                }
+            ],
+            "size": {
+                "width": 6,
+                "length": 6,
+                "height": 4
+            },
+            "upgrades": [
+                {
+                    "key": "ledPainels",
+                    "upgradeAction": "supplyLightWhenDark",
+                    "energyCostByLight": 2.5,
+                    "requiredMaterials": [
+                        {
+                            "material": "silicon",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "aluminium",
+                            "qtd": 3,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "galiumNitrate",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "dopingElements",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "integratedCircuit",
+                            "qtd": 1,
+                            "mode": "adv"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "consume": {
+        "byPersonByDay": 1,
+        "lostByYear": 10
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "config": [
+        {
+            "path": "techs[].metricValues",
+            "values": {
+                "energyCapacity": "MW",
+                "impactColisionResistance": "joules",
+                "earthDevelopmentCost": "USD",
+                "instalationTime": "h",
+                "instalationPeople": "un",
+                "developmentTime": "months",
+                "developmentPeople": "un",
+                "weight": "t",
+                "energyCost": "W"
+            }
+        }
+    ],
+    "techs": [
+        {
+            "key": "helium3Reactor",
+            "softName": "Reator do Hélio-3",
+            "stepLevel": 1,
+            "requiredLevel": 30,
+            "metricValues": {
+                "energyCapacity": 300,
+                "impactColisionResistance": 400000,
+                "earthDevelopmentCost": 20000000000,
+                "instalationTime": 100,
+                "instalationPeople": 5,
+                "developmentTime": 3,
+                "developmentPeople": 8,
+                "extraRequiredRoles": [],
+                "weight": 150,
+                "energyCost": 14000
+            },
+            "extraMaterials": [
+                {
+                    "material": "helium3",
+                    "qtd": 150,
+                    "mode": "*"
+                },
+                {
+                    "material": "iron",
+                    "qtd": 1000,
+                    "mode": "*"
+                }
+            ]
+        }
+    ],
+    "buildingMethods": {
+        "development": [
+            {
+                "sequence": 1,
+                "method": "fusionChamber",
+                "requiredRoles": [
+                    "chemical",
+                    "materialsEngineer",
+                    "nuclearEngineer"
+                ]
+            },
+            {
+                "sequence": 2,
+                "method": "plasmaContentionSystem",
+                "requiredRoles": [
+                    "chemical",
+                    "materialsEngineer",
+                    "nuclearEngineer"
+                ]
+            },
+            {
+                "sequence": 3,
+                "method": "refrigerationSystemImplementation",
+                "requiredRoles": [
+                    "materialsEngineer",
+                    "systemsEngineer"
+                ]
+            }
+        ],
+        "refinement": {
+            "steps": [
+                "thermalInsulation",
+                "securityImplementation"
+            ],
+            "requiredRoles": [
+                "chemical",
+                "materialsEngineer",
+                "systemsEngineer"
+            ]
+        }
+    },
+    "maintenance": {
+        "factor": 0.25,
+        "materials": [
+            {
+                "material": "basalt",
+                "qtd": 50,
+                "mode": "*"
+            }
+        ]
+    },
+    "materials": [
+        {
+            "material": "basalt",
+            "qtd": 150,
+            "mode": "*"
+        },
+        {
+            "material": "water",
+            "qtd": 1000,
+            "mode": "adv"
+        }
+    ],
+    "requiredRoles": [
+        {
+            "key": "chemical",
+            "qtd": 2
+        },
+        {
+            "key": "nuclearEngineer",
+            "qtd": 3
+        },
+        {
+            "key": "materialsEngineer",
+            "qtd": 2
+        },
+        {
+            "key": "systemsEngineer",
+            "qtd": 1
+        }
+    ]
+}

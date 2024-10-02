@@ -1,0 +1,242 @@
+{
+    "config": {},
+    "values": [
+        [
+            {
+                "key": "silicon",
+                "unityKg": 1,
+                "formula": "Si"
+            },
+            {
+                "key": "silica",
+                "unityKg": 10,
+                "formula": "SiO₂"
+            },
+            {
+                "key": "organicCompounds",
+                "unityKg": 0.1
+            },
+            {
+                "key": "aluminum",
+                "unityKg": 1,
+                "formula": "Al"
+            },
+            {
+                "key": "magnesium",
+                "unityKg": 0.15,
+                "formula": "Mg"
+            },
+            {
+                "key": "iron",
+                "unityKg": 1,
+                "formula": "Fe"
+            },
+            {
+                "key": "rutile",
+                "unityKg": 0.15,
+                "formula": "TiO2"
+            },
+            {
+                "key": "calcium",
+                "unityKg": 0.1,
+                "formula": "Ca"
+            },
+            {
+                "key": "dopingElements",
+                "unityKg": 0.05
+            },
+            {
+                "key": "leadIodide",
+                "unityKg": 0.02,
+                "formula": "PbI₂"
+            },
+            {
+                "key": "lead",
+                "unityKg": 1,
+                "formula": "Pb"
+            },
+            {
+                "key": "carbon",
+                "unityKg": 1,
+                "formula": "C"
+            },
+            {
+                "key": "carbonDioxide",
+                "unityKg": 1,
+                "formula": "CO²"
+            },
+            {
+                "key": "sulfur",
+                "unityKg": 0.5,
+                "formula": "C"
+            },
+            {
+                "key": "oxigen",
+                "unityKg": 1,
+                "formula": "O"
+            },
+            {
+                "key": "semiconductorAlloys",
+                "unityKg": 0.01
+            },
+            {
+                "key": "copper",
+                "unityKg": 0.3
+            },
+            {
+                "key": "water",
+                "unityKg": 1,
+                "formula": "H²O"
+            },
+            {
+                "key": "lithiumOxid",
+                "unityKg": 1,
+                "formula": "Li²O"
+            },
+            {
+                "key": "graphite",
+                "unityKg": 1
+            },
+            {
+                "key": "basalt",
+                "unityKg": 100
+            },
+            {
+                "key": "sulfuricAcid",
+                "unityKg": 0.5
+            },
+            {
+                "key": "lithiumSalt",
+                "unityKg": 0.1
+            },
+            {
+                "key": "lithiumSulfur",
+                "unityKg": 1,
+                "formula": "Li₂S"
+            },
+            {
+                "key": "uranium",
+                "unityKg": 10,
+                "formula": "U"
+            },
+            {
+                "key": "torium",
+                "unityKg": 10,
+                "formula": "Th"
+            },
+            {
+                "key": "castSalt",
+                "unityKg": 100
+            },
+            {
+                "key": "helium3",
+                "unityKg": 1000
+            },
+            {
+                "key": "moonCement",
+                "unityKg": 1000
+            },
+            {
+                "key": "steel",
+                "unityKg": 1
+            },
+            {
+                "key": "wheel",
+                "unityKg": 1
+            },
+            {
+                "key": "pyroxene",
+                "unityKg": 1
+            },
+            {
+                "key": "olivine",
+                "unityKg": 1
+            },
+            {
+                "key": "feldspar",
+                "unityKg": 1
+            },
+            {
+                "key": "ilmenite",
+                "unityKg": 1
+            },
+            {
+                "key": "zircon",
+                "unityKg": 1
+            },
+            {
+                "key": "iode",
+                "unityKg": 1,
+                "Io"
+            },
+            {
+                "key": "sulfurOxid",
+                "unityKg": 1
+            },
+            {
+                "key": "sodiumChloride",
+                "unityKg": 1,
+                "formula": "NaCl"
+            },
+            {
+                "key": "sodium",
+                "unityKg": 1,
+                "formula": "Na"
+            },
+            {
+                "key": "chlorine",
+                "unityKg": 1,
+                "formula": "Na"
+            },
+            {
+                "key": "calciumOxid",
+                "unityKg": 1,
+                "formula": "CaO"
+            },
+            {
+                "key": "aluminiumOxid",
+                "unityKg": 1,
+                "formula": "Al₂O₃"
+            },
+            {
+                "key": "ironOxid",
+                "unityKg": 1,
+                "formula": "Fe₂O₃"
+            },
+            {
+                "key": "hidrogen",
+                "unityKg": 0.25,
+                "formula": "H"
+            },
+            {
+                "key": "integratedCircuit",
+                "unityKg": 0.001
+            },
+            {
+                "key": "aluminosilicates",
+                "unityKg": 1
+            },
+            {
+                "key": "sodiumHidroxide",
+                "unityKg": 0.1,
+                "formula": "NaOH"
+            },
+            {
+                "key": "light",
+                "unityKg": 1
+            },
+            {
+                "key": "biomass",
+                "unityKg": 1
+            },
+            {
+                "key": "microalgae",
+                "unityKg": 1
+            },
+            {
+                "key": "galiumNitrate",
+                "unityKg": 0.01
+            }
+        ]
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "config": [
+        {
+            "path": "building",
+            "values": {
+                "energyCost": "W",
+                "time": "months"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "width": "m",
+                "length": "m",
+                "heigth": "m"
+            }
+        }
+    ],
+    "building": {
+        "energyCost": 100000,
+        "time": 2,
+        "materials": [
+            {
+                "material": "aluminium",
+                "qtd": 20000,
+                "mode": "*"
+            },
+            {
+                "material": "copper",
+                "qtd": "200",
+                "mode": "adv"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 15,
+                "mode": "*"
+            },  
+            {
+                "material": "silicon",
+                "qtd": 500,
+                "mode": "*"
+            }
+        ],
+        "requiredBots": 3,
+        "requiredRoles": [
+            {
+                "key": "metallurgical",
+                "qtd": 1
+            },
+            {
+                "key": "contructionEngineer",
+                "qtd": 1
+            },
+            {
+                "key": "materialsEngineer",
+                "qtd": 2
+            }
+        ]
+        
+    },
+    "operation":{
+        "requiredRoles": [
+            {
+                "key": "systemsEngineer",
+                "qtd": 2
+            },
+            {
+                "key": "machineOperator",
+                "qtd": 1
+            }
+        ],
+        "actions": ["create", "repair"]
+    },
+    "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 2,
+        "materials": [
+            {
+                "material": "silicon",
+                "qtd": 100,
+                "mode": "*"
+            },
+            {
+                "material": "aluminium",
+                "qtd": 1000,
+                "mode": "*"
+            }
+        ]
+    },
+    "size": {
+        "width": 50,
+        "length": 100,
+        "height": 10
+    }
+}

@@ -1,0 +1,450 @@
+{
+    "config": [
+        {
+            "path": "techs[].metricValues",
+            "values": {
+                "conversionEfficiency": "%",
+                "temperatureResistance": "celsius",
+                "radiationResistance": "gy",
+                "impactColisionResistance": "joules",
+                "durability": "years",
+                "flexibility": "GPa",
+                "earthDevelopmentCost": "USD",
+                "instalationTime": "h",
+                "instalationPeople": "un",
+                "developmentTime": "h",
+                "developmentPeople": "un",
+                "weight": "Kg"
+            }
+        },
+        {
+            "path": "designs[]",
+            "values": {
+                "width": "m",
+                "length": "m",
+                "height": "mm",
+                "upgrade": "%"
+            }
+        },
+        {
+            "path": "upgrades[]",
+            "values": {
+                "upgrade": "%"
+            }
+        }
+    ],
+    "techs": [
+        {
+            "key": "thinFilm",
+            "softName": "Filme Fino",
+            "stepLevel": 1,
+            "requiredLevel": 1,
+            "metricValues": {
+                "conversionEfficiency": 8,
+                "temperatureResistance": 80,
+                "radiationResistance": 200,
+                "impactColisionResistance": 200000,
+                "durability": 7,
+                "flexibility": 160,
+                "earthDevelopmentCost": 330,
+                "instalationTime": 8,
+                "instalationPeople": 2,
+                "developmentTime": 7,
+                "developmentPeople": 3,
+                "extraRequiredRoles": [],
+                "energy": 16,
+                "weight": 16
+            },
+            "extraMaterials": []
+        },
+        {
+            "key": "perovskiteCells",
+            "softName": "Células de Perovskita",
+            "stepLevel": 2,
+            "requiredLevel": 3,
+            "metricValues": {
+                "conversionEfficiency": 30,
+                "temperatureResistance": 85,
+                "radiationResistance": 200,
+                "impactColisionResistance": 300,
+                "durability": 12,
+                "flexibility": 150,
+                "earthDevelopmentCost": 300,
+                "instalationTime": 2,
+                "instalationPeople": 2,
+                "developmentTime": 13,
+                "developmentPeople": 3,
+                "extraRequiredRoles": [],
+                "energy": 18,
+                "weight": 18
+            },
+            "extraMaterials": [
+                {
+                    "name": "organicCompounds",
+                    "qtd": 1,
+                    "mode": "*"
+                },
+                {
+                    "name": "leadIodide",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lead",
+                    "qtd": 1,
+                    "mode": "simple"
+                }
+            ],
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0,
+                        "method": "perovskiteBuilding",
+                        "requiredRoles": [
+                            "materialsEngineer"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "key": "rosa",
+            "softName": "Roll-Out Solar Array",
+            "stepLevel": 3,
+            "requiredLevel": 10,
+            "metricValues": {
+                "conversionEfficiency": 35,
+                "temperatureResistance": 100,
+                "radiationResistance": 300,
+                "impactColisionResistance": 500,
+                "durability": 15,
+                "flexibility": 100,
+                "earthDevelopmentCost": 400,
+                "instalationTime": 3,
+                "instalationPeople": 2,
+                "developmentTime": 10,
+                "developmentPeople": 3,
+                "extraRequiredRoles": [],
+                "energy": 25,
+                "weight": 10
+            },
+            "extraMaterials": [
+                {
+                    "name": "organicCompounds",
+                    "qtd": 2,
+                    "mode": "*"
+                },
+                {
+                    "name": "leadIodide",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "name": "lead",
+                    "qtd": 1,
+                    "mode": "simple"
+                }
+            ],
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0,
+                        "method": "rosaBuilding",
+                        "requiredRoles": [
+                            "materialsEngineer"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "key": "multijunction",
+            "softName": "Células Multijunção",
+            "stepLevel": 4,
+            "requiredLevel": 15,
+            "metricValues": {
+                "conversionEfficiency": 45,
+                "temperatureResistance": 90,
+                "radiationResistance": 350,
+                "impactColisionResistance": 600,
+                "durability": 20,
+                "flexibility": 80,
+                "earthDevelopmentCost": 800,
+                "instalationTime": 4,
+                "instalationPeople": 2,
+                "developmentTime": 15,
+                "developmentPeople": 4,
+                "extraRequiredRoles": [
+                    {
+                        "key": "eletricEngineer",
+                        "qtd": 1
+                    }
+                ],
+                "energy": 20,
+                "weight": 12
+            },
+            "extraMaterials": [
+                {
+                    "name": "semiconductorAlloys",
+                    "qtd": 2,
+                    "mode": "*"
+                }
+            ],
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0,
+                        "method": "multijunctionBuilding",
+                        "requiredRoles": [
+                            "eletricEngineer"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "key": "imm",
+            "softName": "Inverted Metamorphic Multijunction",
+            "stepLevel": 5,
+            "requiredLevel": 20,
+            "metricValues": {
+                "conversionEfficiency": 45,
+                "temperatureResistance": 95,
+                "radiationResistance": 400,
+                "impactColisionResistance": 700,
+                "durability": 25,
+                "flexibility": 70,
+                "earthDevelopmentCost": 1200,
+                "instalationTime": 5,
+                "instalationPeople": 3,
+                "developmentTime": 20,
+                "developmentPeople": 5,
+                "extraRequiredRoles": [
+                    {
+                        "key": "eletricEngineer",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "materialsEngineer",
+                        "qtd": 1
+                    }
+                ],
+                "energy": 30,
+                "weight": 15
+            },
+            "extraMaterials": [
+                {
+                    "name": "semiconductorAlloys",
+                    "qtd": 2,
+                    "mode": "*"
+                },
+                {
+                    "material": "silicon",
+                    "qtd": 10,
+                    "mode": "*"
+                }
+            ],
+            "extraBuildingMethods": {
+                "development": [
+                    {
+                        "sequence": 0.1,
+                        "method": "advancedPolymersBuilding",
+                        "requiredRoles": [
+                            "materialsEngineer"
+                        ]
+                    },
+                    {
+                        "sequence": 0.2,
+                        "method": "nanoMaterialsBuilding",
+                        "requiredRoles": [
+                            "materialsEngineer"
+                        ]
+                    },
+                    {
+                        "sequence": 0.3,
+                        "method": "multijunctionBuilding",
+                        "requiredRoles": [
+                            "eletricEngineer"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "buildingMethods": {
+        "development": [
+            {
+                "sequence": 1,
+                "method": "vacuumDeposition",
+                "requiredRoles": [
+                    "materialsEngineer"
+                ]
+            },
+            {
+                "sequence": 2,
+                "method": "doping",
+                "requiredRoles": [
+                    "chemical"
+                ]
+            }
+        ],
+        "refinement": {
+            "steps": [
+                "thermalRecovery",
+                "chemicalCleaning",
+                "antiReflectiveLayers"
+            ],
+            "requiredRoles": [
+                "chemical",
+                "materialsEngineer",
+                "eletricEngineer"
+            ]
+        }
+    },
+    "maintenance": {
+        "factor": 0.5,
+        "materials": [
+            {
+                "name": "rutile",
+                "qtd": 1
+            },
+            {
+                "name": "dopingElements",
+                "qtd": 2
+            }
+        ]
+    },
+    "materials": [
+        {
+            "name": "silicon",
+            "qtd": 10,
+            "mode": "*"
+        },
+        {
+            "name": "rutile",
+            "qtd": 2,
+            "mode": "*"
+        },
+        {
+            "name": "aluminum",
+            "qtd": 2,
+            "mode": "adv"
+        },
+        {
+            "name": "dopingElements",
+            "qtd": 2,
+            "mode": "adv"
+        }
+    ],
+    "designs": [
+        {
+            "key": "squad",
+            "stepLevel": 1,
+            "requiredLevel": 1,
+            "width": 1,
+            "length": 1,
+            "height": 1
+        },
+        {
+            "key": "convex",
+            "stepLevel": 2,
+            "requiredLevel": 3,
+            "upgrade": 20,
+            "width": 1,
+            "length": 1,
+            "height": 500
+        },
+        {
+            "key": "hexagon",
+            "stepLevel": 3,
+            "requiredLevel": 7,
+            "upgrade": 45,
+            "width": 1,
+            "length": 1.5,
+            "height": 300
+        },
+        {
+            "key": "paraboloid",
+            "stepLevel": 4,
+            "requiredLevel": 15,
+            "upgrade": 45,
+            "width": 1,
+            "length": 1,
+            "height": 800
+        },
+        {
+            "key": "petal",
+            "stepLevel": 5,
+            "requiredLevel": 20,
+            "upgrade": 90,
+            "width": 1.5,
+            "length": 1.5,
+            "height": 400
+        }
+    ],
+    "upgrades": [
+        {
+            "key": "solarFollowers",
+            "upgrade": 35,
+            "requiredLevel": 10,
+            "minimumStep": 1,
+            "costMaterials": [
+                {
+                    "material": "iron",
+                    "qtd": 1,
+                    "mode": "*"
+                },
+                {
+                    "material": "copper",
+                    "qtd": 1,
+                    "mode": "*"
+                }
+            ]
+        },
+        {
+            "key": "bifacialSiliconCells",
+            "upgrade": 40,
+            "requiredLevel": 15,
+            "minimumStep": 1,
+            "costMaterials": [
+                {
+                    "material": "silicon",
+                    "qtd": 10,
+                    "mode": "*"
+                }
+            ]
+        },
+        {
+            "key": "tripleJunctionCells",
+            "upgrade": 50,
+            "requiredLevel": 20,
+            "minimumStep": 4,
+            "costMaterials": [
+                {
+                    "material": "silicon",
+                    "qtd": 20,
+                    "mode": "*"
+                },
+                {
+                    "name": "semiconductorAlloys",
+                    "qtd": 2,
+                    "mode": "*"
+                }
+            ]
+        }
+    ],
+    "requiredRoles": [
+        {
+            "key": "chemical",
+            "qtd": 1
+        },
+        {
+            "key": "materialsEngineer",
+            "qtd": 1
+        },
+        {
+            "key": "eletricEngineer",
+            "qtd": 1
+        }
+    ]
+}

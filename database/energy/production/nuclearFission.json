@@ -1,0 +1,190 @@
+{
+    "config": [
+        {
+            "path": "techs[].metricValues",
+            "values": {
+                "energyCapacity": "MW",
+                "riskTax": "%",
+                "impactColisionResistance": "joules",
+                "earthDevelopmentCost": "USD",
+                "instalationTime": "h",
+                "instalationPeople": "un",
+                "developmentTime": "months",
+                "developmentPeople": "un",
+                "weight": "t",
+                "energyCost": "kW"
+            }
+        },
+        {
+            "path": "upgrades[]",
+            "values": {
+                "upgrade": "%"
+            }
+        }
+    ],
+    "techs": [
+        {
+            "key": "toriumSMR",
+            "softName": "Reator de Torium SMR",
+            "stepLevel": 1,
+            "requiredLevel": 10,
+            "metricValues": {
+                "energyCapacity": 100,
+                "riskTax": 10,
+                "impactColisionResistance": 115000,
+                "earthDevelopmentCost": 600000000,
+                "instalationTime": 72,
+                "instalationPeople": 4,
+                "developmentTime": 1,
+                "developmentPeople": 7,
+                "extraRequiredRoles": [],
+                "weight": 25,
+                "energyCost": 94
+            },
+            "extraMaterials": [
+                {
+                    "material": "torium",
+                    "qtd": 1000,
+                    "mode": "*"
+                }
+            ]
+        },
+        {
+            "key": "castSaltReactor",
+            "softName": "Reator de Sal Fundido SMR",
+            "stepLevel": 2,
+            "requiredLevel": 25,
+            "metricValues": {
+                "energyCapacity": 200,
+                "riskTax": 7,
+                "impactColisionResistance": 100000,
+                "earthDevelopmentCost": 800000000,
+                "instalationTime": 72,
+                "instalationPeople": 4,
+                "developmentTime": 1,
+                "developmentPeople": 7,
+                "extraRequiredRoles": [],
+                "weight": 25,
+                "energyCost": 283
+            },
+            "extraMaterials": [
+                {
+                    "material": "castSalt",
+                    "qtd": 150,
+                    "mode": "*"
+                }
+            ]
+        }
+    ],
+    "buildingMethods": {
+        "development": [
+            {
+                "sequence": 1,
+                "method": "fuelManufacturing",
+                "requiredRoles": [
+                    "chemical",
+                    "materialsEngineer",
+                    "nuclearEngineer"
+                ]
+            },
+            {
+                "sequence": 2,
+                "method": "reactorInstallation",
+                "requiredRoles": [
+                    "chemical",
+                    "materialsEngineer",
+                    "nuclearEngineer"
+                ]
+            },
+            {
+                "sequence": 3,
+                "method": "refrigerationSystemImplementation",
+                "requiredRoles": [
+                    "materialsEngineer",
+                    "systemsEngineer"
+                ]
+            }
+        ],
+        "refinement": {
+            "steps": [
+                "thermalInsulation",
+                "securityImplementation"
+            ],
+            "requiredRoles": [
+                "chemical",
+                "materialsEngineer",
+                "systemsEngineer"
+            ]
+        }
+    },
+    "maintenance": {
+        "factor": 0.25,
+        "materials": [
+            {
+                "material": "basalt",
+                "qtd": 50,
+                "mode": "*"
+            }
+        ]
+    },
+    "materials": [
+        {
+            "material": "basalt",
+            "qtd": 150,
+            "mode": "*"
+        },
+        {
+            "material": "water",
+            "qtd": 1000,
+            "mode": "adv"
+        }
+    ],
+    "requiredRoles": [
+        {
+            "key": "chemical",
+            "qtd": 2
+        },
+        {
+            "key": "nuclearEngineer",
+            "qtd": 2
+        },
+        {
+            "key": "materialsEngineer",
+            "qtd": 2
+        },
+        {
+            "key": "systemsEngineer",
+            "qtd": 1
+        }
+    ],
+    "upgrades": [
+        {
+            "key": "highTemperatureReactor",
+            "upgradeAction": "downRiskTax",
+            "upgrade": 10,
+            "requiredLevel": 15,
+            "minimumStep": 1,
+            "costMaterials": [
+                {
+                    "material": "graphite",
+                    "qtd": 10000,
+                    "mode": "*"
+                }
+            ]
+        },
+        {
+            "key": "fastCombustionCycle",
+            "upgradeAction": "recycleFuel",
+            "upgrade": 75,
+            "requiredLevel": 20,
+            "minimumStep": 1,
+            "costMaterials": [
+                {
+                    "material": "uranium",
+                    "qtd": 1000,
+                    "mode": "*"
+                }
+            ]
+        }
+    ]
+}

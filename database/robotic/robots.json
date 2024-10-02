@@ -1,0 +1,205 @@
+{
+    "config": [
+        {
+            "path": "robots[]",
+            "values": {
+                "earthCostDevelopment": "USD",
+                "weight": "Kg",
+                "durability": "years",
+                "building": {
+                    "time": "d",
+                    "energyCost": "kW"
+                }
+            }
+        }
+    ],
+    "robots": [
+        {
+            "key": "minningRobot",
+            "earthCostDevelopment": 150000,
+            "weight": 900,
+            "durability": 7,
+            "building": {
+                "time": 3,
+                "energyCost": 500,
+                "materials": [
+                    {
+                        "material": "steel",
+                        "qtd": 500,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "aluminium",
+                        "qtd": 200,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "silicon",
+                        "qtd": 20,
+                        "mode": "adv"
+                    },
+                    {
+                        "material": "carbon",
+                        "qtd": 100,
+                        "mode": "adv"
+                    },
+                    {
+                        "material": "camera",
+                        "qtd": 1,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "integratedCircuit",
+                        "qtd": 20,
+                        "mode": "*"
+                    }
+                ],
+                "batterySlots": 1
+            },
+            "maintenance": {
+                "factor": 0.5,
+                "requiredMaterials": [
+                    {
+                        "material": "steel",
+                        "qtd": 50,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "aluminium",
+                        "qtd": 20,
+                        "mode": "*"
+                    }
+                ]
+            },
+            "upgradeComponents": [
+                {
+                    "key": "fusionExtraction",
+                    "component": "extractionMethod",
+                    "levelRequired": 5,
+                    "upgradeActions": [
+                        {
+                            "key": "durability",
+                            "type": "up",
+                            "value": 30
+                        },
+                        {
+                            "key": "efficiency",
+                            "type": "up",
+                            "value": 30
+                        }
+                    ],
+                    "cost": [
+                        {
+                            "key": "energyCost",
+                            "type": "up",
+                            "value": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "loadMaterialRover",
+            "earthCostDevelopment": 30000,
+            "weight": 150,
+            "durability": 3,
+            "building": {
+                "time": 0.5,
+                "energyCost": 50,
+                "materials": [
+                    {
+                        "material": "aluminium",
+                        "qtd": 20,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "steel",
+                        "qtd": 5,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "integratedCircuit",
+                        "qtd": 2,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "wheel",
+                        "qtd": 2,
+                        "mode": "*"
+                    }
+                ],
+                "batterySlots": 1
+            },
+            "maintenance": {
+                "factor": 0.2,
+                "requiredMaterials": [
+                    {
+                        "material": "aluminium",
+                        "qtd": 5,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "steel",
+                        "qtd": 1,
+                        "mode": "*"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "repairConstructionRobot",
+            "earthCostDevelopment": 50000,
+            "weight": 50,
+            "durability": 5,
+            "building": {
+                "time": 2,
+                "energyCost": 300,
+                "materials": [
+                    {
+                        "material": "aluminium",
+                        "qtd": 15,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "copper",
+                        "qtd": 5,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "silicon",
+                        "qtd": 1,
+                        "mode": "adv"
+                    },
+                    {
+                        "material": "integratedCircuit",
+                        "qtd": 5,
+                        "mode": "*"
+                    }
+                ],
+                "batterySlots": 1
+            },
+            "maintenance": {
+                "factor": 0.5,
+                "requiredMaterials": [
+                    {
+                        "material": "aluminium",
+                        "qtd": 2,
+                        "mode": "*"
+                    }
+                ]
+            }
+        }
+    ],
+    "upgradeComponents": [
+        {
+            "key": "solarCell",
+            "levelRequired": 1,
+            "upgradeActions": [
+                {
+                    "key": "selfEnergyGeneration",
+                    "type": "action"
+                }
+            ]
+        }
+    ]
+}

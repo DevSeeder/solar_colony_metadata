@@ -1,0 +1,511 @@
+[
+    {
+        "code": "Cc",
+        "name": "Copernican Crater",
+        "description": "Rim, wall and floor deposits of craters with sharp prominent rims, circular to polygonal outlines. High relative brightness and rays.",
+        "notes": "n/a",
+        "possibleMaterials": [
+            "carbon",
+            "titanium",
+            "silicon",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ccc",
+        "name": "Crater, Catena",
+        "description": "Elongated linear clusters of overlapping circular to semi-circular.",
+        "notes": "n/a",
+        "possibleMaterials": [
+            "silicon",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Csc",
+        "name": "Copernican Crater, Secondary",
+        "description": "Small to very small diameter craters, densely spaced near and/or on the ejecta blanket of craters.",
+        "notes": "Impact crater forms derived from blocky material ejected from the primary impact.",
+        "possibleMaterials": [
+            "silicon",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ec",
+        "name": "Eratosthenian Crater",
+        "description": "Non-rayed, circular craters with sharp to partially subdued crater rim crests, partial circumferential ejecta present, and lower albedo compared to unit Cc.",
+        "notes": "Morphology and material from a primary impact event.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ecc",
+        "name": "Eratosthenian Crater, Catena",
+        "description": "Elongated linear to elliptical clusters of circular to semi-circular depressions, often overlapping.",
+        "notes": "Impact crater clusters derived ejecta from large, basin forming impacts. Possibly primary impacts.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Esc",
+        "name": "Eratosthenian Secondary Crater",
+        "description": "Small to very small diameter craters, densely spaced near and/or on the ejecta blanket of craters.",
+        "notes": "Impact crater forms derived from blocky material ejected from the primary impact.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Em",
+        "name": "Eratosthenian Mare",
+        "description": "Low relative brightness plains with relatively few craters large enough to map, patches of small domes, sharp-crested ridges, observable flow fronts.",
+        "notes": "Relatively thin, young volcanic flows or pyroclastic material.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "EIp",
+        "name": "Eratosthenian Imbrian Plateau",
+        "description": "Forms high standing plateaus (relative to the mare surfaces in Oceanus Procellarum) with domes, cones, and dark mantling materials.",
+        "notes": "Volcanic constructs, flows, and pyroclastic materials.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Ic",
+        "name": "Imbrian Crater, Undivided",
+        "description": "Subdued topographic relief compared to younger impact features, generally less than 40 km in diameter, with broad flat floors, and little to no ejecta present.",
+        "notes": "Subdued morphology and material from a primary impact event.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Ic1",
+        "name": "Imbrian Crater, Lower",
+        "description": "Similar description to unit Ic, craters mantled by materials of the Orientale group.",
+        "notes": "Subdued morphology and material from a primary impact event, younger than Imbrium group materials but older than Orientale group materials.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Ic2",
+        "name": "Imbrian Crater, Upper",
+        "description": "Similar description to unit Ic, craters superpose materials of the Orientale group.",
+        "notes": "Subdued morphology and material from a primary impact event, younger than Orientale group materials but older than unit Im2.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Icc",
+        "name": "Imbrian Crater, Catena",
+        "description": "Subdued and mantled elongated linear to elliptical clusters of circular to semi-circular depressions, often overlapping.",
+        "notes": "Impact crater clusters derived ejecta from large, basin forming impacts. Possibly primary impacts.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Isc",
+        "name": "Imbrian Crater, Secondary",
+        "description": "Small diameter craters, densely spaced near and/or on the ejecta blanket of craters.",
+        "notes": "Impact crater forms derived from blocky material ejected from the primary impact.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Icf",
+        "name": "Imbrian Crater, Fracture Floor",
+        "description": "Crater floors typically domed, with furrows and/or linear to curvilinear fractures with variable widths and depths. Blocks and material between the fractures sometimes reoriented.",
+        "notes": "Brittle materials uplifted and extended.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ib",
+        "name": "Imbrian Basin, Undivided",
+        "description": "Gently rolling to hilly terrain containing aggregates of subdued irregular to circular craters. Also forms outer basin and ejecta of crater Schrodinger.",
+        "notes": "Materials emplaced during the formation of multi-ringed impact basins.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ibm",
+        "name": "Imbrian Basin, Massif",
+        "description": "Rugged blocks forming arcuate raised ridges within crater Schrodinger.",
+        "notes": "Material uplifted during basin formation, representing the inner ring of a multi-ringed impact basin.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Id",
+        "name": "Imbrian Dark Mantle",
+        "description": "Some of the lowest albedo material mapped, generally occurs near the outer margins of larger basins. Scalloped, smooth textures with small craters.",
+        "notes": "Pyroclastic material.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ig",
+        "name": "Imbrian Grooved",
+        "description": "Covers craters and other terrae of pre-Nectarian through Imbrian age. Craters have radial grooves on rims and walls with some mounds.",
+        "notes": "Origin uncertain. Possibly Imbrium ejecta or result of seismic shaking.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Iia",
+        "name": "Imbrian Imbrium Alpes Formation",
+        "description": "Angular blocky and knobby with smooth, mantled surface. Closely spaced hills and hummocks, ~2-5 km in diameter.",
+        "notes": "Possibly eroded ejecta, structurally deformed bedrock, or both.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Iiap",
+        "name": "Imbrian Imbrium Apenninus Formation",
+        "description": "Coarse blocks of material parallel to scarp bordering Imbrium basin. Smooth to undulating interblock materials.",
+        "notes": "Intensely fractured bedrock with interstitial Imbrium ejecta.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Iic",
+        "name": "Imbrian Imbrium Crater",
+        "description": "Individual craters <25 km diam., clusters and chains of craters <10 km diam. radial to Imbrium. Moderately subdued topographic features.",
+        "notes": "Secondaries and crater chains emplaced during Imbrium basin formation.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Iif",
+        "name": "Imbrian Imbrium Fra Mauro Formation",
+        "description": "Sinuous, curvilinear, and straight ridges draping the surface below. Surface texture locally hummocky.",
+        "notes": "Ejecta from Imbrium basin and materials of the substrate.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Im1",
+        "name": "Imbrian Mare, Lower",
+        "description": "Forms flat, smooth surfaces. Relatively higher albedo compared to unit Im2 but lower albedo than unit Ip. High density of superposed craters.",
+        "notes": "Old basaltic lava, perhaps as old as Orientale basin.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Im2",
+        "name": "Imbrian Mare, Upper",
+        "description": "Forms flat, smooth surfaces. Lower albedo and crater density than unit Im1. Numerous ridges. Difficult to distinguish from unit Id.",
+        "notes": "Basaltic lava flows.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon"
+        ]
+    },
+    {
+        "code": "Imd",
+        "name": "Imbrian Mare, Dome",
+        "description": "Steeply sloping, high-relief, rough domical or conical shaped edifices, sometimes with pitted summits.",
+        "notes": "Volcanic edifices or laccoliths",
+        "possibleMaterials": [
+            "basalt",
+            "silicon"
+        ]
+    },
+    {
+        "code": "Iohi",
+        "name": "Imbrian Orientale Hevelius Formation, Inner Facies",
+        "description": "Curvilinear to swirly ridges and troughs mostly radial and subradial to Orientale basin.",
+        "notes": "Continuous ejecta blanket emplaced during outward flow of hot, turbulent, mobile materials.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ioho",
+        "name": "Imbrian Orientale Hevelius Formation, Outer Facies",
+        "description": "Swirly, lineated, hummocky and smooth materials forming a discontinuous and irregular boundary.",
+        "notes": "Thinning distal margins of Orientale basin ejecta.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ios",
+        "name": "Imbrian Orientale Hevelius Formation, Secondary Crater Facies",
+        "description": "Overlapping crater chains and clusters radial and peripheral to the basin.",
+        "notes": "Secondary impact craters formed by ejected blocks.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon"
+        ]
+    },
+    {
+        "code": "Iom",
+        "name": "Imbrian Orientale Maunder Formation",
+        "description": "Smooth to rolling, intensely fractured plains with broad linear ridges and smooth domes.",
+        "notes": "Mostly impact melt. Ridges and domes likely original floor material modified through compression.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon"
+        ]
+    },
+    {
+        "code": "Iork",
+        "name": "Imbrian Orientale Montes Rook Formation, Knobby Facies",
+        "description": "Knobby, hummocky, rolling and chaotic materials with interstitial irregular grooves and depressions.",
+        "notes": "Uppermost part of overturned flap of the ejecta sequence of Orientale basin.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon"
+        ]
+    },
+    {
+        "code": "Iorm",
+        "name": "Imbrian Orientale Montes Rook Formation, Massif Facies",
+        "description": "High-relief, smooth blocks marking the second and third rings of the basin.",
+        "notes": "Structurally uplifted bedrock, thickly veneered with late arriving ejecta.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ip",
+        "name": "Imbrian Plains",
+        "description": "Smooth, flat to undulatory terrain of intermediate albedo occurring mostly in topographic lows and crater floors of Imbrian and older age.",
+        "notes": "Ambiguous origin, likely Orientale and other large impact crater ejecta.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon"
+        ]
+    },
+    {
+        "code": "It",
+        "name": "Imbrian Terra",
+        "description": "Low relief, low crater density, moderate to high albedo, moderately smooth surface.",
+        "notes": "Complex mixture of local erosional debris and crater and basin ejecta; megaregolith.",
+        "possibleMaterials": [
+            "silicon",
+            "alumínio"
+        ]
+    },
+    {
+        "code": "Itd",
+        "name": "Imbrian Terra, Dome",
+        "description": "Outlines and characteristics similar to main-sequence craters, with smooth inner flanks, paucity of ejecta, inner terracing, secondary cratering.",
+        "notes": "Possibly target material differences, or ash-flow calderas.",
+        "possibleMaterials": [
+            "basalt",
+            "silicon"
+        ]
+    },
+    {
+        "code": "INp",
+        "name": "Imbrian Nectarian Plains",
+        "description": "Smooth, flat to undulating surface, moderate to high density of superposed craters.",
+        "notes": "Possibly materials emplaced by the formation of Imbrian and Nectarian basins.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "INt",
+        "name": "Imbrian Nectarian Terra",
+        "description": "Gently rolling terrain, moderate to high density of craters.",
+        "notes": "Complex mixture of local erosional debris and crater and basin ejecta; megaregolith.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Nc",
+        "name": "Nectarian Crater",
+        "description": "Considerably muted topographic relief compared to younger impact features, with broad flat floors typically another unit, and very little to no ejecta present.",
+        "notes": "Muted morphology and material from a primary impact event.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Nb",
+        "name": "Nectarian Basin, Undivided",
+        "description": "Material of raided walls and slumped blocks of basins, as well as aggregates of closely spaced subdued hills and ridges.",
+        "notes": "Impact related structures and ejecta material.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Nbl",
+        "name": "Nectarian Basin, Lineated",
+        "description": "Sharp, raised ridges, intervening flat areas or deep troughs and smooth hills with narrow grooves.",
+        "notes": "Bedrock pervasively faulted by Imbrium impact.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Nbm",
+        "name": "Nectarian Basin, Massif",
+        "description": "Rugged blocks most commonly 10 to 30 km across, forms highest and most rugged parts of arcuate raised ridges.",
+        "notes": "Uplifted bedrock during the formation of Nectarian basins.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Nbsc",
+        "name": "Nectarian Basin, Secondary Crater",
+        "description": "Grouped in clusters, chains and groove-like chains, mostly peripheral and approximately radial to Nectarian basins.",
+        "notes": "Secondary impact craters of Nectarian basins.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Nnj",
+        "name": "Nectarian Nectaris Janssen Formation",
+        "description": "Rolling subdued terrain having numerous linear features including ridges, scarps, and grooves radial to Nectaris basin.",
+        "notes": "Nectaris basin ejecta equivalent to, but more degraded than, units Iif, Iohi, and Ioho.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Np",
+        "name": "Nectarian Plains",
+        "description": "Generally flat, moderate albedo terrain with dense population of large, old craters.",
+        "notes": "Ambiguous origin, possible ejecta from large impacts and basin forming events.",
+        "possibleMaterials": [
+            "silicon",
+            "iron"
+        ]
+    },
+    {
+        "code": "Nt",
+        "name": "Nectarian Terra",
+        "description": "Moderately rough surface, rolling to moderately rugged overall relief, with diverse ages of superposed and buried craters.",
+        "notes": "Complex mixture of local erosional debris and crater and basin ejecta; megaregolith.",
+        "possibleMaterials": [
+            "silicon",
+            "iron",
+            "metalOxids"
+        ]
+    },
+    {
+        "code": "Ntp",
+        "name": "Nectarian Terra-Mantling and Plains",
+        "description": "Light colored, wavy or rolling surfaces more heavily cratered than unit Ip.",
+        "notes": "Primary and secondary ejecta of Nectarian basins and large craters equivalent to units Ioho",
+        "possibleMaterials": ["regolith", "impactEjecta", "basalt"]
+    },
+    {
+        "code": "pNb",
+        "name": "pre-Nectarian Basin",
+        "description": "Subdued, eroded mountain rings and arcuate segments of rings, rim, walls, and inner-ring materials.",
+        "notes": "Erosionally degraded impact related structures and ejecta materials.",
+        "possibleMaterials": [
+            "basalt",
+            "regolith",
+            "impactEjecta"
+        ]
+    },
+    {
+        "code": "pNbm",
+        "name": "pre-Nectarian Basin Massif",
+        "description": "Large mountainous landforms commonly lying along arc, both continuous and discontinuous, gradational with generally finer-scale topography.",
+        "notes": "Uplifted bedrock during the formation of basins.",
+        "possibleMaterials": [
+            "bedrock",
+            "igneousRock",
+            "regolith"
+        ]
+    },
+    {
+        "code": "pNc",
+        "name": "pre-Nectarian Crater",
+        "description": "Discontinuous, subdued rim crests and rounded, curved or straight rim remnants.",
+        "notes": "Erosionally degraded morphology and material from a primary impact event.",
+        "possibleMaterials": [
+            "regolith",
+            "impactDebris",
+            "magma"
+        ]
+    },
+    {
+        "code": "pNt",
+        "name": "pre-Nectarian Terra",
+        "description": "Rugged, diverse terrain, degraded partial crater rims, gradational with smoother unit Nt, and rougher units pNbm and pNc.",
+        "notes": "Complex mixture of local erosional debris and crater and basin ejecta; megaregolith.",
+        "possibleMaterials": [
+            "regolith",
+            "sedimentaryMaterials",
+            "impactEjecta"
+        ]
+    }
+]

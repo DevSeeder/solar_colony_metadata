@@ -1,0 +1,193 @@
+{
+    "config": [
+        {
+            "path": "sections",
+            "values": {
+                "durability": "years",
+                "transportCart.building.time": "h",
+                "transportCart.building.energyCost": "W",
+                "transportCart.weight": "Kg",
+                "transportCart.capacity": "t",
+                "transportCart.velocity": "m/s",
+                "transportCart.durability": "years",
+                "transportCart.energyByMeter": "W",
+                "rawMaterialDeposit.storageCapacity": "t"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "width": "m",
+                "length": "m",
+                "height": "m"
+            }
+        }
+    ],
+    "sections": {
+        "roboticCentralOperation": {
+            "robot": "minningRobot",
+            "requiredRolesByMinningRobot": [
+                {
+                    "key": "machineOperator",
+                    "qtd": 1
+                }
+            ]
+        },
+        "rawMaterialDeposit": {
+            "storageCapacity": 20
+        },
+        "rawMaterialTreatment": {
+            "requiredRolesByTreatment": [
+                {
+                    "key": "materialsEngineer",
+                    "qtd": 1
+                },
+                {
+                    "key": "chemical",
+                    "qtd": 1
+                }
+            ]
+        },
+        "transportCart": {
+            "building": {
+                "time": 5,
+                "energyCost": 5000,
+                "requiredBots": 2,
+                "requiredRoles": [
+                    {
+                        "key": "metallurgical",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "contructionEngineer",
+                        "qtd": 1
+                    }
+                ]
+            },
+            "weight": 2350,
+            "capacity": 10,
+            "velocity": 10,
+            "durability": 3,
+            "energyByMeter": 90,
+            "size": {
+                "width": 1.5,
+                "length": 2,
+                "height": 2
+            },
+            "materials": [
+                {
+                    "key": "aluminium",
+                    "qtd": 100,
+                    "mode": "*"
+                },
+                {
+                    "key": "iron",
+                    "qtd": 100,
+                    "mode": "*"
+                },
+                {
+                    "key": "integratedCircuit",
+                    "qtd": 2,
+                    "mode": "*"
+                },
+                {
+                    "key": "rutile",
+                    "qtd": 30,
+                    "mode": "adv"
+                },
+                {
+                    "key": "steel",
+                    "qtd": 30,
+                    "mode": "*"
+                },
+                {
+                    "key": "wheel",
+                    "qtd": 4,
+                    "mode": "*"
+                }
+            ],
+            "batterySlots": 2,
+            "upgradeComponents": [
+                {
+                    "key": "solarCell",
+                    "levelRequired": 1,
+                    "upgradeActions": [
+                        {
+                            "key": "selfEnergyGeneration",
+                            "type": "action"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "durability": 15,
+    "materials": [
+        {
+            "material": "basalt",
+            "qtd": 20,
+            "mode": "*"
+        },
+        {
+            "material": "moonCement",
+            "qtd": 135,
+            "mode": "*"
+        },
+        {
+            "material": "aluminium",
+            "qtd": 10000,
+            "mode": "adv"
+        },
+        {
+            "material": "aluminium",
+            "qtd": 100,
+            "mode": "simple"
+        },
+        {
+            "material": "rutile",
+            "qtd": 9000,
+            "mode": "adv"
+        }
+    ],
+    "buildingRequiredBots": 4,
+    "buildingRequiredRoles": [
+        {
+            "key": "metallurgical",
+            "qtd": 2
+        },
+        {
+            "key": "contructionEngineer",
+            "qtd": 2
+        },
+        {
+            "key": "materialsEngineer",
+            "qtd": 1
+        }
+    ],
+    "size": {
+        "width": 100,
+        "length": 150,
+        "height": 7
+    },
+    "maintenance": {
+        "factor": 0.3,
+        "requiredBots": 2,
+        "materials": [
+            {
+                "material": "basalt",
+                "qtd": 5,
+                "mode": "*"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 5,
+                "mode": "*"
+            },
+            {
+                "key": "iron",
+                "qtd": 100,
+                "mode": "*"
+            }
+        ]
+    }
+}

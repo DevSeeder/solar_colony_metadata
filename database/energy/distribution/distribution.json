@@ -1,0 +1,138 @@
+{
+    "config": [
+        {
+            "path": "techs[].metricValues",
+            "values": {
+                "range": "m",
+                "energyLost": "%",
+                "energySupported": "Wh",
+                "durability": "years",
+                "maxTemperatureResistance": "celsius",
+                "radiationResistance": "Gy",
+                "impactColisionResistance": "joules",
+                "installationTime": "h",
+                "installationPeople": "un",
+                "developmentTime": "h",
+                "developmentPeople": "un",
+                "weight": "Kg"
+            }
+        }
+    ],
+    "techs": [
+        {
+            "key": "aluminiumWire",
+            "softName": "Fiação de Alumínio",
+            "stepLevel": 1,
+            "requiredLevel": 1,
+            "metricValues": {
+                "range": 100,
+                "energyLost": 20,
+                "energySupported": 13200,
+                "durability": 20,
+                "maxTemperatureResistance": 150,
+                "radiationResistance": 20,
+                "impactColisionResistance": 100000,
+                "installationTime": 5,
+                "installationPeople": 1,
+                "developmentTime": 5,
+                "developmentPeople": 1,
+                "weight": 0.2,
+                "extraRequiredRoles": [
+                    {
+                        "key": "eletricEngineer",
+                        "qtd": 1
+                    }
+                ]
+            },
+            "extraMaterials": [
+                {
+                    "material": "aluminum",
+                    "qtd": 1,
+                    "mode": "*"
+                }
+            ],
+            "maintenance": {
+                "factor": 0.25,
+                "materials": [
+                    {
+                        "material": "aluminum",
+                        "qtd": 1,
+                        "mode": "*"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "microwaveWireless",
+            "softName": "Transmissão Wi-fi Micro-ondas",
+            "stepLevel": 2,
+            "requiredLevel": 10,
+            "metricValues": {
+                "range": 100,
+                "energyLost": 30,
+                "energySupported": 10000,
+                "durability": 12,
+                "maxTemperatureResistance": 115,
+                "radiationResistance": 10,
+                "impactColisionResistance": 25000,
+                "installationTime": 40,
+                "installationPeople": 1,
+                "developmentTime": 112,
+                "developmentPeople": 4,
+                "weight": 2700,
+                "extraRequiredRoles": [
+                    {
+                        "key": "eletricEngineer",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "materialsEngineer",
+                        "qtd": 2
+                    },
+                    {
+                        "key": "systemsEngineer",
+                        "qtd": 1
+                    }
+                ]
+                
+            },
+            "extraMaterials": [
+                {
+                    "material": "aluminum",
+                    "qtd": 1750,
+                    "mode": "adv"
+                },
+                {
+                    "material": "aluminum",
+                    "qtd": 500,
+                    "mode": "simple"
+                },
+                {
+                    "material": "silica",
+                    "qtd": 250,
+                    "mode": "*"
+                },
+                {
+                    "material": "integratedCirciut",
+                    "qtd": 5,
+                    "mode": "*"
+                }
+            ],
+            "maintenance": {
+                "factor": 0.25,
+                "materials": [
+                    {
+                        "material": "aluminum",
+                        "qtd": 250,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "integratedCirciut",
+                        "qtd": 1,
+                        "mode": "*"
+                    }
+                ]
+            }
+        }
+    ]
+}

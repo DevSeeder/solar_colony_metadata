@@ -1,0 +1,88 @@
+{
+    "config": [
+        {
+            "path": "building",
+            "values": {
+                "energyCost": "W",
+                "time": "month"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "width": "m",
+                "length": "m",
+                "height": "m"
+            }
+        }
+    ],
+    "building": {
+        "energyCost": 75000,
+        "time": 1,
+        "materials": [
+            {
+                "material": "aluminium",
+                "qtd": 10000,
+                "mode": "*"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 75,
+                "mode": "*"
+            },  
+            {
+                "material": "silicon",
+                "qtd": 5000,
+                "mode": "*"
+            }
+        ],
+        "requiredBots": 3,
+        "requiredRoles": [
+            {
+                "key": "metallurgical",
+                "qtd": 1
+            },
+            {
+                "key": "contructionEngineer",
+                "qtd": 1
+            },
+            {
+                "key": "materialsEngineer",
+                "qtd": 1
+            }
+        ]
+    },
+    "operation": {
+        "requiredRoles": [
+            {
+                "key": "chemical",
+                "qtd": 1
+            },
+            {
+                "key": "materialsEngineer",
+                "qtd": 1
+            }
+        ]
+    },
+    "size": {
+        "width": 100,
+        "height": 4,
+        "length": 100
+    },
+    "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 2,
+        "materials": [
+            {
+                "material": "basalt",
+                "qtd": 5,
+                "mode": "*"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 5,
+                "mode": "*"
+            }
+        ]
+    }
+}

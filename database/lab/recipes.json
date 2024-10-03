@@ -407,6 +407,55 @@
                 }
             ],
             "levelRequired": 1
+        },
+        {
+            "material": "polyurethaneFoam",
+            "processes": [
+                {
+                    "time": 2,
+                    "energyCost": 500,
+                    "materials": [
+                        {
+                            "material": "poliol",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "carbonDioxide",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "aluminium",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
+        },
+        {
+            "material": "poliol",
+            "processes": [
+                {
+                    "time": 7,
+                    "energyCost": 750,
+                    "materials": [
+                        {
+                            "material": "water",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "carbon",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 1
         }
     ]
 }

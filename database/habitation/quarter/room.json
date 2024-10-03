@@ -1,0 +1,115 @@
+{
+  "config": [
+    {
+      "path": "sections",
+      "values": {
+        "bedroom.capacity": "un",
+        "gym.capacity": "un"
+      }
+    },
+    {
+      "path": "metricValues",
+      "values": {
+        "durability": "years",
+        "energyCost": "Wh"
+      }
+    },
+    {
+      "path": "building",
+      "values": {
+        "time": "days",
+        "energyCost": "W"
+      }
+    },
+    {
+      "path": "size",
+      "values": {
+        "width": "m",
+        "length": "m",
+        "height": "m"
+      }
+    }
+  ],
+  "sections": {
+    "bedroom": {
+      "capacity": 50
+    },
+    "dinningRoom": {},
+    "gym": {
+      "capacity": 15
+    },
+    "adm": {}
+  },
+  "metricValues": {
+    "durability": 40,
+    "energyCost": 675
+  },
+  "building": {
+    "energyCost": 37000,
+    "time": 7,
+    "materials": [
+      {
+        "material": "steel",
+        "qtd": 3500,
+        "mode": "*"
+      },
+      {
+        "material": "aluminium",
+        "qtd": 700,
+        "mode": "*"
+      },
+      {
+        "material": "polyurethaneFoam",
+        "qtd": 50,
+        "mode": "adv"
+      },
+      {
+        "material": "moonCement",
+        "qtd": 130,
+        "mode": "*"
+      },
+      {
+        "material": "silicon",
+        "qtd": 500,
+        "mode": "*"
+      }
+    ],
+    "requiredBots": 5,
+    "requiredRoles": [
+      {
+        "key": "contructionEngineer",
+        "qtd": 2
+      },
+      {
+        "key": "materialsEngineer",
+        "qtd": 2
+      },
+      ,
+      {
+        "key": "metallurgical",
+        "qtd": 2
+      }
+    ]
+  },
+  "maintenance": {
+    "factor": 0.75,
+    "requiredBots": 3,
+    "materials": [
+      {
+        "material": "aluminium",
+        "qtd": 100,
+        "mode": "*"
+      },
+      {
+        "material": "moonCement",
+        "qtd": 30,
+        "mode": "*"
+      }
+    ]
+  },
+  "size": {
+    "width": 40,
+    "length": 25,
+    "height": 3
+  }
+}

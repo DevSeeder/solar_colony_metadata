@@ -295,6 +295,14 @@
                 "key": "galliumNitrate",
                 "unityKg": 0.01,
                 "price": 100
+            },
+            {
+                "key": "polyurethaneFoam",
+                "unityKg": 1
+            },
+            {
+                "key": "poliol",
+                "unityKg": 0.5
             }
         ]
     ]

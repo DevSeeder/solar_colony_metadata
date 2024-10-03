@@ -5,6 +5,7 @@
       "values": {
         "capacity": "l",
         "impactColisionResistence": "joules",
+        "earthDevelopmentCost": "USD",
         "durability": "years",
         "building.time": "h",
         "building.energyCost": "W",
@@ -18,6 +19,7 @@
   "tank": {
     "capacity": 15000,
     "impactColisionResistence": 100000,
+    "earthDevelopmentCost": 20000,
     "durability": 15,
     "consume": {
       "byPersonByDay": 10

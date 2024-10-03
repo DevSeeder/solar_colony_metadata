@@ -1,0 +1,58 @@
+{
+    "config": [
+        {
+            "path": "module",
+            "values": {
+                "durability": "years",
+                "earthDevelopmentCost": "USD",
+                "impactColisionResistence": "joules",
+                "energyCostBySquadMeter": "Wh",
+                "building.time": "h",
+                "building.energyCost": "W"
+            }
+        }
+    ],
+    "module": {
+        "durability": 20,
+        "earthDevelopmentCost": 15000,
+        "impactColisionResistence": 1200,
+        "energyCostBySquadMeter": 20,
+        "building": {
+            "time": 80,
+            "energyCost": 250000,
+            "materials": [
+                {
+                    "material": "aluminium",
+                    "qtd": 15,
+                    "mode": "*"
+                },
+                {
+                    "material": "copper",
+                    "qtd": 2,
+                    "mode": "adv"
+                },
+                {
+                    "material": "silicon",
+                    "qtd": 5,
+                    "mode": "*"
+                },
+                {
+                    "material": "integratedCircuit",
+                    "qtd": 1,
+                    "mode": "*"
+                }
+            ]
+        },
+        "maintenance": {
+            "factor": 0.70,
+            "requiredBots": 1,
+            "materials": [
+                {
+                    "material": "aluminium",
+                    "qtd": 5,
+                    "mode": "*"
+                }
+            ]
+        }
+    }
+}

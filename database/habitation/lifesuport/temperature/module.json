@@ -1,0 +1,71 @@
+{
+    "config": [
+        {
+            "path": "module",
+            "values": {
+                "durability": "years",
+                "earthDevelopmentCost": "USD",
+                "impactColisionResistence": "joules",
+                "warming.energyCostByTemperatureVariationBySuadMeter": "Wh",
+                "cooling.waterByTemperatureVariationBySuadMeter": "l",
+                "cooling.energyCostByTemperatureVariationBySuadMeter": "Wh",
+                "building.time": "h",
+                "building.energyCost": "W"
+            }
+        }
+    ],
+    "module": {
+        "durability": 15,
+        "earthDevelopmentCost": 8000,
+        "impactColisionResistence": 1000,
+        "warming": {
+            "energyCostByTemperatureVariationBySuadMeter": 0.05
+        },
+        "cooling": {
+            "waterByTemperatureVariationBySuadMeter": 800,
+            "energyCostByTemperatureVariationBySuadMeter": 0.1
+        },
+        "building": {
+            "time": 72,
+            "energyCost": 200000,
+            "materials": [
+                {
+                    "material": "aluminium",
+                    "qtd": 10,
+                    "mode": "*"
+                },
+                {
+                    "material": "copper",
+                    "qtd": 1,
+                    "mode": "adv"
+                },
+                {
+                    "material": "silicon",
+                    "qtd": 5,
+                    "mode": "adv"
+                },
+                {
+                    "material": "integratedCircuit",
+                    "qtd": 2,
+                    "mode": "*"
+                }
+            ]
+        },
+        "maintenance": {
+            "factor": 0.75,
+            "requiredBots": 1,
+            "materials": [
+                {
+                    "material": "aluminium",
+                    "qtd": 10,
+                    "mode": "*"
+                },
+                {
+                    "material": "water",
+                    "qtd": 1,
+                    "mode": "*"
+                }
+            ]
+        }
+    }
+}

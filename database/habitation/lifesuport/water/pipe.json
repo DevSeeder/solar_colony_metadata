@@ -1,0 +1,41 @@
+{
+    "configs": [
+        {
+            "path": "pipes",
+            "values": {
+                "range": 100,
+                "impactColisionResistence": "joules",
+                "building.energyCost": "W",
+                "building.time": "h"
+            }
+        }
+    ],
+    "pipes": {
+        "range": 100,
+        "impactColisionResistence": 500000,
+        "durability": 20,
+        "building": {
+            "energyCost": 900,
+            "time": 1.5,
+            "requiredBots": 1,
+            "materials": [
+                {
+                    "material": "aluminium",
+                    "qtd": 150,
+                    "mode": "*"
+                }
+            ]
+        },
+        "maintenance": {
+            "factor": 0.5,
+            "requiredBots": 1,
+            "materials": [
+                {
+                    "material": "aluminium",
+                    "qtd": 50,
+                    "mode": "*"
+                }
+            ]
+        }
+    }
+}

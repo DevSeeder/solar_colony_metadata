@@ -1,0 +1,8 @@
+{
+    "config": {
+        "impactColisionResistenceBuilding": "joules"
+    },
+    "values": {
+        "impactColisionResistenceBuilding": 100000
+    }
+}

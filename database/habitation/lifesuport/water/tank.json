@@ -1,0 +1,53 @@
+{
+  "config": [
+    {
+      "path": "tank",
+      "values": {
+        "capacity": "l",
+        "impactColisionResistence": "joules",
+        "durability": "years",
+        "building.time": "h",
+        "building.energyCost": "W",
+        "consume.byPersonByDay": "l",
+        "size.width": "m",
+        "size.leigth": "m",
+        "size.height": "m"
+      }
+    }
+  ],
+  "tank": {
+    "capacity": 15000,
+    "impactColisionResistence": 100000,
+    "durability": 15,
+    "consume": {
+      "byPersonByDay": 10
+    },
+    "building": {
+      "time": 8,
+      "energyCost": 1000000,
+      "requiredMaterials": [
+        {
+          "material": "aluminium",
+          "qtd": 800,
+          "mode": "*"
+        }
+      ]
+    },
+    "maintenance": {
+      "factor": 0.5,
+      "requiredBots": 1,
+      "requiredMaterials": [
+        {
+          "material": "aluminium",
+          "qtd": 100,
+          "mode": "*"
+        }
+      ]
+    },
+    "size": {
+      "width": 2,
+      "leigth": 2,
+      "height": 3.5
+    }
+  }
+}

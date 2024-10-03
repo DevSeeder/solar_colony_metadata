@@ -188,6 +188,60 @@
                     }
                 ]
             }
+        },
+        {
+            "key": "waterExtractionRobot",
+            "earthCostDevelopment": 125000,
+            "weight": 100,
+            "durability": 7,
+            "building": {
+                "time": 3,
+                "energyCost": 50,
+                "materials": [
+                    {
+                        "material": "steel",
+                        "qtd": 10,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "aluminium",
+                        "qtd": 15,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "silicon",
+                        "qtd": 2,
+                        "mode": "adv"
+                    },
+                    {
+                        "material": "camera",
+                        "qtd": 1,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "integratedCircuit",
+                        "qtd": 5,
+                        "mode": "*"
+                    }
+                ],
+                "batterySlots": 1
+            },
+            "maintenance": {
+                "factor": 0.5,
+                "requiredMaterials": [
+                    {
+                        "material": "steel",
+                        "qtd": 50,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "aluminium",
+                        "qtd": 20,
+                        "mode": "*"
+                    }
+                ]
+            },
+            "upgradeComponents": []
         }
     ],
     "upgradeComponents": [

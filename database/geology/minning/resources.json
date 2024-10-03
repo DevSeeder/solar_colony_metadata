@@ -175,12 +175,12 @@
                 1000
             ],
             "extraction": {
-                "energyCostByUnit": 200,
-                "timeByUnit": 1
+                "energyCostByUnit": 2000,
+                "timeByUnit": 2
             },
             "processing": {
-                "energyCostByUnit": 4000,
-                "timeByUnit": 4
+                "energyCostByUnit": 100,
+                "timeByUnit": 0.15
             }
         },
         {

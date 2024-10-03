@@ -4,6 +4,8 @@
             "path": "sections",
             "values": {
                 "durability": "years",
+                "time": "h",
+                "energyCost": "W",
                 "transportCart.building.time": "h",
                 "transportCart.building.energyCost": "W",
                 "transportCart.weight": "Kg",
@@ -149,6 +151,8 @@
             "mode": "adv"
         }
     ],
+    "time": 700,
+    "energyCost": 150000,
     "buildingRequiredBots": 4,
     "buildingRequiredRoles": [
         {

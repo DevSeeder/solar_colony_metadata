@@ -1,0 +1,178 @@
+{
+  "config": [
+    {
+      "path": "sections",
+      "values": {
+        "durability": "years",
+        "time": "h",
+        "energyCost": "W",
+        "transportCart.building.time": "h",
+        "transportCart.building.energyCost": "W",
+        "transportCart.weight": "Kg",
+        "transportCart.capacity": "t",
+        "transportCart.velocity": "m/s",
+        "transportCart.durability": "years",
+        "transportCart.energyByMeter": "W",
+        "rawMaterialDeposit.storageCapacity": "t"
+      }
+    },
+    {
+      "path": "size",
+      "values": {
+        "width": "m",
+        "length": "m",
+        "height": "m"
+      }
+    }
+  ],
+  "sections": {
+    "roboticCentralOperation": {
+      "robot": "waterExtractionRobot",
+      "requiredRolesByMinningRobot": [
+        {
+          "key": "machineOperator",
+          "qtd": 1
+        }
+      ]
+    },
+    "rawMaterialDeposit": {
+      "storageCapacity": 50
+    },
+    "defrostIceSection": {
+      "requiredRolesByTreatment": [
+        {
+          "key": "chemical",
+          "qtd": 1
+        }
+      ]
+    },
+    "transportCart": {
+      "building": {
+        "time": 5,
+        "energyCost": 5000,
+        "requiredBots": 2,
+        "requiredRoles": [
+          {
+            "key": "metallurgical",
+            "qtd": 1
+          },
+          {
+            "key": "contructionEngineer",
+            "qtd": 1
+          }
+        ]
+      },
+      "weight": 3000,
+      "capacity": 10,
+      "velocity": 2,
+      "durability": 5,
+      "energyByMeter": 112,
+      "size": {
+        "width": 1.5,
+        "length": 2,
+        "height": 2
+      },
+      "materials": [
+        {
+          "key": "aluminium",
+          "qtd": 75,
+          "mode": "*"
+        },
+        {
+          "key": "iron",
+          "qtd": 75,
+          "mode": "*"
+        },
+        {
+          "key": "integratedCircuit",
+          "qtd": 2,
+          "mode": "*"
+        },
+        {
+          "key": "steel",
+          "qtd": 30,
+          "mode": "*"
+        },
+        {
+          "key": "wheel",
+          "qtd": 4,
+          "mode": "*"
+        }
+      ],
+      "batterySlots": 2,
+      "upgradeComponents": [
+        {
+          "key": "solarCell",
+          "levelRequired": 1,
+          "upgradeActions": [
+            {
+              "key": "selfEnergyGeneration",
+              "type": "action"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "durability": 15,
+  "materials": [
+    {
+      "material": "basalt",
+      "qtd": 10,
+      "mode": "*"
+    },
+    {
+      "material": "moonCement",
+      "qtd": 135,
+      "mode": "*"
+    },
+    {
+      "material": "aluminium",
+      "qtd": 1350,
+      "mode": "*"
+    },
+    {
+      "material": "iron",
+      "qtd": 500,
+      "mode": "adv"
+    }
+  ],
+  "time": 540,
+  "energyCost": 100000,
+  "buildingRequiredBots": 4,
+  "buildingRequiredRoles": [
+    {
+      "key": "metallurgical",
+      "qtd": 1
+    },
+    {
+      "key": "contructionEngineer",
+      "qtd": 2
+    },
+    {
+      "key": "materialsEngineer",
+      "qtd": 1
+    }
+  ],
+  "size": {
+    "width": 15,
+    "length": 30,
+    "height": 4
+  },
+  "maintenance": {
+    "factor": 0.5,
+    "requiredBots": 2,
+    "materials": [
+      {
+        "material": "moonCement",
+        "qtd": 5,
+        "mode": "*"
+      },
+      {
+        "key": "aluminium",
+        "qtd": 50,
+        "mode": "*"
+      }
+    ]
+  }
+}

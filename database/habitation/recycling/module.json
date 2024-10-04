@@ -1,0 +1,137 @@
+{
+    "config": [
+        {
+            "path": "building",
+            "values": {
+                "energyCost": "W",
+                "time": "days"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "width": "m",
+                "length": "m",
+                "height": "m"
+            }
+        }
+    ],
+    "building": {
+        "energyCost": 65000,
+        "time": 20,
+        "materials": [
+            {
+                "material": "moonCement",
+                "qtd": 100,
+                "mode": "*"
+            },
+            {
+                "material": "basalt",
+                "qtd": 120,
+                "mode": "*"
+            }
+        ],
+        "requiredBots": 3,
+        "requiredRoles": [
+            {
+                "key": "materialsEngineer",
+                "qtd": 2
+            }
+        ]
+    },
+    "operation": {
+        "slots": 3,
+        "requiredRoles": [
+            {
+                "key": "chemical",
+                "qtd": 1
+            }
+        ]
+    },
+    "size": {
+        "width": 120,
+        "height": 6,
+        "length": 120
+    },
+    "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 3,
+        "materials": [
+            {
+                "material": "basalt",
+                "qtd": 10,
+                "mode": "*"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 10,
+                "mode": "*"
+            }
+        ]
+    },
+    "recyclingProcesses": [
+        {
+            "baseMaterial": "urine",
+            "time": 4,
+            "energyCost": 3000,
+            "extraInputByKg": [],
+            "outputByKg": [
+                {
+                    "material": "ammonia",
+                    "qtd": 1
+                }
+            ]
+        },
+        {
+            "baseMaterial": "feces",
+            "time": 360,
+            "energyCost": 1500,
+            "extraInputByKg": [
+                {
+                    "material": "carbon",
+                    "qtd": 0.25
+                }
+            ],
+            "outputByKg": [
+                {
+                    "material": "fertilizer",
+                    "qtd": 1
+                }
+            ]
+        },
+        {
+            "baseMaterial": "trash",
+            "time": 180,
+            "energyCost": 2000,
+            "extraInputByKg": [],
+            "outputByKg": [
+                {
+                    "material": "silicon",
+                    "qtd": 0.25
+                },
+                {
+                    "material": "aluminium",
+                    "qtd": 0.25
+                },
+                {
+                    "material": "iron",
+                    "qtd": 0.25
+                }
+            ]
+        }
+    ],
+    "materialProduction": [
+        {
+            "baseMaterial": "urine",
+            "byPersonByDay": 1
+        },
+        {
+            "baseMaterial": "feces",
+            "byPersonByDay": 0.25
+        },
+        {
+            "baseMaterial": "trash",
+            "byPersonByDay": 0.25
+        }
+    ]
+}

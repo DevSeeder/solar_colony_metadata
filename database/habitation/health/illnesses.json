@@ -1,0 +1,268 @@
+{
+  "config": [
+    {
+      "path": "illnesses",
+      "illnesses":     {
+        "probability": "%",
+        "cureTime": "days",
+        "deathTime": "days",
+        "disenableTime": "days"
+      }
+    }
+  ],
+  "illnesses": [
+    {
+      "key": "cardiovascularProblems",
+      "probability": 5,
+      "medicine": "betaBlocker",
+      "cureTime": 3,
+      "deathTime": 30,
+      "disenable": false,
+      "disenableTime": 0,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -25
+        }
+      ]
+    },
+    {
+      "key": "autoimmuneDisease",
+      "probability": 2,
+      "medicine": "immunosuppressant",
+      "cureTime": 15,
+      "deathTime": 5,
+      "disenable": true,
+      "disenableTime": 2,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -50
+        }
+      ]
+    },
+    {
+      "key": "infection",
+      "probability": 5,
+      "medicine": "antibiotic",
+      "cureTime": 3,
+      "deathTime": 10,
+      "disenable": true,
+      "disenableTime": 3,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -50
+        }
+      ]
+    },
+    {
+      "key": "movementDistressSyndrome",
+      "probability": 1,
+      "medicine": "antiemetic",
+      "cureTime": 1,
+      "deathTime": 0,
+      "disenable": false,
+      "disenableTime": 0,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -50
+        }
+      ]
+    },
+    {
+      "key": "injury",
+      "probability": 10,
+      "medicine": "plasters",
+      "cureTime": 7,
+      "deathTime": 0,
+      "disenable": true,
+      "disenableTime": 0,
+      "effects": []
+    },
+    {
+      "key": "wounds",
+      "probability": 3,
+      "medicine": "antibiotic",
+      "cureTime": 7,
+      "deathTime": 0,
+      "disenable": true,
+      "disenableTime": 15,
+      "effects": []
+    },
+    {
+      "key": "gastricProblems",
+      "probability": 5,
+      "medicine": "antiemetic",
+      "cureTime": 1,
+      "deathTime": 10,
+      "disenable": false,
+      "disenableTime": 0,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -30
+        }
+      ]
+    },
+    {
+      "key": "flu",
+      "probability": 3,
+      "medicine": "syrup",
+      "cureTime": 2,
+      "deathTime": 30,
+      "disenable": false,
+      "disenableTime": 15,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -30
+        }
+      ]
+    },
+    {
+      "key": "hypothermia",
+      "conditions": {
+        "minimumTemperature": 0,
+        "constant": 1200,
+        "risk": "1/(Constant / Temperature)",
+        "limiarRisk": 2
+      },
+      "probability": null,
+      "medicine": null,
+      "cureTime": null,
+      "deathTime": 30,
+      "disenable": true,
+      "disenableTime": 10,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -35
+        }
+      ]
+    },
+    {
+      "key": "hyperthermia",
+      "conditions": {
+        "maximumTemperature": 50,
+        "constant": 120,
+        "risk": "(Temperature - maximumTemperature)/Constant)",
+        "limiarRisk": 0.15
+      },
+      "probability": null,
+      "medicine": null,
+      "cureTime": null,
+      "deathTime": 30,
+      "disenable": true,
+      "disenableTime": 10,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -35
+        }
+      ]
+    },
+    {
+      "key": "hypoxia",
+      "conditions": {},
+      "probability": null,
+      "medicine": null,
+      "cureTime": null,
+      "deathTime": 1,
+      "disenable": true,
+      "disenableTime": 0,
+      "effects": []
+    },
+    {
+      "key": "atrophy",
+      "probability": 5,
+      "medicine": "physicalTherapy",
+      "cureTime": 15,
+      "deathTime": 0,
+      "disenable": true,
+      "disenableTime": 15,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -50
+        }
+      ]
+    },
+    {
+      "key": "dehydration",
+      "probability": null,
+      "medicine": null,
+      "cureTime": null,
+      "deathTime": 7,
+      "disenable": true,
+      "disenableTime": 4,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -20
+        }
+      ]
+    },
+    {
+      "key": "cancer",
+      "probability": 0.5,
+      "medicine": "chemotherapy",
+      "cureTime": 90,
+      "deathTime": 30,
+      "disenable": true,
+      "disenableTime": 45,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -50
+        }
+      ]
+    },
+    {
+      "key": "cataract",
+      "probability": 0.1,
+      "medicine": "surgery",
+      "cureTime": 15,
+      "deathTime": 0,
+      "disenable": true,
+      "disenableTime": 0,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -75
+        }
+      ]
+    },
+    {
+      "key": "radiationBurning",
+      "probability": null,
+      "medicine": "ointments",
+      "cureTime": 2,
+      "deathTime": null,
+      "disenable": false,
+      "disenableTime": 0,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -25
+        }
+      ]
+    },
+    {
+      "key": "decompression",
+      "probability": null,
+      "medicine": null,
+      "cureTime": null,
+      "deathTime": 10,
+      "disenable": true,
+      "disenableTime": 5,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -50
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+    "config": [
+        {
+            "path": "treatments[]",
+            "values": {
+                "time": "h",
+                "energyCost": "W"
+            }
+        }
+    ],
+    "treatments": [
+        {
+            "treatment": "psychologySession",
+            "time": 1,
+            "energyCost": 50,
+            "materials": []
+        },
+        {
+            "treatment": "chemotherapy",
+            "time": 6,
+            "energyCost": 300,
+            "materials": [
+                {
+                    "material": "zirconium",
+                    "qtd": 0.25
+                }
+            ]
+        },
+        {
+            "treatment": "physiotherapy",
+            "time": 2,
+            "energyCost": 80,
+            "materials": []
+        },
+        {
+            "treatment": "surgery",
+            "time": 4,
+            "energyCost": 500,
+            "materials": [
+                {
+                    "material": "polyurethaneFoam",
+                    "qtd": 0.25
+                },
+                {
+                    "material": "titaniumDioxide",
+                    "qtd": 0.25
+                }
+            ]
+        },
+    ]
+    
+}

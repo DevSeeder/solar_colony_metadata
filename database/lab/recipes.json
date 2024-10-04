@@ -456,6 +456,205 @@
                 }
             ],
             "levelRequired": 1
-        }
+        },
+        {
+            "material": "plantFood",
+            "processes": [
+                {
+                    "time": 300,
+                    "energyCost": 12,
+                    "materials": [
+                        {
+                            "material": "biomass",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 3
+        },
+        {
+            "material": "fertilizer",
+            "processes": [
+                {
+                    "time": 200,
+                    "energyCost": 20000,
+                    "materials": [
+                        {
+                            "material": "biomass",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ],
+            "levelRequired": 3
+        },{
+            "material": "ointments",
+            "processes": [
+              {
+                "time": 2,
+                "energyCost": 100,
+                "materials": [
+                  {
+                    "material": "silicate",
+                    "qtd": 0.5,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "silica",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "rutile",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "material": "syrup",
+            "processes": [
+              {
+                "time": 3,
+                "energyCost": 150,
+                "materials": [
+                  {
+                    "material": "water",
+                    "qtd": 1,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "sodium",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "silica",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "material": "antiemetic",
+            "processes": [
+              {
+                "time": 1,
+                "energyCost": 80,
+                "materials": [
+                  {
+                    "material": "aluminium",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "titaniumDioxide",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "material": "antibiotic",
+            "processes": [
+              {
+                "time": 4,
+                "energyCost": 200,
+                "materials": [
+                  {
+                    "material": "silicon",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "ironOxide",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "material": "plasters",
+            "processes": [
+              {
+                "time": 1.5,
+                "energyCost": 60,
+                "materials": [
+                  {
+                    "material": "silicon",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "silica",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "material": "immunosuppressant",
+            "processes": [
+              {
+                "time": 5,
+                "energyCost": 250,
+                "materials": [
+                  {
+                    "material": "zirconium",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  }{
+                    "material": "silicon",
+                    "qtd": 2,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "iron",
+                    "qtd": 1,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "aluminum",
+                    "qtd": 0.5,
+                    "mode": "*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "material": "betaBlocker",
+            "processes": [
+              {
+                "time": 3,
+                "energyCost": 180,
+                "materials": [
+                  {
+                    "material": "titanium",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  },
+                  {
+                    "material": "silica",
+                    "qtd": 0.25,
+                    "mode": "*"
+                  }
+                ]
+              }
+            ]
+          }
     ]
 }

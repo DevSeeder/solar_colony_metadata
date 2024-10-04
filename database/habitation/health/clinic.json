@@ -1,0 +1,119 @@
+{
+  "config": [
+    {
+      "path": "sections",
+      "values": {
+        "consultory.capacity": "un",
+        "medicalBeds.capacity": "un"
+      }
+    },
+    {
+      "path": "metricValues",
+      "values": {
+        "durability": "years",
+        "energyCost": "Wh"
+      }
+    },
+    {
+      "path": "building",
+      "values": {
+        "time": "days",
+        "energyCost": "W"
+      }
+    },
+    {
+      "path": "size",
+      "values": {
+        "width": "m",
+        "length": "m",
+        "height": "m"
+      }
+    }
+  ],
+  "sections": {
+    "reception": {},
+    "consultory": {
+      "capacity": 3
+    },
+    "medicalBeds": {
+      "capacity": 10
+    },
+    "storage": {},
+    "examRoom": {}
+  },
+  "metricValues": {
+    "durability": 40,
+    "energyCost": 800
+  },
+  "building": {
+    "energyCost": 50000,
+    "time": 17,
+    "materials": [
+      {
+        "material": "moonCement",
+        "qtd": 150,
+        "mode": "*"
+      },
+      {
+        "material": "aluminium",
+        "qtd": 250,
+        "mode": "*"
+      },
+      {
+        "material": "polyurethaneFoam",
+        "qtd": 10,
+        "mode": "adv"
+      },
+      {
+        "material": "glass",
+        "qtd": 12,
+        "mode": "*"
+      },
+      {
+        "material": "silicon",
+        "qtd": 100,
+        "mode": "*"
+      }
+    ],
+    "requiredBots": 4,
+    "requiredRoles": [
+      {
+        "key": "constructionEngineer",
+        "qtd": 2
+      },
+      {
+        "key": "materialsEngineer",
+        "qtd": 2
+      },
+      {
+        "key": "metallurgical",
+        "qtd": 1
+      }
+    ]
+  },
+  "maintenance": {
+    "factor": 0.25,
+    "requiredBots": 2,
+    "materials": [
+      {
+        "material": "aluminium",
+        "qtd": 50,
+        "mode": "*"
+      }
+    ]
+  },
+  "operation": {
+    "requiredRoles": [
+        {
+            "key": "doctor",
+            "qtd": 1,
+            "slots": 3
+        }
+    ]
+  },
+  "size": {
+    "width": 32,
+    "length": 40,
+    "height": 3
+  }
+}

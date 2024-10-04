@@ -10,6 +10,7 @@
         "building.time": "h",
         "building.energyCost": "W",
         "consume.byPersonByDay": "l",
+        "consume.limitWithoutWater": "days",
         "size.width": "m",
         "size.leigth": "m",
         "size.height": "m"
@@ -22,7 +23,8 @@
     "earthDevelopmentCost": 20000,
     "durability": 15,
     "consume": {
-      "byPersonByDay": 10
+      "byPersonByDay": 10,
+      "limitWithoutWater": 7
     },
     "building": {
       "time": 8,
@@ -51,5 +53,4 @@
       "leigth": 2,
       "height": 3.5
     }
-  }
 }

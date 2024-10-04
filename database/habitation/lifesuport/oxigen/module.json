@@ -190,8 +190,8 @@
                 },
                 {
                     "material": "light",
-                    "qtd": 500,
-                    "ref": "µmol m⁻² s⁻¹"
+                    "qtd": 180000,
+                    "ref": "µmol m⁻² h⁻¹"
                 }
             ],
             "algaeKgByPerson": 4,
@@ -210,7 +210,7 @@
                 {
                     "key": "ledPainels",
                     "upgradeAction": "supplyLightWhenDark",
-                    "energyCostByLight": 2.5,
+                    "energyCostByLight": 400,
                     "requiredMaterials": [
                         {
                             "material": "silicon",

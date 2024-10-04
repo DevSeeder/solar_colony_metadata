@@ -335,6 +335,23 @@
                 "energyCostByUnit": 4000,
                 "timeByUnit": 3
             }
+        },
+        {
+            "key": "lunarSoil",
+            "abundance": 100,
+            "depositSizes": [
+                10000,
+                500000,
+                1000000
+            ],
+            "extraction": {
+                "energyCostByUnit": 50,
+                "timeByUnit": 0.5
+            },
+            "processing": {
+                "energyCostByUnit": 50,
+                "timeByUnit": 0.1
+            }
         }
     ],
     "compoundMaterials": [

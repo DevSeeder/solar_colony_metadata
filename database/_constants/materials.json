@@ -1,309 +1,409 @@
 {
-    "config": [
-        {
-            "path": "materials",
-            "values": {
-                "price": "USD"
-            }
-        }
-    ],
-    "materials": [
-        [
-            {
-                "key": "silicon",
-                "unityKg": 1,
-                "formula": "Si",
-                "price": 5
-            },
-            {
-                "key": "silica",
-                "unityKg": 10,
-                "formula": "SiO₂",
-                "price": 10
-            },
-            {
-                "key": "organicCompounds",
-                "unityKg": 0.1,
-                "price": 15
-            },
-            {
-                "key": "aluminum",
-                "unityKg": 1,
-                "formula": "Al",
-                "price": 2
-            },
-            {
-                "key": "magnesium",
-                "unityKg": 0.15,
-                "formula": "Mg",
-                "price": 3
-            },
-            {
-                "key": "iron",
-                "unityKg": 1,
-                "formula": "Fe",
-                "price": 1
-            },
-            {
-                "key": "rutile",
-                "unityKg": 0.15,
-                "formula": "TiO₂",
-                "price": 10
-            },
-            {
-                "key": "calcium",
-                "unityKg": 0.1,
-                "formula": "Ca",
-                "price": 1
-            },
-            {
-                "key": "dopingElements",
-                "unityKg": 0.05,
-                "price": 50
-            },
-            {
-                "key": "leadIodide",
-                "unityKg": 0.02,
-                "formula": "PbI₂",
-                "price": 200
-            },
-            {
-                "key": "lead",
-                "unityKg": 1,
-                "formula": "Pb",
-                "price": 2
-            },
-            {
-                "key": "carbon",
-                "unityKg": 1,
-                "formula": "C",
-                "price": 0.5
-            },
-            {
-                "key": "carbonDioxide",
-                "unityKg": 1,
-                "formula": "CO₂",
-                "price": 0.01
-            },
-            {
-                "key": "sulfur",
-                "unityKg": 0.5,
-                "formula": "S",
-                "price": 0.2
-            },
-            {
-                "key": "oxygen",
-                "unityKg": 1,
-                "formula": "O",
-                "price": 0.01
-            },
-            {
-                "key": "semiconductorAlloys",
-                "unityKg": 0.01,
-                "price": 100
-            },
-            {
-                "key": "copper",
-                "unityKg": 0.3,
-                "price": 5
-            },
-            {
-                "key": "water",
-                "unityKg": 1,
-                "formula": "H₂O",
-                "price": 0.002
-            },
-            {
-                "key": "lithiumOxide",
-                "unityKg": 1,
-                "formula": "Li₂O",
-                "price": 15
-            },
-            {
-                "key": "graphite",
-                "unityKg": 1,
-                "price": 1
-            },
-            {
-                "key": "basalt",
-                "unityKg": 100,
-                "price": 0.1
-            },
-            {
-                "key": "sulfuricAcid",
-                "unityKg": 0.5,
-                "price": 0.5
-            },
-            {
-                "key": "lithiumSalt",
-                "unityKg": 0.1,
-                "price": 50
-            },
-            {
-                "key": "lithiumSulfur",
-                "unityKg": 1,
-                "formula": "Li₂S",
-                "price": 100
-            },
-            {
-                "key": "uranium",
-                "unityKg": 10,
-                "formula": "U",
-                "price": 300
-            },
-            {
-                "key": "thorium",
-                "unityKg": 10,
-                "formula": "Th",
-                "price": 200
-            },
-            {
-                "key": "castSalt",
-                "unityKg": 100,
-                "price": 0.5
-            },
-            {
-                "key": "helium3",
-                "unityKg": 1000,
-                "price": 1000
-            },
-            {
-                "key": "moonCement",
-                "unityKg": 1000,
-                "price": 20
-            },
-            {
-                "key": "steel",
-                "unityKg": 1,
-                "price": 1
-            },
-            {
-                "key": "wheel",
-                "unityKg": 1,
-                "price": 2
-            },
-            {
-                "key": "pyroxene",
-                "unityKg": 1,
-                "price": 1
-            },
-            {
-                "key": "olivine",
-                "unityKg": 1,
-                "price": 1
-            },
-            {
-                "key": "feldspar",
-                "unityKg": 1,
-                "price": 1
-            },
-            {
-                "key": "ilmenite",
-                "unityKg": 1,
-                "price": 2
-            },
-            {
-                "key": "zircon",
-                "unityKg": 1,
-                "price": 2
-            },
-            {
-                "key": "iodine",
-                "unityKg": 1,
-                "formula": "I",
-                "price": 10
-            },
-            {
-                "key": "sulfurOxide",
-                "unityKg": 1,
-                "price": 2
-            },
-            {
-                "key": "sodiumChloride",
-                "unityKg": 1,
-                "formula": "NaCl",
-                "price": 0.5
-            },
-            {
-                "key": "sodium",
-                "unityKg": 1,
-                "formula": "Na",
-                "price": 1
-            },
-            {
-                "key": "chlorine",
-                "unityKg": 1,
-                "formula": "Cl",
-                "price": 5
-            },
-            {
-                "key": "calciumOxide",
-                "unityKg": 1,
-                "formula": "CaO",
-                "price": 1
-            },
-            {
-                "key": "aluminiumOxide",
-                "unityKg": 1,
-                "formula": "Al₂O₃",
-                "price": 2
-            },
-            {
-                "key": "ironOxide",
-                "unityKg": 1,
-                "formula": "Fe₂O₃",
-                "price": 1
-            },
-            {
-                "key": "hydrogen",
-                "unityKg": 0.25,
-                "formula": "H",
-                "price": 2
-            },
-            {
-                "key": "integratedCircuit",
-                "unityKg": 0.001,
-                "price": 50
-            },
-            {
-                "key": "aluminosilicates",
-                "unityKg": 1,
-                "price": 5
-            },
-            {
-                "key": "sodiumHydroxide",
-                "unityKg": 0.1,
-                "formula": "NaOH",
-                "price": 1
-            },
-            {
-                "key": "light",
-                "unityKg": 1,
-                "price": 0.01
-            },
-            {
-                "key": "biomass",
-                "unityKg": 1,
-                "price": 0.1
-            },
-            {
-                "key": "microalgae",
-                "unityKg": 1,
-                "price": 5
-            },
-            {
-                "key": "galliumNitrate",
-                "unityKg": 0.01,
-                "price": 100
-            },
-            {
-                "key": "polyurethaneFoam",
-                "unityKg": 1
-            },
-            {
-                "key": "poliol",
-                "unityKg": 0.5
-            }
-        ]
-    ]
+  "config": [
+    {
+      "path": "materials",
+      "values": {
+        "price": "USD"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "key": "silicon",
+      "unityKg": 1,
+      "formula": "Si",
+      "price": 5
+    },
+    {
+      "key": "silica",
+      "unityKg": 10,
+      "formula": "SiO₂",
+      "price": 10
+    },
+    {
+      "key": "organicCompounds",
+      "unityKg": 0.1,
+      "price": 15
+    },
+    {
+      "key": "aluminum",
+      "unityKg": 1,
+      "formula": "Al",
+      "price": 2
+    },
+    {
+      "key": "magnesium",
+      "unityKg": 0.15,
+      "formula": "Mg",
+      "price": 3
+    },
+    {
+      "key": "iron",
+      "unityKg": 1,
+      "formula": "Fe",
+      "price": 1
+    },
+    {
+      "key": "rutile",
+      "unityKg": 0.15,
+      "formula": "TiO₂",
+      "price": 10
+    },
+    {
+      "key": "calcium",
+      "unityKg": 0.1,
+      "formula": "Ca",
+      "price": 1
+    },
+    {
+      "key": "dopingElements",
+      "unityKg": 0.05,
+      "price": 50
+    },
+    {
+      "key": "leadIodide",
+      "unityKg": 0.02,
+      "formula": "PbI₂",
+      "price": 200
+    },
+    {
+      "key": "lead",
+      "unityKg": 1,
+      "formula": "Pb",
+      "price": 2
+    },
+    {
+      "key": "carbon",
+      "unityKg": 1,
+      "formula": "C",
+      "price": 0.5
+    },
+    {
+      "key": "carbonDioxide",
+      "unityKg": 1,
+      "formula": "CO₂",
+      "price": 0.01
+    },
+    {
+      "key": "sulfur",
+      "unityKg": 0.5,
+      "formula": "S",
+      "price": 0.2
+    },
+    {
+      "key": "oxygen",
+      "unityKg": 1,
+      "formula": "O",
+      "price": 0.01
+    },
+    {
+      "key": "semiconductorAlloys",
+      "unityKg": 0.01,
+      "price": 100
+    },
+    {
+      "key": "copper",
+      "unityKg": 0.3,
+      "price": 5
+    },
+    {
+      "key": "water",
+      "unityKg": 1,
+      "formula": "H₂O",
+      "price": 0.002
+    },
+    {
+      "key": "lithiumOxide",
+      "unityKg": 1,
+      "formula": "Li₂O",
+      "price": 15
+    },
+    {
+      "key": "graphite",
+      "unityKg": 1,
+      "price": 1
+    },
+    {
+      "key": "basalt",
+      "unityKg": 100,
+      "price": 0.1
+    },
+    {
+      "key": "sulfuricAcid",
+      "unityKg": 0.5,
+      "price": 0.5
+    },
+    {
+      "key": "lithiumSalt",
+      "unityKg": 0.1,
+      "price": 50
+    },
+    {
+      "key": "lithiumSulfur",
+      "unityKg": 1,
+      "formula": "Li₂S",
+      "price": 100
+    },
+    {
+      "key": "uranium",
+      "unityKg": 10,
+      "formula": "U",
+      "price": 300
+    },
+    {
+      "key": "thorium",
+      "unityKg": 10,
+      "formula": "Th",
+      "price": 200
+    },
+    {
+      "key": "castSalt",
+      "unityKg": 100,
+      "price": 0.5
+    },
+    {
+      "key": "helium3",
+      "unityKg": 1000,
+      "price": 1000
+    },
+    {
+      "key": "moonCement",
+      "unityKg": 1000,
+      "price": 20
+    },
+    {
+      "key": "steel",
+      "unityKg": 1,
+      "price": 1
+    },
+    {
+      "key": "wheel",
+      "unityKg": 1,
+      "price": 2
+    },
+    {
+      "key": "pyroxene",
+      "unityKg": 1,
+      "price": 1
+    },
+    {
+      "key": "olivine",
+      "unityKg": 1,
+      "price": 1
+    },
+    {
+      "key": "feldspar",
+      "unityKg": 1,
+      "price": 1
+    },
+    {
+      "key": "ilmenite",
+      "unityKg": 1,
+      "price": 2
+    },
+    {
+      "key": "zircon",
+      "unityKg": 1,
+      "price": 2
+    },
+    {
+      "key": "iodine",
+      "unityKg": 1,
+      "formula": "I",
+      "price": 10
+    },
+    {
+      "key": "sulfurOxide",
+      "unityKg": 1,
+      "price": 2
+    },
+    {
+      "key": "sodiumChloride",
+      "unityKg": 1,
+      "formula": "NaCl",
+      "price": 0.5
+    },
+    {
+      "key": "sodium",
+      "unityKg": 1,
+      "formula": "Na",
+      "price": 1
+    },
+    {
+      "key": "chlorine",
+      "unityKg": 1,
+      "formula": "Cl",
+      "price": 5
+    },
+    {
+      "key": "calciumOxide",
+      "unityKg": 1,
+      "formula": "CaO",
+      "price": 1
+    },
+    {
+      "key": "aluminiumOxide",
+      "unityKg": 1,
+      "formula": "Al₂O₃",
+      "price": 2
+    },
+    {
+      "key": "ironOxide",
+      "unityKg": 1,
+      "formula": "Fe₂O₃",
+      "price": 1
+    },
+    {
+      "key": "hydrogen",
+      "unityKg": 0.25,
+      "formula": "H",
+      "price": 2
+    },
+    {
+      "key": "integratedCircuit",
+      "unityKg": 0.001,
+      "price": 50
+    },
+    {
+      "key": "aluminosilicates",
+      "unityKg": 1,
+      "price": 5
+    },
+    {
+      "key": "sodiumHydroxide",
+      "unityKg": 0.1,
+      "formula": "NaOH",
+      "price": 1
+    },
+    {
+      "key": "light",
+      "unityKg": 1,
+      "price": 0.01
+    },
+    {
+      "key": "biomass",
+      "unityKg": 1,
+      "price": 0.1
+    },
+    {
+      "key": "microalgae",
+      "unityKg": 1,
+      "price": 5
+    },
+    {
+      "key": "galliumNitrate",
+      "unityKg": 0.01,
+      "price": 100
+    },
+    {
+        "key": "polyurethaneFoam",
+        "unityKg": 1,
+        "price": 10.0
+      },
+      {
+        "key": "poliol",
+        "unityKg": 0.5,
+        "price": 5.0
+      },
+      {
+        "key": "lunarSoil",
+        "unityKg": 1,
+        "price": 2.0
+      },
+      {
+        "key": "seed",
+        "unityKg": 0.0005,
+        "price": 0.02
+      },
+      {
+        "key": "plantFood",
+        "unityKg": 1,
+        "price": 8.0
+      },
+      {
+        "key": "fish",
+        "unityKg": 1,
+        "price": 15.0
+      },
+      {
+        "key": "freshMeat",
+        "unityKg": 1,
+        "price": 20.0
+      },
+      {
+        "key": "dryMeat",
+        "unityKg": 1,
+        "price": 25.0
+      },
+      {
+        "key": "seaweed",
+        "unityKg": 1,
+        "price": 3.0
+      },
+      {
+        "key": "egg",
+        "unityKg": 1,
+        "price": 0.5
+      },
+      {
+        "key": "glucose",
+        "unityKg": 1,
+        "price": 1.5
+      },
+      {
+        "key": "silicate",
+        "unityKg": 1,
+        "price": 2.5
+      },
+      {
+        "key": "titaniumDioxide",
+        "unityKg": 1,
+        "price": 30.0
+      },
+      {
+        "key": "zirconium",
+        "unityKg": 1,
+        "price": 40.0
+      },
+      {
+        "material": "ointments",
+        "unityByKg": 0.05,
+        "price": 15.0
+      },
+      {
+        "material": "syrup",
+        "unityByKg": 0.1,
+        "price": 8.0
+      },
+      {
+        "material": "antiemetic",
+        "unityByKg": 0.02,
+        "price": 10.0
+      },
+      {
+        "material": "antibiotic",
+        "unityByKg": 0.03,
+        "price": 20.0
+      },
+      {
+        "material": "plasters",
+        "unityByKg": 0.01,
+        "price": 5.0
+      },
+      {
+        "material": "immunosuppressant",
+        "unityByKg": 0.02,
+        "price": 25.0
+      },
+      {
+        "material": "betaBlocker",
+        "unityByKg": 0.01,
+        "price": 12.0
+      },
+      {
+        "material": "stemCell",
+        "unityByKg": 1,
+        "price": 50000
+      }
+  ]
 }

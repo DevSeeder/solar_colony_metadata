@@ -1,0 +1,640 @@
+{
+  "config": [
+    {
+      "path": "foods[]",
+      "values": {
+        "energyCost": "Wh",
+        "durability": "years",
+        "building.time": "days",
+        "building.energyCost": "W",
+        "size.width": "m",
+        "size.length": "m",
+        "size.height": "m",
+        "harvestTime": "days",
+        "upgrades[].energyCostByLight": "W"
+      }
+    },
+    {
+      "path": "consume",
+      "values": {
+        "byPersonByDay": "Kg",
+        "limitWithoutFood": "days"
+      }
+    }
+  ],
+  "foods": [
+    {
+      "tech": "greenhouseAgriculture",
+      "stepLevel": 1,
+      "requiredLevel": 1,
+      "energyCost": 1600,
+      "durability": 15,
+      "harvestTime": 7,
+      "capacity": 25,
+      "operation": {
+        "requiredRoles": [
+          {
+            "key": "bioEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "botanic",
+            "qtd": 1
+          }
+        ]
+      },
+      "fuelByKg": [
+        {
+          "material": "seed",
+          "qtd": 50
+        },
+        {
+          "material": "carbonDioxide",
+          "qtd": 1.5
+        },
+        {
+          "material": "water",
+          "qtd": 15
+        },
+        {
+          "material": "calcium",
+          "qtd": 0.25
+        }
+      ],
+      "subproductByKg": [
+        {
+          "material": "plantFood",
+          "qtd": 1
+        },
+        {
+          "material": "seed",
+          "qtd": 100
+        },
+        {
+          "material": "biomass",
+          "qtd": 0.25
+        },
+        {
+          "material": "oxigen",
+          "qtd": 0.5
+        },
+        {
+          "material": "water",
+          "qtd": 0.75
+        }
+      ],
+      "building": {
+        "time": 15,
+        "energyCost": 90000,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 4000,
+            "mode": "*"
+          },
+          {
+            "material": "titanium",
+            "qtd": 2000,
+            "mode": "*"
+          },
+          {
+            "material": "glass",
+            "qtd": 3000,
+            "mode": "*"
+          },
+          {
+            "material": "lunarSoil",
+            "qtd": 150000,
+            "mode": "*"
+          }
+        ],
+        "requiredRoles": [
+          {
+            "key": "materialsEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "bioEngineer",
+            "qtd": 2
+          }
+        ]
+      },
+      "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 2,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 200
+          },
+          {
+            "material": "titanium",
+            "qtd": 50
+          }
+        ]
+      },
+      "size": {
+        "width": 10,
+        "length": 10,
+        "height": 4
+      },
+      "upgrades": []
+    },
+    {
+      "tech": "hydrophonicAgriculture",
+      "stepLevel": 2,
+      "requiredLevel": 5,
+      "durability": 7,
+      "capacity": 25,
+      "operation": {
+        "requiredRoles": [
+          {
+            "key": "bioEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "botanic",
+            "qtd": 1
+          }
+        ]
+      },
+      "energyCost": 1000,
+      "harvestTime": 4,
+      "fuelByKg": [
+        {
+          "material": "seed",
+          "qtd": 50
+        },
+        {
+          "material": "carbonDioxide",
+          "qtd": 1.5
+        },
+        {
+          "material": "water",
+          "qtd": 0.5
+        },
+        {
+          "material": "calcium",
+          "qtd": 0.25
+        },
+        {
+          "material": "light",
+          "qtd": 2160000,
+          "ref": "µmol m⁻² h⁻¹"
+        }
+      ],
+      "subproductByKg": [
+        {
+          "material": "plantFood",
+          "qtd": 1
+        },
+        {
+          "material": "seed",
+          "qtd": 100
+        },
+        {
+          "material": "biomass",
+          "qtd": 0.25
+        },
+        {
+          "material": "oxigen",
+          "qtd": 0.5
+        }
+      ],
+      "building": {
+        "time": 15,
+        "energyCost": 90000,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 4000,
+            "mode": "*"
+          },
+          {
+            "material": "glass",
+            "qtd": 3000,
+            "mode": "*"
+          },
+          {
+            "material": "lunarSoil",
+            "qtd": 25000,
+            "mode": "*"
+          },
+          {
+            "material": "water",
+            "qtd": 62,
+            "mode": "*"
+          }
+        ],
+        "requiredRoles": [
+          {
+            "key": "materialsEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "bioEngineer",
+            "qtd": 3
+          }
+        ]
+      },
+      "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 2,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 200
+          }
+        ]
+      },
+      "size": {
+        "width": 5,
+        "length": 5,
+        "height": 6
+      },
+      "upgrades": []
+    },
+    {
+      "tech": "aquaponics",
+      "stepLevel": 3,
+      "requiredLevel": 7,
+      "durability": 7,
+      "capacity": 50,
+      "operation": {
+        "requiredRoles": [
+          {
+            "key": "bioEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "biologist",
+            "qtd": 1
+          }
+        ]
+      },
+      "energyCost": 800,
+      "harvestTime": {
+        "fish": 180,
+        "seaweed": 21
+      },
+      "fuelByKg": [
+        {
+          "material": "water",
+          "qtd": 2
+        },
+        {
+          "material": "calcium",
+          "qtd": 0.25
+        },
+        {
+          "material": "light",
+          "qtd": 360000,
+          "ref": "µmol m⁻² h⁻¹"
+        }
+      ],
+      "subproductByKg": [
+        {
+          "material": "fish",
+          "qtd": 1
+        },
+        {
+          "material": "biomass",
+          "qtd": 0.5
+        }
+      ],
+      "building": {
+        "time": 15,
+        "energyCost": 90000,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 2000,
+            "mode": "*"
+          },
+          {
+            "material": "titanium",
+            "qtd": 1000,
+            "mode": "*"
+          },
+          {
+            "material": "water",
+            "qtd": 2000,
+            "mode": "*"
+          },
+          {
+            "material": "fish",
+            "qtd": 50,
+            "mode": "*"
+          },
+          {
+            "material": "seaweed",
+            "qtd": 100,
+            "mode": "*"
+          }
+        ],
+        "requiredRoles": [
+          {
+            "key": "materialsEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "bioEngineer",
+            "qtd": 3
+          }
+        ]
+      },
+      "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 2,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 200
+          }
+        ]
+      },
+      "size": {
+        "width": 5,
+        "length": 5,
+        "height": 6
+      },
+      "upgrades": []
+    },
+    {
+      "tech": "chickenFarm",
+      "stepLevel": 4,
+      "requiredLevel": 10,
+      "durability": 12,
+      "capacity": 50,
+      "operation": {
+        "requiredRoles": [
+          {
+            "key": "bioEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "biologist",
+            "qtd": 1
+          }
+        ]
+      },
+      "energyCost": 500,
+      "harvestTime": {
+        "eggs": 7,
+        "freshMeat": 42,
+        "fertilizer": 1
+      },
+      "fuelByChickenByDay": [
+        {
+          "material": "water",
+          "qtd": 0.25
+        },
+        {
+          "material": "plantFood",
+          "qtd": 0.25
+        },
+        {
+          "material": "oxygen",
+          "qtd": 0.25
+        }
+      ],
+      "subproductByChicken": [
+        {
+          "material": "eggs",
+          "qtd": 5
+        },
+        {
+          "material": "freshMeat",
+          "qtd": 2
+        },
+        {
+          "material": "fertilizer",
+          "qtd": 10
+        }
+      ],
+      "building": {
+        "time": 20,
+        "energyCost": 120000,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 1500,
+            "mode": "*"
+          },
+          {
+            "material": "silicon",
+            "qtd": 500,
+            "mode": "*"
+          },
+          {
+            "material": "egg",
+            "qtd": 50,
+            "mode": "*"
+          }
+        ],
+        "requiredRoles": [
+          {
+            "key": "materialsEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "bioEngineer",
+            "qtd": 2
+          }
+        ]
+      },
+      "maintenance": {
+        "factor": 0.4,
+        "requiredBots": 1,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 150
+          }
+        ]
+      },
+      "size": {
+        "width": 5,
+        "length": 5,
+        "height": 3
+      },
+      "upgrades": [
+        {
+          "key": "automatedFeeder",
+          "upgradeAction": "supplyFeedAutomatically",
+          "energyCostByOperation": 200,
+          "requiredMaterials": [
+            {
+              "material": "silicon",
+              "qtd": 2,
+              "mode": "*"
+            },
+            {
+              "material": "aluminium",
+              "qtd": 2,
+              "mode": "*"
+            },
+            {
+              "material": "integratedCircuit",
+              "qtd": 1,
+              "mode": "*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tech": "syntheticProtein",
+      "stepLevel": 5,
+      "requiredLevel": 15,
+      "capacity": 25,
+      "energyCost": 500,
+      "harvestTime": 15,
+      "operation": {
+        "requiredRoles": [
+          {
+            "key": "bioEngineer",
+            "qtd": 3
+          },
+          {
+            "key": "biologist",
+            "qtd": 1
+          }
+        ]
+      },
+      "fuelByKg": [
+        {
+          "material": "stemCell",
+          "qtd": 5
+        },
+        {
+          "material": "water",
+          "qtd": 1.5
+        },
+        {
+          "material": "glucose",
+          "qtd": 0.5
+        },
+        {
+          "material": "light",
+          "qtd": 720000,
+          "ref": "µmol m⁻² h⁻¹"
+        }
+      ],
+      "subproductByKg": [
+        {
+          "material": "freshMeat",
+          "qtd": 1
+        },
+        {
+          "material": "stemCell",
+          "qtd": 8
+        },
+        {
+          "material": "glucose",
+          "qtd": 0.5
+        },
+        {
+          "material": "biomass",
+          "qtd": 0.25
+        },
+        {
+          "material": "water",
+          "qtd": 1
+        }
+      ],
+      "building": {
+        "time": 20,
+        "energyCost": 120000,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 1500,
+            "mode": "*"
+          },
+          {
+            "material": "titanium",
+            "qtd": 800,
+            "mode": "*"
+          }
+        ],
+        "requiredRoles": [
+          {
+            "key": "materialsEngineer",
+            "qtd": 1
+          },
+          {
+            "key": "bioEngineer",
+            "qtd": 3
+          }
+        ]
+      },
+      "maintenance": {
+        "factor": 0.75,
+        "requiredBots": 1,
+        "materials": [
+          {
+            "material": "aluminium",
+            "qtd": 100
+          }
+        ]
+      },
+      "size": {
+        "width": 4,
+        "length": 4,
+        "height": 5
+      },
+      "upgrades": []
+    }
+  ],
+  "consume": {
+    "byPersonByDay": 2,
+    "limitWithoutFood": 15
+  },
+  "upgrades": [
+    {
+      "key": "ledPainels",
+      "upgradeAction": "supplyLightWhenDark",
+      "energyCostByLight": 400,
+      "requiredMaterials": [
+        {
+          "material": "silicon",
+          "qtd": 1,
+          "mode": "*"
+        },
+        {
+          "material": "aluminium",
+          "qtd": 3,
+          "mode": "*"
+        },
+        {
+          "material": "galiumNitrate",
+          "qtd": 1,
+          "mode": "adv"
+        },
+        {
+          "material": "dopingElements",
+          "qtd": 1,
+          "mode": "adv"
+        },
+        {
+          "material": "integratedCircuit",
+          "qtd": 1,
+          "mode": "adv"
+        }
+      ]
+    },
+    {
+        "key": "fertilizer",
+        "upgrade": 25,
+        "upgradeAction": "fastProduction",
+        "requiredMaterials": [
+          {
+            "material": "fertilizer",
+            "qtd": 1,
+            "mode": "*"
+          }
+        ]
+      }
+  ]
+}

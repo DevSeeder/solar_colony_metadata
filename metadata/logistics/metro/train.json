@@ -1,0 +1,97 @@
+{
+    "config": [
+        {
+            "path": "train",
+            "values": {
+                "durability": "years",
+                "energyBy500m": "W",
+                "velocity": "m/s",
+                "cargoCapacity": "Kg",
+                "building.energyCost": "W",
+                "building.time": "days"
+            }
+        },
+        {
+            "path": "capacity",
+            "values": {
+                "passengers": "people"
+            }
+        }
+    ],
+    "train": {
+        "durability": 15,
+        "energyBy500m": 10000,
+        "velocity": 25000,
+        "cargoCapacity": 5000,
+        "building": {
+            "energyCost": 20000, 
+            "time": 15, 
+            "materials": [
+                {
+                    "material": "aluminium",
+                    "qtd": 10000,
+                    "mode": "*"
+                },
+                {
+                    "material": "steel",
+                    "qtd": 5000,
+                    "mode": "*"
+                },
+                {
+                    "material": "glass",
+                    "qtd": 50,
+                    "mode": "*"
+                },
+                {
+                    "material": "circuitIntegrated",
+                    "qtd": 10,
+                    "mode": "*"
+                },
+                {
+                    "material": "polyethylene",
+                    "qtd": 300,
+                    "mode": "*"
+                }
+            ],
+            "requiredBots": 2, 
+            "requiredRoles": [
+                {
+                    "key": "materialsEngineer",
+                    "qtd": 2
+                },
+                {
+                    "key": "eletricEngineer",
+                    "qtd": 1
+                }
+            ]
+        },
+        "capacity": {
+            "seats": 50
+        },
+        "speed": {
+            "maxSpeed": 100, 
+            "acceleration": 2
+        },
+        "safetyFeatures": [
+            "automaticBrakingSystem",
+            "emergencyExits",
+            "fireExtinguishers"
+        ]
+    },
+    "maintenance": {
+        "factor": 0.25,  
+        "requiredBots": 1, 
+        "materials": [
+            {
+                "material": "steel",
+                "qtd": 100,
+                "mode": "*"
+            },
+            {
+                "material": "aluminium",
+                "qtd": 50,
+                "mode": "*"
+            }
+        ]
+    }
+}

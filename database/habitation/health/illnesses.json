@@ -263,6 +263,21 @@
           "value": -50
         }
       ]
-    }
+    },
+    {
+      "key": "malnutrition",
+      "probability": null,
+      "medicine": null,
+      "cureTime": null,
+      "deathTime": 15,
+      "disenable": true,
+      "disenableTime": 3,
+      "effects": [
+        {
+          "key": "efficiency",
+          "value": -50
+        }
+      ]
+    },
   ]
 }

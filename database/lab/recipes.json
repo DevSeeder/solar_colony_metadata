@@ -655,6 +655,226 @@
                 ]
               }
             ]
-          }
+          },
+          {
+            "material": "polyethylene",
+            "processes": [
+                {
+                    "time": 2,
+                    "energyCost": 150,
+                    "materials": [
+                        {
+                            "material": "ethanol",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "aluminiumOxid",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "nylon",
+            "processes": [
+                {
+                    "time": 4,
+                    "energyCost": 200,
+                    "materials": [
+                        {
+                            "material": "hexamethylenediamine",
+                            "qtd": 0.3,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "adipicAcid",
+                            "qtd": 0.3,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "siliconDioxide",
+            "processes": [
+                {
+                    "time": 3,
+                    "energyCost": 120,
+                    "materials": [
+                        {
+                            "material": "silica",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "sodiumCarbonate",
+                            "qtd": 0.1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "antena",
+            "processes": [
+                {
+                    "time": 5,
+                    "energyCost": 300,
+                    "materials": [
+                        {
+                            "material": "copper",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "polyethylene",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "camera",
+            "processes": [
+                {
+                    "time": 8,
+                    "energyCost": 500,
+                    "materials": [
+                        {
+                            "material": "silicon",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "integratedCircuit",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "glass",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "sodiumCarbonate",
+            "processes": [
+                {
+                    "time": 4,
+                    "energyCost": 250,
+                    "materials": [
+                        {
+                            "material": "sodium",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "carbonDioxide",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "water",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "ethanol",
+            "processes": [
+                {
+                    "time": 8,
+                    "energyCost": 300,
+                    "materials": [
+                        {
+                            "material": "hidrogen",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "carbonMonoxide",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "carbonMonoxide",
+            "processes": [
+                {
+                    "time": 2,
+                    "energyCost": 300,
+                    "materials": [
+                        {
+                            "material": "carbonicDioxide",
+                            "qtd": 1,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "adipicAcid",
+            "processes": [
+                {
+                    "time": 12,
+                    "energyCost": 500,
+                    "materials": [
+                        {
+                            "material": "sodium",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "carbonDioxide",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "water",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "hexamethylenediamine",
+            "processes": [
+                {
+                    "time": 10,
+                    "energyCost": 400,
+                    "materials": [
+                        {
+                            "material": "ethanol",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "ammonia",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

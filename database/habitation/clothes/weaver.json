@@ -1,0 +1,76 @@
+{
+    "config": [
+        {
+            "path": "building",
+            "values": {
+                "energyCost": "W",
+                "time": "days"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "width": "m",
+                "length": "m",
+                "height": "m"
+            }
+        }
+    ],
+    "building": {
+        "energyCost": 80000, 
+        "time": 15, 
+        "materials": [
+            {
+                "material": "moonCement",
+                "qtd": 80,
+                "mode": "*"
+            },
+            {
+                "material": "basalt",
+                "qtd": 100,
+                "mode": "*"
+            }
+        ],
+        "requiredBots": 3, 
+        "requiredRoles": [
+            {
+                "key": "constructionEngineer",
+                "qtd": 1
+            },
+            {
+                "key": "materialsEngineer",
+                "qtd": 2
+            }
+        ]
+    },
+    "operation": {
+        "slots": 4, 
+        "requiredRoles": [
+            {
+                "key": "textileEngineer",
+                "qtd": 1
+            }
+        ]
+    },
+    "size": {
+        "width": 100, 
+        "height": 5, 
+        "length": 100 
+    },
+    "maintenance": {
+        "factor": 0.4,  
+        "requiredBots": 2, 
+        "materials": [
+            {
+                "material": "basalt",
+                "qtd": 8,
+                "mode": "*"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 8,
+                "mode": "*"
+            }
+        ]
+    }
+}

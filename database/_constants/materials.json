@@ -296,114 +296,169 @@
       "price": 100
     },
     {
-        "key": "polyurethaneFoam",
-        "unityKg": 1,
-        "price": 10.0
-      },
-      {
-        "key": "poliol",
-        "unityKg": 0.5,
-        "price": 5.0
-      },
-      {
-        "key": "lunarSoil",
-        "unityKg": 1,
-        "price": 2.0
-      },
-      {
-        "key": "seed",
-        "unityKg": 0.0005,
-        "price": 0.02
-      },
-      {
-        "key": "plantFood",
-        "unityKg": 1,
-        "price": 8.0
-      },
-      {
-        "key": "fish",
-        "unityKg": 1,
-        "price": 15.0
-      },
-      {
-        "key": "freshMeat",
-        "unityKg": 1,
-        "price": 20.0
-      },
-      {
-        "key": "dryMeat",
-        "unityKg": 1,
-        "price": 25.0
-      },
-      {
-        "key": "seaweed",
-        "unityKg": 1,
-        "price": 3.0
-      },
-      {
-        "key": "egg",
-        "unityKg": 1,
-        "price": 0.5
-      },
-      {
-        "key": "glucose",
-        "unityKg": 1,
-        "price": 1.5
-      },
-      {
-        "key": "silicate",
-        "unityKg": 1,
-        "price": 2.5
-      },
-      {
-        "key": "titaniumDioxide",
-        "unityKg": 1,
-        "price": 30.0
-      },
-      {
-        "key": "zirconium",
-        "unityKg": 1,
-        "price": 40.0
-      },
-      {
-        "material": "ointments",
-        "unityByKg": 0.05,
-        "price": 15.0
-      },
-      {
-        "material": "syrup",
-        "unityByKg": 0.1,
-        "price": 8.0
-      },
-      {
-        "material": "antiemetic",
-        "unityByKg": 0.02,
-        "price": 10.0
-      },
-      {
-        "material": "antibiotic",
-        "unityByKg": 0.03,
-        "price": 20.0
-      },
-      {
-        "material": "plasters",
-        "unityByKg": 0.01,
-        "price": 5.0
-      },
-      {
-        "material": "immunosuppressant",
-        "unityByKg": 0.02,
-        "price": 25.0
-      },
-      {
-        "material": "betaBlocker",
-        "unityByKg": 0.01,
-        "price": 12.0
-      },
-      {
-        "material": "stemCell",
-        "unityByKg": 1,
-        "price": 50000
-      }
+      "key": "polyurethaneFoam",
+      "unityKg": 1,
+      "price": 10.0
+    },
+    {
+      "key": "poliol",
+      "unityKg": 0.5,
+      "price": 5.0
+    },
+    {
+      "key": "lunarSoil",
+      "unityKg": 1,
+      "price": 2.0
+    },
+    {
+      "key": "seed",
+      "unityKg": 0.0005,
+      "price": 0.02
+    },
+    {
+      "key": "plantFood",
+      "unityKg": 1,
+      "price": 8.0
+    },
+    {
+      "key": "fish",
+      "unityKg": 1,
+      "price": 15.0
+    },
+    {
+      "key": "freshMeat",
+      "unityKg": 1,
+      "price": 20.0
+    },
+    {
+      "key": "dryMeat",
+      "unityKg": 1,
+      "price": 25.0
+    },
+    {
+      "key": "seaweed",
+      "unityKg": 1,
+      "price": 3.0
+    },
+    {
+      "key": "egg",
+      "unityKg": 1,
+      "price": 0.5
+    },
+    {
+      "key": "glucose",
+      "unityKg": 1,
+      "price": 1.5
+    },
+    {
+      "key": "silicate",
+      "unityKg": 1,
+      "price": 2.5
+    },
+    {
+      "key": "titaniumDioxide",
+      "unityKg": 1,
+      "price": 30.0
+    },
+    {
+      "key": "zirconium",
+      "unityKg": 1,
+      "price": 40.0
+    },
+    {
+      "material": "ointments",
+      "unityReference": 0.05,
+      "price": 15.0
+    },
+    {
+      "material": "syrup",
+      "unityReference": 0.1,
+      "price": 8.0
+    },
+    {
+      "material": "antiemetic",
+      "unityReference": 0.02,
+      "price": 10.0
+    },
+    {
+      "material": "antibiotic",
+      "unityReference": 0.03,
+      "price": 20.0
+    },
+    {
+      "material": "plasters",
+      "unityReference": 0.01,
+      "price": 5.0
+    },
+    {
+      "material": "immunosuppressant",
+      "unityReference": 0.02,
+      "price": 25.0
+    },
+    {
+      "material": "betaBlocker",
+      "unityReference": 0.01,
+      "price": 12.0
+    },
+    {
+      "material": "stemCell",
+      "unityReference": 1,
+      "price": 50000
+    },
+    {
+      "material": "polyethylene",
+      "unityReference": 1,
+      "price": 1
+    },
+    {
+      "material": "nylon",
+      "unityReference": 1,
+      "price": 1
+    },
+    {
+      "material": "siliconDioxide",
+      "unityReference": 1,
+      "price": 1
+    },
+    {
+      "material": "antena",
+      "unityReference": 1,
+      "price": 50.0
+    },
+    {
+      "material": "camera",
+      "unityReference": 1,
+      "price": 200.0
+    },
+    {
+      "material": "sodiumCarbonate",
+      "unityReference": 1,
+      "price": 1.5
+    },
+    {
+      "material": "ethanol",
+      "unityReference": 1,
+      "price": 3.0
+    },
+    {
+      "material": "adipicAcid",
+      "unityReference": 1,
+      "price": 7.0
+    },
+    {
+      "material": "hexamethylenediamine",
+      "unityReference": 1,
+      "price": 8.0
+    },
+    {
+      "material": "carbonMonoxide",
+      "unityReference": 1,
+      "price": 0.5
+    },
+    {
+      "material": "ammonia",
+      "unityReference": 1,
+      "price": 1.0
+    }
   ]
 }

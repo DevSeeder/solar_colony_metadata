@@ -1,0 +1,130 @@
+{
+  "config": [
+    {
+      "path": "clothes",
+      "values": {
+        "energyCost": "W",
+        "time": "hours",
+        "materialQty": "kg"
+      }
+    }
+  ],
+  "clothes": [
+    {
+      "type": "indoorCloth",
+      "description": "Roupas normais para uso dentro das habitações lunares, leves e confortáveis.",
+      "materials": [
+        {
+          "material": "polyethylene",
+          "qtd": 1,
+          "mode": "*"
+        },
+        {
+          "material": "nylon",
+          "qtd": 0.5,
+          "mode": "*"
+        },
+        {
+          "material": "silicate",
+          "qtd": 0.25,
+          "mode": "*"
+        }
+      ],
+      "energyCost": 500,
+      "time": 2
+    },
+    {
+      "type": "spaceSuit",
+      "description": "Traje espacial completo para uso na superfície lunar, com proteção contra radiação, temperaturas extremas e sistemas de suporte à vida.",
+      "materials": [
+        {
+          "material": "balsalt",
+          "qtd": 1,
+          "mode": "*"
+        },
+        {
+          "material": "titaniumDioxide",
+          "qtd": 0.5,
+          "mode": "adv"
+        },
+        {
+          "material": "aluminium",
+          "qtd": 0.5,
+          "mode": "*"
+        },
+        {
+          "material": "siliconDioxide",
+          "qtd": 0.25,
+          "mode": "*"
+        },
+        {
+          "material": "zirconium",
+          "qtd": 0.5,
+          "mode": "*"
+        },
+        {
+          "material": "water",
+          "qtd": 2.0,
+          "mode": "*"
+        },
+        {
+          "material": "polyurethaneFoam",
+          "qtd": 0.5,
+          "mode": "adv"
+        },
+        {
+          "material": "glass",
+          "qtd": 0.5,
+          "mode": "*"
+        },
+        {
+          "material": "integratedCircuit",
+          "qtd": 1,
+          "mode": "*"
+        },
+        {
+          "material": "antenna",
+          "qtd": 1,
+          "mode": "adv"
+        },
+        {
+          "material": "camera",
+          "qtd": 1,
+          "mode": "adv"
+        }
+      ],
+      "components": [
+        {
+          "name": "outerLayer",
+          "description": "Camada externa do traje com proteção contra radiação e micrometeoritos."
+        },
+        {
+          "name": "thermalInsulation",
+          "description": "Camada de isolamento térmico para proteção contra variações extremas de temperatura."
+        },
+        {
+          "name": "radiationProtection",
+          "description": "Camada para proteção contra radiação lunar."
+        },
+        {
+          "name": "coolingSystem",
+          "description": "Sistema de resfriamento para regular a temperatura corporal do astronauta."
+        },
+        {
+          "name": "oxygenTank",
+          "description": "Tanque de oxigênio para respiração em ambientes sem ar."
+        },
+        {
+          "name": "healthMonitoringSystem",
+          "description": "Microssistemas de monitoramento da saúde e controle do traje."
+        },
+        {
+          "name": "communicationSystem",
+          "description": "Sistema de comunicação integrado para falar com a base."
+        }
+      ],
+      "energyCost": 2000,
+      "time": 24
+    }
+  ]
+}

@@ -57,7 +57,7 @@
                 "requiredBots": 2,
                 "requiredRoles": [
                     {
-                        "key": "metallurgical",
+                        "key": "materialsEngineer",
                         "qtd": 1
                     },
                     {
@@ -156,16 +156,12 @@
     "buildingRequiredBots": 4,
     "buildingRequiredRoles": [
         {
-            "key": "metallurgical",
-            "qtd": 2
-        },
-        {
             "key": "contructionEngineer",
             "qtd": 2
         },
         {
             "key": "materialsEngineer",
-            "qtd": 1
+            "qtd": 3
         }
     ],
     "size": {

@@ -56,7 +56,7 @@
                 "weight": 300,
                 "extraRequiredRoles": [
                     {
-                        "key": "metallurgical",
+                        "key": "materialsEngineer",
                         "qtd": 1
                     }
                 ],
@@ -75,7 +75,7 @@
                         "sequence": 0.1,
                         "method": "leadSmelting",
                         "requiredRoles": [
-                            "metallurgical"
+                            "materialsEngineer"
                         ]
                     }
                 ]

@@ -44,7 +44,7 @@
         "requiredBots": 3,
         "requiredRoles": [
             {
-                "key": "metallurgical",
+                "key": "systemsEngineer",
                 "qtd": 1
             },
             {

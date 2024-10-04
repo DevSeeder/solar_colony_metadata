@@ -4,7 +4,7 @@
             "path": "building",
             "values": {
                 "energyCost": "W",
-                "time": "months"
+                "time": "days"
             }
         },
         {
@@ -14,59 +14,56 @@
                 "length": "m",
                 "height": "m"
             }
-        },
-        {
-            "path": "capacity",
-            "values": {
-                "totalVolume": "m³", 
-                "density": "kg/m³",
-                "capacity": "t"
-            }
         }
     ],
     "building": {
-        "energyCost": 100000,
-        "time": 1,
+        "energyCost": 100000, 
+        "time": 10, 
         "materials": [
+            {
+                "material": "moonCement",
+                "qtd": 120,
+                "mode": "*"
+            },
             {
                 "material": "aluminium",
                 "qtd": 15000,
                 "mode": "*"
             },
             {
-                "material": "moonCement",
-                "qtd": 100,
+                "material": "basalt",
+                "qtd": 80,
                 "mode": "*"
             },
             {
-                "material": "titaniumDioxide",
+                "material": "iron",
                 "qtd": 5000,
                 "mode": "*"
-            }
+            },
         ],
-        "requiredBots": 3,
+        "requiredBots": 4, 
         "requiredRoles": [
             {
                 "key": "constructionEngineer",
-                "qtd": 2
+                "qtd": 2,
             },
             {
                 "key": "materialsEngineer",
-                "qtd": 1
+                "qtd": 2
             }
         ]
     },
     "size": {
-        "width": 150,
-        "height": 6,
+        "width": 150, 
+        "height": 10, 
         "length": 150 
     },
     "maintenance": {
-        "factor": 0.5,
-        "requiredBots": 2,
+        "factor": 0.5,  
+        "requiredBots": 3, 
         "materials": [
             {
-                "material": "basalt",
+                "material": "iron",
                 "qtd": 10,
                 "mode": "*"
             },
@@ -76,10 +73,5 @@
                 "mode": "*"
             }
         ]
-    },
-    "capacity": {
-        "totalVolume": 135000, 
-        "density": 2000,
-        "capacity": 270000
     }
 }

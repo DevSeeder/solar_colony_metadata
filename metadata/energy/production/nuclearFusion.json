@@ -55,7 +55,7 @@
                 "requiredRoles": [
                     "chemical",
                     "engineer",
-                    "nuclearEngineer"
+                    "physical"
                 ]
             },
             {
@@ -64,7 +64,7 @@
                 "requiredRoles": [
                     "chemical",
                     "engineer",
-                    "nuclearEngineer"
+                    "physical"
                 ]
             },
             {
@@ -116,7 +116,7 @@
             "qtd": 2
         },
         {
-            "key": "nuclearEngineer",
+            "key": "physical",
             "qtd": 3
         },
         {

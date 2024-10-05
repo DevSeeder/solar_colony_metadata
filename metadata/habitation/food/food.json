@@ -34,12 +34,8 @@
       "operation": {
         "requiredRoles": [
           {
-            "key": "bioEngineer",
-            "qtd": 1
-          },
-          {
-            "key": "botanic",
-            "qtd": 1
+            "key": "biologist",
+            "qtd": 2
           }
         ]
       },
@@ -114,7 +110,7 @@
             "qtd": 1
           },
           {
-            "key": "bioEngineer",
+            "key": "biologist",
             "qtd": 2
           }
         ]
@@ -149,12 +145,8 @@
       "operation": {
         "requiredRoles": [
           {
-            "key": "bioEngineer",
-            "qtd": 1
-          },
-          {
-            "key": "botanic",
-            "qtd": 1
+            "key": "biologist",
+            "qtd": 2
           }
         ]
       },
@@ -232,7 +224,7 @@
             "qtd": 1
           },
           {
-            "key": "bioEngineer",
+            "key": "biologist",
             "qtd": 3
           }
         ]
@@ -263,12 +255,8 @@
       "operation": {
         "requiredRoles": [
           {
-            "key": "bioEngineer",
-            "qtd": 1
-          },
-          {
             "key": "biologist",
-            "qtd": 1
+            "qtd": 2
           }
         ]
       },
@@ -338,7 +326,7 @@
             "qtd": 1
           },
           {
-            "key": "bioEngineer",
+            "key": "biologist",
             "qtd": 3
           }
         ]
@@ -369,12 +357,8 @@
       "operation": {
         "requiredRoles": [
           {
-            "key": "bioEngineer",
-            "qtd": 1
-          },
-          {
             "key": "biologist",
-            "qtd": 1
+            "qtd": 2
           }
         ]
       },
@@ -438,7 +422,7 @@
             "qtd": 1
           },
           {
-            "key": "bioEngineer",
+            "key": "biologist",
             "qtd": 2
           }
         ]
@@ -493,12 +477,8 @@
       "operation": {
         "requiredRoles": [
           {
-            "key": "bioEngineer",
-            "qtd": 3
-          },
-          {
             "key": "biologist",
-            "qtd": 1
+            "qtd": 4
           }
         ]
       },
@@ -564,7 +544,7 @@
             "qtd": 1
           },
           {
-            "key": "bioEngineer",
+            "key": "biologist",
             "qtd": 3
           }
         ]

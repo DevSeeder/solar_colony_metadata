@@ -1,0 +1,88 @@
+{
+    "config": [
+      {
+        "path": "laserDefenseSystem",
+        "values": {
+          "size.height": "m",
+          "size.width": "m",
+          "size.length": "m",
+          "energyPerSquareMeter": "W",
+          "laserPower": "W",
+          "detectionRange": "m",
+          "durability": "years"
+        }
+      },
+      {
+        "path": "construction",
+        "values": {
+          "time": "h",
+          "energyCost": "W"
+        }
+      }
+    ],
+    "laserDefenseSystem": {
+      "description": "Lunar laser defense system designed to divert asteroids and meteors, providing a proactive defense mechanism.",
+      "size": {
+        "height": 10,
+        "width": 15,
+        "length": 15
+      },
+      "durability": 20,
+      "energyPerSquareMeter": 10000,
+      "laserPower": 50000,
+      "detectionRange": 2000
+    },
+    "construction": {
+      "time": 200,
+      "energyCost": 20000,
+      "materials": [
+        {
+          "material": "aluminium",
+          "qtd": 100,
+          "mode": "*"
+        },
+        {
+          "material": "moonCement",
+          "qtd": 2,
+          "mode": "*"
+        },
+        {
+          "material": "glass",
+          "qtd": 10,
+          "mode": "*"
+        }
+      ],
+      "requiredBots": 3,
+      "requiredRoles": [
+        {
+          "key": "physical",
+          "qtd": 2
+        },
+        {
+          "key": "constructionEngineer",
+          "qtd": 1
+        },
+        {
+          "key": "materialsEngineer",
+          "qtd": 1
+        }
+      ]
+    },
+    "maintenance": {
+      "factor": 0.5,
+      "requiredBots": 2,
+      "requiredMaterials": [
+        {
+          "material": "aluminium",
+          "qtd": 10,
+          "mode": "*"
+        },
+        {
+          "material": "glass",
+          "qtd": 5,
+          "mode": "*"
+        }
+      ]
+    }
+  }
+  

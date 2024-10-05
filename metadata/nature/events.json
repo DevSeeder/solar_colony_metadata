@@ -1,0 +1,66 @@
+{
+  "config": [
+    {
+      "path": "events",
+      "values": {
+        "frequency": "times/year",
+        "moonQuakeIntensity": "richter",
+        "solarStormIntensity": "Gy",
+        "asteroids.size": "m",
+        "asteroids.impactColisionDamage": "MJ",
+        "asteroids.impactedArea": "m²",
+        "duration": "s",
+        "damage": "%"
+      }
+    }
+  ],
+  "events": [
+    {
+      "key": "moonquakes",
+      "frequency": 3,
+      "moonQuakeIntensity": 5,
+      "duration": 15,
+      "damage": 30
+    },
+    {
+      "key": "solarStorm",
+      "frequency": 5,
+      "solarStormIntensity": 10,
+      "duration": 1800
+    },
+    {
+      "key": "meteors",
+      "duration": 2,
+      "asteroids": [
+        {
+            "type": "small",
+            "size": 10,
+            "frequency": 8,
+            "impactColisionDamage": 5000,
+            "impactedArea": 10
+        },
+        {
+            "type": "medium",
+            "size": 100,
+            "frequency": 2,
+            "impactColisionDamage": 50000,
+            "impactedArea": 200
+        },
+        {
+            "type": "big",
+            "size": 1000,
+            "frequency": 0.25,
+            "impactColisionDamage": 500000,
+            "impactedArea": 1000
+        },
+        {
+            "type": "giant",
+            "size": 10000,
+            "frequency": 0.01,
+            "impactColisionDamage": 5000000,
+            "impactedArea": 10000
+        }
+      ]
+    }
+  ]
+}

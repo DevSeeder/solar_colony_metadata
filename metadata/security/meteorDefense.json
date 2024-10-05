@@ -59,12 +59,8 @@
           "qtd": 2
         },
         {
-          "key": "constructionEngineer",
-          "qtd": 1
-        },
-        {
-          "key": "materialsEngineer",
-          "qtd": 1
+          "key": "engineer",
+          "qtd": 2
         }
       ]
     },

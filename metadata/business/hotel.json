@@ -56,12 +56,8 @@
         "requiredBots": 6,
         "requiredRoles": [
             {
-                "key": "constructionEngineer",
-                "qtd": 3
-            },
-            {
-                "key": "materialsEngineer",
-                "qtd": 2
+                "key": "engineer",
+                "qtd": 4
             },
             {
                 "key": "systemsEngineer",

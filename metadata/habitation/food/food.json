@@ -110,7 +110,7 @@
         ],
         "requiredRoles": [
           {
-            "key": "materialsEngineer",
+            "key": "engineer",
             "qtd": 1
           },
           {
@@ -228,7 +228,7 @@
         ],
         "requiredRoles": [
           {
-            "key": "materialsEngineer",
+            "key": "engineer",
             "qtd": 1
           },
           {
@@ -334,7 +334,7 @@
         ],
         "requiredRoles": [
           {
-            "key": "materialsEngineer",
+            "key": "engineer",
             "qtd": 1
           },
           {
@@ -434,7 +434,7 @@
         ],
         "requiredRoles": [
           {
-            "key": "materialsEngineer",
+            "key": "engineer",
             "qtd": 1
           },
           {
@@ -560,7 +560,7 @@
         ],
         "requiredRoles": [
           {
-            "key": "materialsEngineer",
+            "key": "engineer",
             "qtd": 1
           },
           {

@@ -41,7 +41,7 @@
         "rawMaterialTreatment": {
             "requiredRolesByTreatment": [
                 {
-                    "key": "materialsEngineer",
+                    "key": "engineer",
                     "qtd": 1
                 },
                 {
@@ -57,7 +57,7 @@
                 "requiredBots": 2,
                 "requiredRoles": [
                     {
-                        "key": "materialsEngineer",
+                        "key": "engineer",
                         "qtd": 1
                     },
                     {
@@ -160,7 +160,7 @@
             "qtd": 2
         },
         {
-            "key": "materialsEngineer",
+            "key": "engineer",
             "qtd": 3
         }
     ],

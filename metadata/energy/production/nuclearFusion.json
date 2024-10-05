@@ -54,7 +54,7 @@
                 "method": "fusionChamber",
                 "requiredRoles": [
                     "chemical",
-                    "materialsEngineer",
+                    "engineer",
                     "nuclearEngineer"
                 ]
             },
@@ -63,7 +63,7 @@
                 "method": "plasmaContentionSystem",
                 "requiredRoles": [
                     "chemical",
-                    "materialsEngineer",
+                    "engineer",
                     "nuclearEngineer"
                 ]
             },
@@ -71,7 +71,7 @@
                 "sequence": 3,
                 "method": "refrigerationSystemImplementation",
                 "requiredRoles": [
-                    "materialsEngineer",
+                    "engineer",
                     "systemsEngineer"
                 ]
             }
@@ -83,7 +83,7 @@
             ],
             "requiredRoles": [
                 "chemical",
-                "materialsEngineer",
+                "engineer",
                 "systemsEngineer"
             ]
         }
@@ -120,7 +120,7 @@
             "qtd": 3
         },
         {
-            "key": "materialsEngineer",
+            "key": "engineer",
             "qtd": 2
         },
         {

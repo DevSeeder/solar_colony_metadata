@@ -68,7 +68,7 @@
         "qtd": 2
       },
       {
-        "key": "materialsEngineer",
+        "key": "engineer",
         "qtd": 1
       },
       {
@@ -154,12 +154,8 @@
     "requiredBots": 1,
     "requiredRoles": [
       {
-        "key": "electricalEngineer",
-        "qtd": 1
-      },
-      {
-        "key": "materialsEngineer",
-        "qtd": 1
+        "key": "engineer",
+        "qtd": 2
       }
     ],
     "materials": [

@@ -101,7 +101,7 @@
                         "sequence": 0,
                         "method": "perovskiteBuilding",
                         "requiredRoles": [
-                            "materialsEngineer"
+                            "engineer"
                         ]
                     }
                 ]
@@ -151,7 +151,7 @@
                         "sequence": 0,
                         "method": "rosaBuilding",
                         "requiredRoles": [
-                            "materialsEngineer"
+                            "engineer"
                         ]
                     }
                 ]
@@ -176,7 +176,7 @@
                 "developmentPeople": 4,
                 "extraRequiredRoles": [
                     {
-                        "key": "electricalEngineer",
+                        "key": "engineer",
                         "qtd": 1
                     }
                 ],
@@ -196,7 +196,7 @@
                         "sequence": 0,
                         "method": "multijunctionBuilding",
                         "requiredRoles": [
-                            "electricalEngineer"
+                            "engineer"
                         ]
                     }
                 ]
@@ -221,12 +221,8 @@
                 "developmentPeople": 5,
                 "extraRequiredRoles": [
                     {
-                        "key": "electricalEngineer",
-                        "qtd": 1
-                    },
-                    {
-                        "key": "materialsEngineer",
-                        "qtd": 1
+                        "key": "engineer",
+                        "qtd": 2
                     }
                 ],
                 "energy": 30,
@@ -250,21 +246,21 @@
                         "sequence": 0.1,
                         "method": "advancedPolymersBuilding",
                         "requiredRoles": [
-                            "materialsEngineer"
+                            "engineer"
                         ]
                     },
                     {
                         "sequence": 0.2,
                         "method": "nanoMaterialsBuilding",
                         "requiredRoles": [
-                            "materialsEngineer"
+                            "engineer"
                         ]
                     },
                     {
                         "sequence": 0.3,
                         "method": "multijunctionBuilding",
                         "requiredRoles": [
-                            "electricalEngineer"
+                            "engineer"
                         ]
                     }
                 ]
@@ -277,7 +273,7 @@
                 "sequence": 1,
                 "method": "vacuumDeposition",
                 "requiredRoles": [
-                    "materialsEngineer"
+                    "engineer"
                 ]
             },
             {
@@ -296,8 +292,7 @@
             ],
             "requiredRoles": [
                 "chemical",
-                "materialsEngineer",
-                "electricalEngineer"
+                "engineer"
             ]
         }
     },
@@ -439,12 +434,8 @@
             "qtd": 1
         },
         {
-            "key": "materialsEngineer",
-            "qtd": 1
-        },
-        {
-            "key": "electricalEngineer",
-            "qtd": 1
+            "key": "engineer",
+            "qtd": 2
         }
     ]
 }

@@ -34,7 +34,7 @@
         "requiredBots": 3,
         "requiredRoles": [
             {
-                "key": "materialsEngineer",
+                "key": "engineer",
                 "qtd": 2
             }
         ]

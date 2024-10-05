@@ -83,7 +83,7 @@
                 "method": "fuelManufacturing",
                 "requiredRoles": [
                     "chemical",
-                    "materialsEngineer",
+                    "engineer",
                     "nuclearEngineer"
                 ]
             },
@@ -92,7 +92,7 @@
                 "method": "reactorInstallation",
                 "requiredRoles": [
                     "chemical",
-                    "materialsEngineer",
+                    "engineer",
                     "nuclearEngineer"
                 ]
             },
@@ -100,7 +100,7 @@
                 "sequence": 3,
                 "method": "refrigerationSystemImplementation",
                 "requiredRoles": [
-                    "materialsEngineer",
+                    "engineer",
                     "systemsEngineer"
                 ]
             }
@@ -112,7 +112,7 @@
             ],
             "requiredRoles": [
                 "chemical",
-                "materialsEngineer",
+                "engineer",
                 "systemsEngineer"
             ]
         }
@@ -149,7 +149,7 @@
             "qtd": 2
         },
         {
-            "key": "materialsEngineer",
+            "key": "engineer",
             "qtd": 2
         },
         {

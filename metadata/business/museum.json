@@ -1,0 +1,128 @@
+{
+    "config": [
+        {
+            "path": "building",
+            "values": {
+                "durability": "years",
+                "energyCost": "W",
+                "time": "h"
+            }
+        },
+        {
+            "path": "operation",
+            "values": {
+                "energyCost": "Wh"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "height": "m",
+                "width": "m",
+                "length": "m"
+            }
+        }
+    ],
+    "requiredLevel": 30,
+    "building": {
+        "description": "Lunar museum designed to educate visitors about lunar history, geology, and future colonization efforts. Features interactive exhibits and stunning views of the lunar surface.",
+        "components": [
+            {
+                "name": "Exhibition Halls",
+                "description": "Showcases lunar artifacts, interactive displays, and educational programs."
+            },
+            {
+                "name": "Observation Deck",
+                "description": "Offers breathtaking views of the Earth and the lunar landscape."
+            },
+            {
+                "name": "Gift Shop",
+                "description": "Sells souvenirs, educational materials, and lunar-themed merchandise."
+            },
+            {
+                "name": "Cafeteria",
+                "description": "Provides refreshments and meals for visitors."
+            }
+        ],
+        "durability": 50,
+        "energyCost": 8000,
+        "time": 180,
+        "requiredBots": 4,
+        "requiredRoles": [
+            {
+                "key": "constructionEngineer",
+                "qtd": 3
+            },
+            {
+                "key": "systemsEngineer",
+                "qtd": 1
+            }
+        ],
+        "materials": [
+            {
+                "material": "aluminum",
+                "qtd": 150,
+                "mode": "*"
+            },
+            {
+                "material": "titanium",
+                "qtd": 80,
+                "mode": "*"
+            },
+            {
+                "material": "glass",
+                "qtd": 50,
+                "mode": "adv"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 100,
+                "mode": "*"
+            },
+            {
+                "material": "copper",
+                "qtd": 30,
+                "mode": "*"
+            },
+            {
+                "material": "carbonFiber",
+                "qtd": 40,
+                "mode": "adv"
+            }
+        ]
+    },
+    "operation": {
+        "energyCost": 5000,
+        "requiredRoles": [
+            {
+                "key": "hospitalityManager",
+                "qtd": 1
+            }
+        ]
+    },
+    "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 3,
+        "materials": [
+            {
+                "material": "aluminum",
+                "qtd": 10,
+                "mode": "*"
+            },
+            {
+                "material": "titanium",
+                "qtd": 5,
+                "mode": "*"
+            }
+        ]
+    },
+    "size": {
+        "height": 15,
+        "width": 25,
+        "length": 40
+    },
+    "profit": {
+        "perPerson": 1000,
+        "totalCapacity": 100
+    }
+}

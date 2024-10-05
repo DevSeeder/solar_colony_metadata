@@ -1,0 +1,143 @@
+{
+    "config": [
+        {
+            "path": "building",
+            "values": {
+                "durability": "years",
+                "energyCost": "W",
+                "time": "h"
+            }
+        },
+        {
+            "path": "operation",
+            "values": {
+                "energyCost": "Wh",
+                "foodCost": "USD",
+                "waterCost": "USD"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "height": "m",
+                "width": "m",
+                "length": "m"
+            }
+        }
+    ],
+    "requiredLevel": 30,
+    "building": {
+        "description": "Luxuoso hotel lunar com vistas deslumbrantes da Terra e do espaço, projetado para acomodar confortavelmente 100 pessoas. Oferece serviços de alta qualidade, incluindo refeições gourmet e experiências exclusivas.",
+        "components": [
+            {
+                "name": "Suítes",
+                "description": "Acomodações confortáveis com janelas panorâmicas e amenities de luxo."
+            },
+            {
+                "name": "Restaurante",
+                "description": "Serve refeições gourmet com ingredientes frescos e um menu exclusivo."
+            },
+            {
+                "name": "Spa",
+                "description": "Área de relaxamento com tratamentos de spa e bem-estar."
+            },
+            {
+                "name": "Sala de Conferências",
+                "description": "Espaço equipado para reuniões e eventos corporativos."
+            },
+            {
+                "name": "Observatório",
+                "description": "Área dedicada à observação do espaço e eventos astronômicos."
+            }
+        ],
+        "durability": 25,
+        "energyCost": 8000,
+        "time": 240,
+        "requiredBots": 6,
+        "requiredRoles": [
+            {
+                "key": "constructionEngineer",
+                "qtd": 3
+            },
+            {
+                "key": "materialsEngineer",
+                "qtd": 2
+            },
+            {
+                "key": "systemsEngineer",
+                "qtd": 2
+            }
+        ],
+        "materials": [
+            {
+                "material": "aluminum",
+                "qtd": 200,
+                "mode": "*"
+            },
+            {
+                "material": "carbonFiber",
+                "qtd": 80,
+                "mode": "adv"
+            },
+            {
+                "material": "glass",
+                "qtd": 50,
+                "mode": "adv"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 100,
+                "mode": "*"
+            },
+            {
+                "material": "silicon",
+                "qtd": 40,
+                "mode": "*"
+            }
+        ]
+    },
+    "operation": {
+        "energyCost": 5000,
+        "foodCostByPerson": 3,
+        "waterCostByPerson": 20,
+        "requiredRoles": [
+            {
+                "key": "hospitalityManager",
+                "qtd": 2
+            },
+            {
+                "key": "lifeSupportSpecialist",
+                "qtd": 1
+            },
+            {
+                "key": "systemsEngineer",
+                "qtd": 1
+            }
+        ]
+    },
+    "maintenance": {
+        "factor": 0.2,
+        "requiredBots": 4,
+        "materials": [
+            {
+                "material": "aluminum",
+                "qtd": 10,
+                "mode": "*"
+            },
+            {
+                "material": "carbonFiber",
+                "qtd": 5,
+                "mode": "adv"
+            }
+        ]
+    },
+    "size": {
+        "height": 15,
+        "width": 50,
+        "length": 100
+    },
+    "profit": {
+        "profitByPerson": 10000,
+        "capacity": 100
+    }
+}

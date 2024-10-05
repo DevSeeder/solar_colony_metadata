@@ -1,0 +1,107 @@
+{
+    "config": [
+      {
+        "path": "building",
+        "values": {
+          "durability": "years",
+          "energyCost": "W",
+          "time": "h"
+        }
+      },
+      {
+        "path": "operation",
+        "values": {
+          "energyCost": "Wh"
+        }
+      },
+      {
+        "path": "size",
+        "values": {
+          "height": "m",
+          "width": "m",
+          "length": "m"
+        }
+      }
+    ],
+    "requiredLevel": 35,
+    "building": {
+      "description": "Estúdio de arte e fotografia lunar, projetado para oferecer aos colonos e visitantes a oportunidade de explorar a criatividade e capturar a beleza da paisagem lunar.",
+      "components": [
+        {
+          "name": "Sala de Exposições",
+          "description": "Espaço para exibir obras de arte criadas por artistas locais e visitantes."
+        },
+        {
+          "name": "Estúdio Fotográfico",
+          "description": "Área equipada com tecnologia avançada para sessões fotográficas e gravações de vídeo."
+        },
+        {
+          "name": "Ateliê de Arte",
+          "description": "Espaço de criação para artistas, com materiais e ferramentas disponíveis."
+        },
+        {
+          "name": "Cafeteria",
+          "description": "Espaço para relaxar e socializar, com bebidas e lanches disponíveis."
+        }
+      ],
+      "durability": 15,
+      "energyCost": 2500,
+      "time": 80,
+      "requiredBots": 3,
+      "requiredRoles": [
+        {
+          "key": "constructionEngineer",
+          "qtd": 2
+        }
+      ],
+      "materials": [
+        {
+          "material": "aluminum",
+          "qtd": 150,
+          "mode": "*"
+        },
+        {
+          "material": "glass",
+          "qtd": 80,
+          "mode": "*"
+        },
+        {
+          "material": "carbonFiber",
+          "qtd": 50,
+          "mode": "adv"
+        },
+        {
+          "material": "silicon",
+          "qtd": 40,
+          "mode": "*"
+        },
+        {
+          "material": "moonCement",
+          "qtd": 80,
+          "mode": "*"
+        },
+        {
+          "material": "copper",
+          "qtd": 20,
+          "mode": "*"
+        }
+      ]
+    },
+    "operation": {
+      "energyCost": 1500,
+      "requiredRoles": [
+        {
+          "key": "hospitalityManager",
+          "qtd": 2
+        }
+      ]
+    },
+    "size": {
+      "height": 12,
+      "width": 20,
+      "length": 30
+    },
+    "profitPerPerson": 500,
+    "capacity": 200
+  }
+  

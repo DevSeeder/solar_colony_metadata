@@ -1,0 +1,111 @@
+{
+    "config": [
+      {
+        "path": "building",
+        "values": {
+          "durability": "years",
+          "energyCost": "W",
+          "time": "h"
+        }
+      },
+      {
+        "path": "operation",
+        "values": {
+          "energyCost": "Wh"
+        }
+      },
+      {
+        "path": "size",
+        "values": {
+          "height": "m",
+          "width": "m",
+          "length": "m"
+        }
+      }
+    ],
+    "requiredLevel": 40,
+    "building": {
+      "description": "Estação de turismo de aventura lunar, oferecendo atividades como caminhadas, escaladas e exploração de crateras, projetada para proporcionar experiências únicas em um ambiente de baixa gravidade.",
+      "components": [
+        {
+          "name": "Centro de Aventura",
+          "description": "Área principal para receber turistas, com informações sobre atividades disponíveis."
+        },
+        {
+          "name": "Estação de Equipamentos",
+          "description": "Aluguel de equipamentos de exploração, como trajes espaciais e ferramentas."
+        },
+        {
+          "name": "Área de Recreação",
+          "description": "Espaço para relaxamento, incluindo vistas panorâmicas da superfície lunar."
+        },
+        {
+          "name": "Restaurante Lunar",
+          "description": "Serviços de refeições e lanches para os turistas."
+        }
+      ],
+      "durability": 20,
+      "energyCost": 3000,
+      "time": 100,
+      "requiredBots": 4,
+      "requiredRoles": [
+        {
+          "key": "constructionEngineer",
+          "qtd": 2
+        }
+      ],
+      "materials": [
+        {
+          "material": "aluminum",
+          "qtd": 200,
+          "mode": "*"
+        },
+        {
+          "material": "titanium",
+          "qtd": 100,
+          "mode": "*"
+        },
+        {
+          "material": "carbonFiber",
+          "qtd": 75,
+          "mode": "adv"
+        },
+        {
+          "material": "silicon",
+          "qtd": 50,
+          "mode": "*"
+        },
+        {
+          "material": "moonCement",
+          "qtd": 100,
+          "mode": "*"
+        },
+        {
+          "material": "copper",
+          "qtd": 30,
+          "mode": "*"
+        }
+      ]
+    },
+    "operation": {
+      "energyCost": 2000,
+      "requiredRoles": [
+        {
+          "key": "hospitalityManager",
+          "qtd": 2
+        },
+        {
+          "key": "doctor",
+          "qtd": 1
+        }
+      ]
+    },
+    "size": {
+      "height": 15,
+      "width": 25,
+      "length": 35
+    },
+    "capacity": 50,
+    "profitPerPerson": 2500
+  }
+  

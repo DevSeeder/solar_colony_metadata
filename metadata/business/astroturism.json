@@ -1,0 +1,118 @@
+{
+    "config": [
+      {
+        "path": "building",
+        "values": {
+          "durability": "years",
+          "energyCost": "W",
+          "time": "h"
+        }
+      },
+      {
+        "path": "operation",
+        "values": {
+          "energyCost": "Wh"
+        }
+      },
+      {
+        "path": "size",
+        "values": {
+          "height": "m",
+          "width": "m",
+          "length": "m"
+        }
+      }
+    ],
+    "building": {
+      "description": "Centro de astroturismo lunar, projetado para oferecer experiências únicas de observação de estrelas e fenômenos celestiais, além de educar os visitantes sobre o espaço e a astronomia.",
+      "components": [
+        {
+          "name": "Plataforma de Observação",
+          "description": "Área com telescópios de alta potência para observação de astros e eventos celestiais."
+        },
+        {
+          "name": "Auditório Educacional",
+          "description": "Espaço para palestras e workshops sobre astronomia e exploração espacial."
+        },
+        {
+          "name": "Loja de Souvenirs",
+          "description": "Vendas de produtos relacionados ao espaço e astrofotografia."
+        },
+        {
+          "name": "Área de Descanso",
+          "description": "Espaço para relaxar e socializar, com vistas deslumbrantes da Lua e do espaço."
+        }
+      ],
+      "durability": 20,
+      "energyCost": 3000,
+      "time": 100,
+      "requiredBots": 4,
+      "requiredRoles": [
+        {
+          "key": "astronomer",
+          "qtd": 1
+        },
+        {
+          "key": "guide",
+          "qtd": 2
+        },
+        {
+          "key": "lifeSupportSpecialist",
+          "qtd": 1
+        }
+      ],
+      "materials": [
+        {
+          "material": "aluminum",
+          "qtd": 200,
+          "mode": "*"
+        },
+        {
+          "material": "glass",
+          "qtd": 100,
+          "mode": "*"
+        },
+        {
+          "material": "carbonFiber",
+          "qtd": 70,
+          "mode": "adv"
+        },
+        {
+          "material": "silicon",
+          "qtd": 60,
+          "mode": "*"
+        },
+        {
+          "material": "moonCement",
+          "qtd": 100,
+          "mode": "*"
+        },
+        {
+          "material": "copper",
+          "qtd": 30,
+          "mode": "*"
+        }
+      ]
+    },
+    "operation": {
+      "energyCost": 2000,
+      "requiredRoles": [
+        {
+          "key": "astronomer",
+          "qtd": 1
+        },
+        {
+          "key": "guide",
+          "qtd": 2
+        }
+      ]
+    },
+    "size": {
+      "height": 15,
+      "width": 25,
+      "length": 40
+    },
+    "capacity": 50,
+    "profitPerPerson": 1500
+  }
+  

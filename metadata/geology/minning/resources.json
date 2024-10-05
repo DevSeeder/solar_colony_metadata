@@ -1,429 +1,462 @@
 {
-    "config": [
+  "config": [
+    {
+      "path": "materials[]",
+      "values": {
+        "abundance": "%",
+        "depositSizes": "t",
+        "extraction.energyCostByUnit": "W",
+        "extraction.timeByUnit": "h",
+        "processing.energyCostByUnit": "W",
+        "processing.timeByUnit": "h"
+      }
+    }
+  ],
+  "rawMaterials": [
+    {
+      "key": "silicon",
+      "abundance": 100,
+      "depositSizes": [50, 200, 1000],
+      "extraction": {
+        "energyCostByUnit": 400,
+        "timeByUnit": 1
+      },
+      "processing": {
+        "energyCostByUnit": 6500,
+        "timeByUnit": 6
+      }
+    },
+    {
+      "key": "silica",
+      "abundance": 70,
+      "depositSizes": [50, 100, 500],
+      "extraction": {
+        "energyCostByUnit": 400,
+        "timeByUnit": 1
+      },
+      "processing": {
+        "energyCostByUnit": 6500,
+        "timeByUnit": 6
+      }
+    },
+    {
+      "key": "basalt",
+      "abundance": 100,
+      "depositSizes": [500, 1500, 5000],
+      "extraction": {
+        "energyCostByUnit": 350,
+        "timeByUnit": 1.5
+      },
+      "processing": {
+        "energyCostByUnit": 3000,
+        "timeByUnit": 4
+      }
+    },
+    {
+      "key": "carbon",
+      "abundance": 50,
+      "depositSizes": [20, 100, 400],
+      "extraction": {
+        "energyCostByUnit": 250,
+        "timeByUnit": 0.8
+      },
+      "processing": {
+        "energyCostByUnit": 5000,
+        "timeByUnit": 5
+      }
+    },
+    {
+      "key": "iron",
+      "abundance": 80,
+      "depositSizes": [100, 300, 1200],
+      "extraction": {
+        "energyCostByUnit": 500,
+        "timeByUnit": 2
+      },
+      "processing": {
+        "energyCostByUnit": 7000,
+        "timeByUnit": 5.5
+      }
+    },
+    {
+      "key": "titanium",
+      "abundance": 25,
+      "depositSizes": [20, 80, 300],
+      "extraction": {
+        "energyCostByUnit": 600,
+        "timeByUnit": 3
+      },
+      "processing": {
+        "energyCostByUnit": 8000,
+        "timeByUnit": 6
+      }
+    },
+    {
+      "key": "rutile",
+      "abundance": 35,
+      "depositSizes": [1, 5, 20],
+      "extraction": {
+        "energyCostByUnit": 55,
+        "timeByUnit": 2
+      },
+      "processing": {
+        "energyCostByUnit": 750,
+        "timeByUnit": 4
+      }
+    },
+    {
+      "key": "lithium",
+      "abundance": 10,
+      "depositSizes": [5, 25, 100],
+      "extraction": {
+        "energyCostByUnit": 450,
+        "timeByUnit": 2
+      },
+      "processing": {
+        "energyCostByUnit": 6000,
+        "timeByUnit": 4
+      }
+    },
+    {
+      "key": "sulfur",
+      "abundance": 40,
+      "depositSizes": [10, 50, 100],
+      "extraction": {
+        "energyCostByUnit": 150,
+        "timeByUnit": 1.5
+      },
+      "processing": {
+        "energyCostByUnit": 1750,
+        "timeByUnit": 3
+      }
+    },
+    {
+      "key": "water",
+      "abundance": 70,
+      "depositSizes": [50, 200, 1000],
+      "extraction": {
+        "energyCostByUnit": 2000,
+        "timeByUnit": 2
+      },
+      "processing": {
+        "energyCostByUnit": 100,
+        "timeByUnit": 0.15
+      }
+    },
+    {
+      "key": "aluminum",
+      "abundance": 90,
+      "depositSizes": [100, 500, 1500],
+      "extraction": {
+        "energyCostByUnit": 450,
+        "timeByUnit": 2
+      },
+      "processing": {
+        "energyCostByUnit": 7000,
+        "timeByUnit": 5
+      }
+    },
+    {
+      "key": "lead",
+      "abundance": 20,
+      "depositSizes": [10, 50, 200],
+      "extraction": {
+        "energyCostByUnit": 400,
+        "timeByUnit": 2
+      },
+      "processing": {
+        "energyCostByUnit": 6000,
+        "timeByUnit": 4.5
+      }
+    },
+    {
+      "key": "thorium",
+      "abundance": 30,
+      "depositSizes": [25, 100, 250],
+      "extraction": {
+        "energyCostByUnit": 700,
+        "timeByUnit": 3
+      },
+      "processing": {
+        "energyCostByUnit": 8500,
+        "timeByUnit": 6
+      }
+    },
+    {
+      "key": "helium3",
+      "abundance": 80,
+      "depositSizes": [100, 5000, 100000],
+      "extraction": {
+        "energyCostByUnit": 10000,
+        "timeByUnit": 20
+      },
+      "processing": {
+        "energyCostByUnit": 90000,
+        "timeByUnit": 40
+      }
+    },
+    {
+      "key": "calcium",
+      "abundance": 60,
+      "depositSizes": [100, 500, 2000],
+      "extraction": {
+        "energyCostByUnit": 400,
+        "timeByUnit": 1.0
+      },
+      "processing": {
+        "energyCostByUnit": 3500,
+        "timeByUnit": 3
+      }
+    },
+    {
+      "key": "magnesium",
+      "abundance": 70,
+      "depositSizes": [150, 700, 2500],
+      "extraction": {
+        "energyCostByUnit": 300,
+        "timeByUnit": 1.0
+      },
+      "processing": {
+        "energyCostByUnit": 4500,
+        "timeByUnit": 4
+      }
+    },
+    {
+      "key": "magnesiumChloride",
+      "abundance": 70,
+      "depositSizes": [150, 700, 2500],
+      "extraction": {
+        "energyCostByUnit": 300,
+        "timeByUnit": 1.0
+      },
+      "processing": {
+        "energyCostByUnit": 4500,
+        "timeByUnit": 4
+      }
+    },
+    {
+      "key": "ironOxide",
+      "abundance": 50,
+      "depositSizes": [10, 50, 100],
+      "extraction": {
+        "energyCostByUnit": 350,
+        "timeByUnit": 1.0
+      },
+      "processing": {
+        "energyCostByUnit": 4000,
+        "timeByUnit": 3
+      }
+    },
+    {
+      "key": "feldspar",
+      "abundance": 50,
+      "depositSizes": [10, 50, 100],
+      "extraction": {
+        "energyCostByUnit": 350,
+        "timeByUnit": 1.0
+      },
+      "processing": {
+        "energyCostByUnit": 4000,
+        "timeByUnit": 3
+      }
+    },
+    {
+      "key": "lunarSoil",
+      "abundance": 100,
+      "depositSizes": [10000, 500000, 1000000],
+      "extraction": {
+        "energyCostByUnit": 50,
+        "timeByUnit": 0.5
+      },
+      "processing": {
+        "energyCostByUnit": 50,
+        "timeByUnit": 0.1
+      }
+    },
+    {
+      "key": "chromium",
+      "abundance": 15,
+      "depositSizes": [5, 30, 100],
+      "extraction": {
+        "energyCostByUnit": 500,
+        "timeByUnit": 2
+      },
+      "processing": {
+        "energyCostByUnit": 6000,
+        "timeByUnit": 4
+      }
+    },
+    {
+      "key": "zirconium",
+      "abundance": 5,
+      "depositSizes": [1, 10, 50],
+      "extraction": {
+        "energyCostByUnit": 700,
+        "timeByUnit": 3
+      },
+      "processing": {
+        "energyCostByUnit": 8500,
+        "timeByUnit": 6
+      }
+    },
+    {
+      "key": "phosphorus",
+      "abundance": 25,
+      "depositSizes": [20, 100, 400],
+      "extraction": {
+        "energyCostByUnit": 350,
+        "timeByUnit": 1.5
+      },
+      "processing": {
+        "energyCostByUnit": 5000,
+        "timeByUnit": 4
+      }
+    },
+    {
+      "key": "potassium",
+      "abundance": 30,
+      "depositSizes": [50, 200, 800],
+      "extraction": {
+        "energyCostByUnit": 300,
+        "timeByUnit": 1.2
+      },
+      "processing": {
+        "energyCostByUnit": 4000,
+        "timeByUnit": 3.5
+      }
+    }
+  ],
+  "compoundMaterials": [
+    {
+      "key": "magma",
+      "abundance": 80,
+      "depositSizes": [100, 500, 2000],
+      "extraction": {
+        "energyCostByUnit": 500,
+        "timeByUnit": 2
+      },
+      "minerals": [
         {
-            "path": "materials[]",
-            "values": {
-                "abundance": "%",
-                "depositSizes": "t",
-                "extraction.energyCostByUnit": "W",
-                "extraction.timeByUnit": "h",
-                "processing.energyCostByUnit": "W",
-                "processing.timeByUnit": "h"
-            }
+          "name": "pyroxene",
+          "proportionality": 25
+        },
+        {
+          "name": "olivine",
+          "proportionality": 15
+        },
+        {
+          "name": "feldspar",
+          "proportionality": 20
+        },
+        {
+          "name": "ilmenite",
+          "proportionality": 10
+        },
+        {
+          "name": "zircon",
+          "proportionality": 5
+        },
+        {
+          "name": "helium3",
+          "proportionality": 5
+        },
+        {
+          "name": "sulfur",
+          "proportionality": 5
+        },
+        {
+          "name": "carbon",
+          "proportionality": 5
         }
-    ],
-    "rawMaterials": [
+      ]
+    },
+    {
+      "key": "limestone",
+      "abundance": 50,
+      "depositSizes": [10, 50, 200],
+      "extraction": {
+        "energyCostByUnit": 500,
+        "timeByUnit": 2
+      },
+      "minerals": [
         {
-            "key": "silicon",
-            "abundance": 100,
-            "depositSizes": [
-                50,
-                200,
-                1000
-            ],
-            "extraction": {
-                "energyCostByUnit": 400,
-                "timeByUnit": 1
-            },
-            "processing": {
-                "energyCostByUnit": 6500,
-                "timeByUnit": 6
-            }
+          "name": "calcium",
+          "proportionality": 40
         },
         {
-            "key": "silica",
-            "abundance": 70,
-            "depositSizes": [
-                50,
-                100,
-                500
-            ],
-            "extraction": {
-                "energyCostByUnit": 400,
-                "timeByUnit": 1
-            },
-            "processing": {
-                "energyCostByUnit": 6500,
-                "timeByUnit": 6
-            }
-        },
-        {
-            "key": "basalt",
-            "abundance": 100,
-            "depositSizes": [
-                500,
-                1500,
-                5000
-            ],
-            "extraction": {
-                "energyCostByUnit": 350,
-                "timeByUnit": 1.5
-            },
-            "processing": {
-                "energyCostByUnit": 3000,
-                "timeByUnit": 4
-            }
-        },
-        {
-            "key": "carbon",
-            "abundance": 50,
-            "depositSizes": [
-                20,
-                100,
-                400
-            ],
-            "extraction": {
-                "energyCostByUnit": 250,
-                "timeByUnit": 0.8
-            },
-            "processing": {
-                "energyCostByUnit": 5000,
-                "timeByUnit": 5
-            }
-        },
-        {
-            "key": "iron",
-            "abundance": 80,
-            "depositSizes": [
-                100,
-                300,
-                1200
-            ],
-            "extraction": {
-                "energyCostByUnit": 500,
-                "timeByUnit": 2
-            },
-            "processing": {
-                "energyCostByUnit": 7000,
-                "timeByUnit": 5.5
-            }
-        },
-        {
-            "key": "titanium",
-            "abundance": 25,
-            "depositSizes": [
-                20,
-                80,
-                300
-            ],
-            "extraction": {
-                "energyCostByUnit": 600,
-                "timeByUnit": 3
-            },
-            "processing": {
-                "energyCostByUnit": 8000,
-                "timeByUnit": 6
-            }
-        },
-        {
-            "key": "rutile",
-            "abundance": 35,
-            "depositSizes": [
-                1,
-                5,
-                20
-            ],
-            "extraction": {
-                "energyCostByUnit": 55,
-                "timeByUnit": 2
-            },
-            "processing": {
-                "energyCostByUnit": 750,
-                "timeByUnit": 4
-            }
-        },
-        {
-            "key": "lithium",
-            "abundance": 10,
-            "depositSizes": [
-                5,
-                25,
-                100
-            ],
-            "extraction": {
-                "energyCostByUnit": 450,
-                "timeByUnit": 2
-            },
-            "processing": {
-                "energyCostByUnit": 6000,
-                "timeByUnit": 4
-            }
-        },
-        {
-            "key": "sulfur",
-            "abundance": 40,
-            "depositSizes": [
-                10,
-                50,
-                100
-            ],
-            "extraction": {
-                "energyCostByUnit": 150,
-                "timeByUnit": 1.5
-            },
-            "processing": {
-                "energyCostByUnit": 1750,
-                "timeByUnit": 3
-            }
-        },
-        {
-            "key": "water",
-            "abundance": 70,
-            "depositSizes": [
-                50,
-                200,
-                1000
-            ],
-            "extraction": {
-                "energyCostByUnit": 2000,
-                "timeByUnit": 2
-            },
-            "processing": {
-                "energyCostByUnit": 100,
-                "timeByUnit": 0.15
-            }
-        },
-        {
-            "key": "aluminum",
-            "abundance": 90,
-            "depositSizes": [
-                100,
-                500,
-                1500
-            ],
-            "extraction": {
-                "energyCostByUnit": 450,
-                "timeByUnit": 2
-            },
-            "processing": {
-                "energyCostByUnit": 7000,
-                "timeByUnit": 5
-            }
-        },
-        {
-            "key": "lead",
-            "abundance": 20,
-            "depositSizes": [
-                10,
-                50,
-                200
-            ],
-            "extraction": {
-                "energyCostByUnit": 400,
-                "timeByUnit": 2
-            },
-            "processing": {
-                "energyCostByUnit": 6000,
-                "timeByUnit": 4.5
-            }
-        },
-        {
-            "key": "thorium",
-            "abundance": 30,
-            "depositSizes": [
-                25,
-                100,
-                250
-            ],
-            "extraction": {
-                "energyCostByUnit": 700,
-                "timeByUnit": 3
-            },
-            "processing": {
-                "energyCostByUnit": 8500,
-                "timeByUnit": 6
-            }
-        },
-        {
-            "key": "helium3",
-            "abundance": 80,
-            "depositSizes": [
-                100,
-                5000,
-                100000
-            ],
-            "extraction": {
-                "energyCostByUnit": 10000,
-                "timeByUnit": 20
-            },
-            "processing": {
-                "energyCostByUnit": 90000,
-                "timeByUnit": 40
-            }
-        },
-        {
-            "key": "calcium",
-            "abundance": 60,
-            "depositSizes": [
-                100,
-                500,
-                2000
-            ],
-            "extraction": {
-                "energyCostByUnit": 400,
-                "timeByUnit": 1.0
-            },
-            "processing": {
-                "energyCostByUnit": 3500,
-                "timeByUnit": 3
-            }
-        },
-        {
-            "key": "magnesium",
-            "abundance": 70,
-            "depositSizes": [
-                150,
-                700,
-                2500
-            ],
-            "extraction": {
-                "energyCostByUnit": 300,
-                "timeByUnit": 1.0
-            },
-            "processing": {
-                "energyCostByUnit": 4500,
-                "timeByUnit": 4
-            }
-        },
-        {
-            "key": "magnesiumChloride",
-            "abundance": 70,
-            "depositSizes": [
-                150,
-                700,
-                2500
-            ],
-            "extraction": {
-                "energyCostByUnit": 300,
-                "timeByUnit": 1.0
-            },
-            "processing": {
-                "energyCostByUnit": 4500,
-                "timeByUnit": 4
-            }
-        },
-        {
-            "key": "ironOxide",
-            "abundance": 50,
-            "depositSizes": [
-                10,
-                50,
-                100
-            ],
-            "extraction": {
-                "energyCostByUnit": 350,
-                "timeByUnit": 1.0
-            },
-            "processing": {
-                "energyCostByUnit": 4000,
-                "timeByUnit": 3
-            }
-        },
-        {
-            "key": "feldspar",
-            "abundance": 50,
-            "depositSizes": [
-                10,
-                50,
-                100
-            ],
-            "extraction": {
-                "energyCostByUnit": 350,
-                "timeByUnit": 1.0
-            },
-            "processing": {
-                "energyCostByUnit": 4000,
-                "timeByUnit": 3
-            }
-        },
-        {
-            "key": "lunarSoil",
-            "abundance": 100,
-            "depositSizes": [
-                10000,
-                500000,
-                1000000
-            ],
-            "extraction": {
-                "energyCostByUnit": 50,
-                "timeByUnit": 0.5
-            },
-            "processing": {
-                "energyCostByUnit": 50,
-                "timeByUnit": 0.1
-            }
+          "name": "calciumOxid",
+          "proportionality": 60
         }
-    ],
-    "compoundMaterials": [
+      ]
+    },
+    {
+      "key": "anorthosite",
+      "abundance": 70,
+      "depositSizes": [100, 500, 1500],
+      "extraction": {
+        "energyCostByUnit": 400,
+        "timeByUnit": 2
+      },
+      "minerals": [
         {
-            "key": "magma",
-            "abundance": 80,
-            "depositSizes": [
-                100,
-                500,
-                2000
-            ],
-            "extraction": {
-                "energyCostByUnit": 500,
-                "timeByUnit": 2
-            },
-            "minerals": [
-                {
-                    "name": "pyroxene",
-                    "proportionality": 25
-                },
-                {
-                    "name": "olivine",
-                    "proportionality": 15
-                },
-                {
-                    "name": "feldspar",
-                    "proportionality": 20
-                },
-                {
-                    "name": "ilmenite",
-                    "proportionality": 10
-                },
-                {
-                    "name": "zircon",
-                    "proportionality": 5
-                },
-                {
-                    "name": "helium3",
-                    "proportionality": 0.5
-                },
-                {
-                    "name": "sulfur",
-                    "proportionality": 2
-                },
-                {
-                    "name": "carbon",
-                    "proportionality": 3
-                }
-            ]
+          "name": "aluminum",
+          "proportionality": 30
         },
         {
-            "key": "limestone",
-            "abundance": 50,
-            "depositSizes": [
-                10,
-                50,
-                200
-            ],
-            "extraction": {
-                "energyCostByUnit": 500,
-                "timeByUnit": 2
-            },
-            "minerals": [
-                {
-                    "name": "calcium",
-                    "proportionality": 25
-                },
-                {
-                    "name": "calciumOxid",
-                    "proportionality": 15
-                }
-            ]
+          "name": "calcium",
+          "proportionality": 30
+        },
+        {
+          "name": "silicon",
+          "proportionality": 40
         }
-    ]
+      ]
+    },
+    {
+      "key": "ilmenite",
+      "abundance": 45,
+      "depositSizes": [50, 200, 500],
+      "extraction": {
+        "energyCostByUnit": 600,
+        "timeByUnit": 2.5
+      },
+      "minerals": [
+        {
+          "name": "titanium",
+          "proportionality": 35
+        },
+        {
+          "name": "iron",
+          "proportionality": 35
+        },
+        {
+          "name": "oxygen",
+          "proportionality": 30
+        }
+      ]
+    },
+    {
+      "key": "ice",
+      "abundance": 20,
+      "depositSizes": [10, 50, 200],
+      "extraction": {
+        "energyCostByUnit": 200,
+        "timeByUnit": 1
+      },
+      "components": [
+        {
+          "name": "water",
+          "proportionality": 80
+        },
+        {
+          "name": "hydrogen",
+          "proportionality": 10
+        },
+        {
+          "name": "oxygen",
+          "proportionality": 10
+        }
+      ]
+    }
+  ]
 }

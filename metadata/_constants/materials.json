@@ -459,6 +459,21 @@
       "material": "ammonia",
       "unityReference": 1,
       "price": 1.0
+    },
+    {
+      "material": "graphene",
+      "unityReference": 1,
+      "price": 500
+    },
+    {
+      "material": "grapheneOxide",
+      "unityReference": 1,
+      "price": 200
+    },
+    {
+      "material": "nitricAcid",
+      "unityReference": 1,
+      "price": 1
     }
   ]
 }

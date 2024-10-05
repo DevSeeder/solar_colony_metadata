@@ -875,6 +875,125 @@
                     ]
                 }
             ]
+        },
+        {
+            "material": "graphene",
+            "processes": [
+                {
+                    "time": 6,
+                    "energyCost": 4600,
+                    "materials": [
+                        {
+                            "material": "hidrogen",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "water",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "grapheneOxide",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "graphite",
+                            "qtd": 1,
+                            "mode": "simple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "graphene",
+            "processes": [
+                {
+                    "time": 6,
+                    "energyCost": 4600,
+                    "materials": [
+                        {
+                            "material": "hidrogen",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "water",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "grapheneOxide",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "material": "graphite",
+                            "qtd": 1,
+                            "mode": "simple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "grapheneOxide",
+            "processes": [
+                {
+                    "time": 6,
+                    "energyCost": 5400,
+                    "materials": [
+                        {
+                            "material": "water",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "sulfuricAcid",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "graphite",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "nitricAcid",
+                            "qtd": 1,
+                            "mode": "adv"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "material": "nitricAcid",
+            "processes": [
+                {
+                    "time": 10,
+                    "energyCost": 3000,
+                    "materials": [
+                        {
+                            "material": "water",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "ammonia",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "oxigen",
+                            "qtd": 2,
+                            "mode": "*"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

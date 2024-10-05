@@ -1,0 +1,148 @@
+{
+    "config": [
+        {
+            "path": "techs[]",
+            "values": {
+                "energyPerHour": "W",
+                "durability": "years",
+                "failureRate": "%",
+                "dataTax": "Mbps",
+                "velocity": "Km/s"
+            }
+        },
+        {
+            "path": "building",
+            "values": {
+                "energyCost": "W",
+                "time": "hours",
+                "failureRate": "%"
+            }
+        }
+    ],
+    "techs": [
+        {
+            "key": "Radio Communication",
+            "stepLevel": 1,
+            "requiredLevel": 1,
+            "velocity": 300000,
+            "energyPerHour": 800,
+            "durability": 5,
+            "failureRate": 10,
+            "dataTax": 10,
+            "materials": [
+                {
+                    "material": "aluminum",
+                    "qtd": 8,
+                    "mode": "*"
+                },
+                {
+                    "material": "silicon",
+                    "qtd": 10,
+                    "mode": "*"
+                },
+                {
+                    "material": "graphene",
+                    "qtd": 1,
+                    "mode": "*"
+                }
+            ]
+        },
+        {
+            "key": "Laser Communication",
+            "stepLevel": 2,
+            "requiredLevel": 10,
+            "velocity": 300000,
+            "energyPerHour": 1500,
+            "durability": 8,
+            "failureRate": 3,
+            "dataTax": 10000,
+            "materials": [
+                {
+                    "material": "carbonDioxide",
+                    "qtd": 1,
+                    "mode": "*"
+                },
+                {
+                    "material": "aluminum",
+                    "qtd": 5,
+                    "mode": "*"
+                },
+                {
+                    "material": "glass",
+                    "qtd": 5,
+                    "mode": "*"
+                }
+            ]
+        },
+        {
+            "key": "Microwave Communication",
+            "stepLevel": 4,
+            "requiredLevel": 20,
+            "velocity": 300000,
+            "energyPerHour": 1200,
+            "durability": 7,
+            "failureRate": 4,
+            "dataTax": 1000,
+            "materials": [
+                {
+                    "material": "aluminum",
+                    "qtd": 10,
+                    "mode": "*"
+                },
+                {
+                    "material": "graphene",
+                    "qtd": 2,
+                    "mode": "*"
+                },
+                {
+                    "material": "silicon",
+                    "qtd": 4,
+                    "mode": "*"
+                }
+            ]
+        }       
+    ],
+    "building": {
+        "energyCost": 150000, 
+        "time": 20, 
+        "materials": [
+            {
+                "material": "moonCement",
+                "qtd": 100,
+                "mode": "*"
+            },
+            {
+                "material": "basalt",
+                "qtd": 500,
+                "mode": "*"
+            },
+            {
+                "material": "aluminum",
+                "qtd": 200,
+                "mode": "*"
+            },
+            {
+                "material": "siliconDioxide",
+                "qtd": 10,
+                "mode": "*"
+            },
+            {
+                "material": "integratedCircuit",
+                "qtd": 10,
+                "mode": "*"
+            }
+        ]
+    },
+    "operator": {
+        "requiredRoles": [
+            {
+                "key": "systemsEngineer",
+                "qtd": 1
+            },
+            {
+                "key": "eletricEngineer",
+                "qtd": 1
+            }
+        ]
+    }
+}

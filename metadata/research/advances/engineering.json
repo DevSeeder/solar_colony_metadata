@@ -1,0 +1,56 @@
+{
+    "config": [
+        {
+            "path": "advances[]",
+            "values": {
+                "time": "h"
+            }
+        }
+    ],
+    "advances": [
+        {
+            "key": "perovskiteCells",
+            "path": "energy.production.solar",
+            "description": "As Células de Perovskita são um avanço significativo na tecnologia solar, oferecendo uma eficiência de conversão de 30% e permitindo a geração otimizada de energia, mesmo em condições de baixa luminosidade lunar. Leves e flexíveis, podem ser instaladas em superfícies irregulares e fabricadas com materiais abundantes na Lua, reduzindo a dependência de recursos da Terra. Além de garantir operação estável em temperaturas extremas e resistência à radiação, a adoção dessas células representa um passo crucial em direção à sustentabilidade e autosuficiência da colônia lunar, permitindo o crescimento e desenvolvimento contínuo das operações coloniais.",
+            "node": "energy",
+            "stepLevel": 1,
+            "requiredLevel": 3,
+            "researchPoints": 10,
+            "time": 5,
+            "requiredResearchers": 1
+        },
+        {
+            "key": "rosa",
+            "path": "energy.production.solar",
+            "description": "O Roll-Out Solar Array (ROSAs) é uma tecnologia inovadora de geração de energia solar, projetada para maximizar a captura de luz solar em ambientes lunares. Com sua estrutura dobrável e leve, esses painéis solares podem ser facilmente implantados em diferentes locais da colônia, oferecendo alta eficiência na conversão de energia. A capacidade de se expandir e adaptar a várias configurações permite que os ROSAs sejam instalados rapidamente, otimizando a produção energética em áreas estratégicas. Essa tecnologia não apenas melhora a autosuficiência da colônia, mas também garante que os colonos tenham acesso a uma fonte de energia confiável e sustentável, essencial para o desenvolvimento e a expansão da vida na Lua.",
+            "node": "energy",
+            "stepLevel": 2,
+            "requiredLevel": 10,
+            "researchPoints": 25,
+            "time": 10,
+            "requiredResearchers": 2
+        },
+        {
+            "key": "multijunction",
+            "path": "energy.production.solar",
+            "description": "As Células Multijunção são uma tecnologia de ponta em geração de energia solar, projetadas para maximizar a eficiência de conversão ao capturar uma faixa mais ampla do espectro solar. Composta por várias camadas de materiais semicondutores, cada uma otimizada para diferentes comprimentos de onda, essas células podem alcançar eficiências superiores a 40%. Sua construção robusta e resistência às condições adversas da Lua garantem uma geração de energia confiável e consistente, essencial para sustentar a vida na colônia lunar.",
+            "node": "energy",
+            "stepLevel": 3,
+            "requiredLevel": 15,
+            "researchPoints": 50,
+            "time": 30,
+            "requiredResearchers": 3
+        },
+        {
+            "key": "imm",
+            "path": "energy.production.solar",
+            "description": "A tecnologia Inverted Metamorphic Multijunction (IMM) é um avanço revolucionário na geração de energia solar, ideal para ambientes desafiadores como a Lua. Composta por várias camadas de materiais semicondutores dispostas em uma configuração invertida, essa tecnologia permite uma captura excepcional de energia solar, alcançando eficiências superiores a 45%. O design inovador das células IMM maximiza a absorção de luz, mesmo em condições de iluminação variável, e é altamente resistente às radiações e temperaturas extremas do ambiente lunar. A adoção das células IMM representa um marco na busca por soluções energéticas sustentáveis, garantindo que a colônia lunar não apenas atenda às suas necessidades energéticas, mas também abra novos horizontes para a exploração espacial e a inovação tecnológica.",
+            "node": "energy",
+            "stepLevel": 4,
+            "requiredLevel": 20,
+            "researchPoints": 100,
+            "time": 50,
+            "requiredResearchers": 4
+        }
+    ]
+}

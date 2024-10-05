@@ -9,7 +9,11 @@
                 "building": {
                     "time": "d",
                     "energyCost": "kW"
-                }
+                },
+                "terrainCapability.features.maxInclineAngle": "°",
+                "thermalProtection.minTemperature": "celsius",
+                "thermalProtection.maxTemperature": "celsius",
+                "maxRadiationResistance": "Gy"
             }
         }
     ],
@@ -41,11 +45,16 @@
                     {
                         "material": "carbon",
                         "qtd": 100,
-                        "mode": "adv"
+                        "mode": "simple"
                     },
                     {
-                        "material": "camera",
-                        "qtd": 1,
+                        "material": "carbonFiber",
+                        "qtd": 100,
+                        "mode": "avd"
+                    },
+                    {
+                        "material": "glass",
+                        "qtd": 20,
                         "mode": "*"
                     },
                     {
@@ -214,8 +223,8 @@
                         "mode": "adv"
                     },
                     {
-                        "material": "camera",
-                        "qtd": 1,
+                        "material": "glass",
+                        "qtd": 20,
                         "mode": "*"
                     },
                     {
@@ -242,7 +251,312 @@
                 ]
             },
             "upgradeComponents": []
-        }
+        },
+        {
+            "key": "explorationRover",
+            "earthCostDevelopment": 500000,
+            "weight": 300,
+            "durability": 10,
+            "building": {
+                "time": 72,
+                "energyCost": 500,
+                "materials": [
+                    {
+                        "material": "aluminum",
+                        "qtd": 50,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "titanium",
+                        "qtd": 30,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "carbon",
+                        "qtd": 20,
+                        "mode": "simple"
+                    },
+                    {
+                        "material": "carbonFiber",
+                        "qtd": 20,
+                        "mode": "adv"
+                    },
+                    {
+                        "material": "silicon",
+                        "qtd": 15,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "glass",
+                        "qtd": 20,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "integratedCircuit",
+                        "qtd": 20,
+                        "mode": "*"
+                    }
+                ],
+                "batterySlots": 4
+            },
+            "features": {
+                "terrainCapability": {
+                    "rockyTerrain": true,
+                    "steepIncline": true,
+                    "sandResistance": true,
+                    "maxInclineAngle": 45
+                },
+                "radiationProtection": {
+                    "maxRadiationResistance": 5
+                },
+                "thermalProtection": {
+                    "minTemperature": -180,
+                    "maxTemperature": 120
+                }
+            },
+            "operation": {
+                "energyCost": 200,
+                "requiredRoles": [
+                    {
+                        "key": "machineOperator",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "geologist",
+                        "qtd": 1
+                    }
+                ]
+            },
+            "tools": {
+                "samplingTools": [
+                    {
+                        "name": "Drill",
+                        "description": "Used to extract rock and soil samples."
+                    },
+                    {
+                        "name": "Spectrometer",
+                        "description": "Analyzes the mineral composition of collected samples."
+                    },
+                    {
+                        "name": "Sample Storage",
+                        "description": "Safely stores samples for transport."
+                    }
+                ]
+            },
+            "maintenance": {
+                "factor": 0.2,
+                "requiredMaterials": [
+                    {
+                        "material": "titanium",
+                        "qtd": 10,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "aluminum",
+                        "qtd": 15,
+                        "mode": "*"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "expeditionRover",
+            "earthCostDevelopment": 750000,
+            "weight": 600,
+            "durability": 12,
+            "building": {
+                "time": 96,
+                "energyCost": 700,
+                "materials": [
+                    {
+                        "material": "aluminum",
+                        "qtd": 70,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "titanium",
+                        "qtd": 50,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "carbon",
+                        "qtd": 30,
+                        "mode": "simple"
+                    },
+                    {
+                        "material": "carbonFiber",
+                        "qtd": 30,
+                        "mode": "adv"
+                    },
+                    {
+                        "material": "silicon",
+                        "qtd": 20,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "glass",
+                        "qtd": 30,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "integratedCircuit",
+                        "qtd": 30,
+                        "mode": "*"
+                    }
+                ],
+                "batterySlots": 6
+            },
+            "features": {
+                "terrainCapability": {
+                    "rockyTerrain": true,
+                    "steepIncline": true,
+                    "sandResistance": true,
+                    "maxInclineAngle": 45
+                },
+                "radiationProtection": {
+                    "maxRadiationResistance": 7
+                },
+                "thermalProtection": {
+                    "minTemperature": -180,
+                    "maxTemperature": 120
+                }
+            },
+            "operation": {
+                "energyCost": 250,
+                "requiredRoles": [
+                    {
+                        "key": "commander",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "geologist",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "systemsEngineer",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "chemical",
+                        "qtd": 1
+                    },
+                    {
+                        "key": "machineOperator",
+                        "qtd": 1
+                    }
+                ]
+            },
+            "tools": {
+                "samplingTools": [
+                    {
+                        "name": "Drill",
+                        "description": "Used to extract rock and soil samples."
+                    },
+                    {
+                        "name": "Spectrometer",
+                        "description": "Analyzes the mineral composition of collected samples."
+                    },
+                    {
+                        "name": "Sample Storage",
+                        "description": "Safely stores samples for transport."
+                    }
+                ]
+            },
+            "maintenance": {
+                "factor": 0.25,
+                "requiredMaterials": [
+                    {
+                        "material": "titanium",
+                        "qtd": 15,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "aluminum",
+                        "qtd": 20,
+                        "mode": "*"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "explorationDrone",
+            "earthCostDevelopment": 300000,
+            "weight": 50,
+            "durability": 8,
+            "building": {
+                "time": 48,
+                "energyCost": 200,
+                "materials": [
+                    {
+                        "material": "aluminum",
+                        "qtd": 20,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "carbonFiber",
+                        "qtd": 10,
+                        "mode": "adv"
+                    },
+                    {
+                        "material": "silicon",
+                        "qtd": 5,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "integratedCircuit",
+                        "qtd": 10,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "battery",
+                        "qtd": 2,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "camera",
+                        "qtd": 2,
+                        "mode": "*"
+                    }
+                ],
+                "batterySlots": 2
+            },
+            "features": {
+                "autonomy": {
+                    "maxDistance": 5,
+                    "maxFlightTime": 120
+                },
+                "capabilities": {
+                    "photoCapture": true,
+                    "thermalImaging": true,
+                    "chemicalAnalysis": true,
+                    "geologicalSurvey": true
+                }
+            },
+            "operation": {
+                "energyCost": 50,
+                "requiredRoles": [
+                    {
+                        "key": "systemsEngineer",
+                        "qtd": 1
+                    }
+                ]
+            },
+            "maintenance": {
+                "factor": 0.3,
+                "requiredMaterials": [
+                    {
+                        "material": "aluminum",
+                        "qtd": 5,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "carbonFiber",
+                        "qtd": 3,
+                        "mode": "adv"
+                    }
+                ]
+            }
+        }                
     ],
     "upgradeComponents": [
         {

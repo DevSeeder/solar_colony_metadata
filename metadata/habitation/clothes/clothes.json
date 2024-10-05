@@ -49,7 +49,7 @@
         },
         {
           "material": "aluminium",
-          "qtd": 0.5,
+          "qtd": 1,
           "mode": "*"
         },
         {
@@ -74,23 +74,13 @@
         },
         {
           "material": "glass",
-          "qtd": 0.5,
+          "qtd": 1,
           "mode": "*"
         },
         {
           "material": "integratedCircuit",
-          "qtd": 1,
+          "qtd": 5,
           "mode": "*"
-        },
-        {
-          "material": "antenna",
-          "qtd": 1,
-          "mode": "adv"
-        },
-        {
-          "material": "camera",
-          "qtd": 1,
-          "mode": "adv"
         }
       ],
       "components": [

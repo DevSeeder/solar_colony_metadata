@@ -79,6 +79,11 @@
       "price": 0.5
     },
     {
+      "key": "carbonFiber",
+      "unityKg": 1,
+      "price": 200
+    },
+    {
       "key": "carbonDioxide",
       "unityKg": 1,
       "formula": "CO₂",
@@ -421,16 +426,6 @@
       "price": 1
     },
     {
-      "material": "antena",
-      "unityReference": 1,
-      "price": 50.0
-    },
-    {
-      "material": "camera",
-      "unityReference": 1,
-      "price": 200.0
-    },
-    {
       "material": "sodiumCarbonate",
       "unityReference": 1,
       "price": 1.5
@@ -474,6 +469,21 @@
       "material": "nitricAcid",
       "unityReference": 1,
       "price": 1
+    },
+    {
+      "material": "potassium",
+      "unityReference": 1,
+      "price": 0.1
+    },
+    {
+      "material": "phosphorus",
+      "unityReference": 1,
+      "price": 4
+    },
+    {
+      "material": "chromium",
+      "unityReference": 1,
+      "price": 2.5
     }
   ]
 }

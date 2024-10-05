@@ -1,0 +1,98 @@
+{
+    "config": [
+        {
+            "path": "building",
+            "values": {
+                "durability": "years",
+                "energyCost": "W",
+                "time": "h"
+            }
+        },
+        {
+            "path": "operation",
+            "values": {
+                "energyCost": "Wh"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "height": "m",
+                "width": "m",
+                "length": "m"
+            }
+        }
+    ],
+    "building": {
+        "description": "Centro de lazer e entretenimento destinado aos colonos para a prática de esportes, jogos e atividades recreativas. O espaço inclui áreas de descanso, jogos de mesa, quadras esportivas e uma sala de projeção.",
+        "components": [
+            {
+                "name": "Quadra de Esportes",
+                "description": "Espaço para a prática de esportes como basquete, vôlei e futsal."
+            },
+            {
+                "name": "Sala de Jogos",
+                "description": "Equipado com jogos de mesa como bilhar, pingue-pongue e jogos de tabuleiro."
+            },
+            {
+                "name": "Área de Relaxamento",
+                "description": "Espaço tranquilo com sofás e ambiente confortável para descanso."
+            },
+            {
+                "name": "Sala de Projeção",
+                "description": "Um espaço para assistir filmes e eventos ao vivo."
+            }
+        ],
+        "durability": 20,
+        "energyCost": 5000,
+        "time": 120,
+        "requiredBots": 4,
+        "requiredRoles": [
+            {
+                "key": "constructionEngineer",
+                "qtd": 3
+            }
+        ],
+        "materials": [
+            {
+                "material": "aluminum",
+                "qtd": 100,
+                "mode": "*"
+            },
+            {
+                "material": "glass",
+                "qtd": 20,
+                "mode": "adv"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 80,
+                "mode": "*"
+            },
+            {
+                "material": "silicon",
+                "qtd": 30,
+                "mode": "*"
+            }
+        ]
+    },
+    "operation": {
+        "energyCost": 3000
+    },
+    "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 2,
+        "materials": [
+            {
+                "material": "aluminum",
+                "qtd": 5,
+                "mode": "*"
+            }
+        ]
+    },
+    "size": {
+        "height": 10,
+        "width": 30,
+        "length": 50
+    }
+}

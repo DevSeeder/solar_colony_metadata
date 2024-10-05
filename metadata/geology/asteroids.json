@@ -1,0 +1,128 @@
+{
+    "config": [
+      {
+        "path": "asteroids",
+        "values": {
+          "probability": "%",
+          "qtdBySquadMeter": "kg/m²"
+        }
+      }
+    ],
+    "asteroids": [
+      {
+        "material": "iron",
+        "probability": 70,
+        "qtdBySquadMeter": 200,
+        "coloration": "dark-gray"
+      },
+      {
+        "material": "nickel",
+        "probability": 15,
+        "qtdBySquadMeter": 50,
+        "coloration": "silver"
+      },
+      {
+        "material": "siliconDioxide",
+        "probability": 10,
+        "qtdBySquadMeter": 150,
+        "coloration": "light-gray"
+      },
+      {
+        "material": "carbon",
+        "probability": 3,
+        "qtdBySquadMeter": 100,
+        "coloration": "black"
+      },
+      {
+        "material": "platinum",
+        "probability": 0.5,
+        "qtdBySquadMeter": 5,
+        "coloration": "silver"
+      },
+      {
+        "material": "ice",
+        "probability": 0.5,
+        "qtdBySquadMeter": 30,
+        "coloration": "transparent"
+      },
+      {
+        "material": "gold",
+        "probability": 0.02,
+        "qtdBySquadMeter": 2,
+        "coloration": "yellow"
+      },
+      {
+        "material": "cobalt",
+        "probability": 2,
+        "qtdBySquadMeter": 25,
+        "coloration": "light-gray"
+      },
+      {
+        "material": "iridium",
+        "probability": 0.1,
+        "qtdBySquadMeter": 3,
+        "coloration": "white"
+      },
+      {
+        "material": "ruthenium",
+        "probability": 0.02,
+        "qtdBySquadMeter": 1.5,
+        "coloration": "silver"
+      },
+      {
+        "material": "palladium",
+        "probability": 0.05,
+        "qtdBySquadMeter": 4,
+        "coloration": "white"
+      },
+      {
+        "material": "lithium",
+        "probability": 1,
+        "qtdBySquadMeter": 10,
+        "coloration": "silver"
+      },
+      {
+        "material": "osmium",
+        "probability": 0.01,
+        "qtdBySquadMeter": 0.5,
+        "coloration": "blue-gray"
+      },
+      {
+        "material": "neodymium",
+        "probability": 0.1,
+        "qtdBySquadMeter": 5,
+        "coloration": "metallic"
+      },
+      {
+        "material": "tungsten",
+        "probability": 0.5,
+        "qtdBySquadMeter": 20,
+        "coloration": "silver"
+      },
+      {
+        "material": "uranium",
+        "probability": 0.01,
+        "qtdBySquadMeter": 0.2,
+        "coloration": "yellow-green"
+      },
+      {
+        "material": "zinc",
+        "probability": 1,
+        "qtdBySquadMeter": 8,
+        "coloration": "white"
+      },
+      {
+        "material": "thorium",
+        "probability": 0.01,
+        "qtdBySquadMeter": 0.1,
+        "coloration": "silver"
+      },
+      {
+        "material": "helium3",
+        "probability": 0.005,
+        "qtdBySquadMeter": 0.01,
+        "coloration": "transparent"
+      }
+    ]
+  }
+  

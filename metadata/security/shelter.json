@@ -1,0 +1,101 @@
+{
+    "config": [
+      {
+        "path": "building",
+        "values": {
+          "capacity": "people",
+          "height": "m",
+          "width": "m",
+          "length": "m"
+        }
+      },
+      {
+        "path": "construction",
+        "values": {
+          "time": "h",
+          "requiredMaterials": [
+            {
+              "material": "string",
+              "qtd": "quantity",
+              "mode": "string"
+            }
+          ],
+          "requiredRoles": [
+            {
+              "key": "string",
+              "qtd": "quantity"
+            }
+          ]
+        }
+      },
+      {
+        "path": "maintenance",
+        "values": {
+          "interval": "string",
+          "requiredMaterials": [
+            {
+              "material": "string",
+              "qtd": "quantity"
+            }
+          ]
+        }
+      }
+    ],
+    "undergroundShelter": {
+      "description": "Underground shelter designed to accommodate 50 people, offering protection against solar storms, earthquakes, and meteor impacts.",
+      "capacity": 50,
+      "size": {
+        "height": 4,
+        "width": 10,
+        "length": 15
+      },
+      "bulding": {
+        "time": 120,
+        "energyCost": 55000,
+        "requiredMaterials": [
+          {
+            "material": "moonCement",
+            "qtd": 20,
+            "mode": "*"
+          },
+          {
+            "material": "titanium",
+            "qtd": 20,
+            "mode": "*"
+          },
+          {
+            "material": "silicon",
+            "qtd": 50,
+            "mode": "*"
+          }
+        ],
+        "requiredBots": 2,
+        "requiredRoles": [
+          {
+            "key": "constructionEngineer",
+            "qtd": 2
+          },
+          {
+            "key": "materialsEngineer",
+            "qtd": 1
+          }
+        ]
+      },
+      "maintenance": {
+        "interval": 0.75,
+        "requiredMaterials": [
+            {
+                "material": "moonCement",
+                "qtd": 5,
+                "mode": "*"
+              },
+              {
+                "material": "silicon",
+                "qtd": 10,
+                "mode": "*"
+              }
+        ]
+      }
+    }
+  }
+  

@@ -5,7 +5,7 @@
             "values": {
                 "durability": "years",
                 "earthDevelopmentCost": "USD",
-                "impactColisionResistence": "joules",
+                "impactColisionResistence": "MJ",
                 "warming.energyCostByTemperatureVariationBySuadMeter": "Wh",
                 "cooling.waterByTemperatureVariationBySuadMeter": "l",
                 "cooling.energyCostByTemperatureVariationBySuadMeter": "Wh",

@@ -5,7 +5,7 @@
             "values": {
                 "energyCapacity": "MW",
                 "riskTax": "%",
-                "impactColisionResistance": "joules",
+                "impactColisionResistance": "MJ",
                 "earthDevelopmentCost": "USD",
                 "instalationTime": "h",
                 "instalationPeople": "un",

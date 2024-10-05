@@ -4,7 +4,7 @@
       "path": "tank",
       "values": {
         "capacity": "l",
-        "impactColisionResistence": "joules",
+        "impactColisionResistence": "MJ",
         "earthDevelopmentCost": "USD",
         "durability": "years",
         "building.time": "h",

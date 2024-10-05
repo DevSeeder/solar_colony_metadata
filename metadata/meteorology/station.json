@@ -1,0 +1,251 @@
+{
+  "config": [
+    {
+      "path": "bulding",
+      "values": {
+        "durability": "years",
+        "energyCost": "W",
+        "time": "h"
+      }
+    },
+    {
+      "path": "operation",
+      "values": {
+        "energyCost": "Wh"
+      }
+    },
+    {
+      "path": "size",
+      "values": {
+        "height": "m",
+        "width": "m",
+        "length": "m"
+      }
+    },
+    {
+      "path": "satelliteBuilding",
+      "values": {
+        "time": "h",
+        "energyCost": "W",
+        "weight": "Kg",
+        "durability": "years",
+        "colisionImpactResistence": "MJ",
+        "maxRadiationResistence": "Gy"
+      }
+    }
+  ],
+  "building": {
+    "description": "Station capable of detecting solar storms, moonquakes, and meteor impacts. Equipped with an antenna for communication and a satellite launch base.",
+    "components": [
+      {
+        "name": "Solar Storm Detector",
+        "description": "Detects solar storms to protect the colony from harmful radiation."
+      },
+      {
+        "name": "Seismic Sensor",
+        "description": "Monitors moonquakes and other seismic activities."
+      },
+      {
+        "name": "Meteor Impact Detector",
+        "description": "Tracks meteor impacts on the lunar surface."
+      },
+      {
+        "name": "Antenna",
+        "description": "Ensures communication with Earth and other lunar bases."
+      },
+      {
+        "name": "Satellite Launch Base",
+        "description": "Launches satellites for enhanced communication and data collection."
+      }
+    ],
+    "durability": 25,
+    "energyCost": 4300,
+    "time": 72,
+    "requiredBots": 3,
+    "requiredRoles": [
+      {
+        "key": "contructionEngineer",
+        "qtd": 2
+      },
+      {
+        "key": "materialsEngineer",
+        "qtd": 1
+      },
+      {
+        "key": "systemsEngineer",
+        "qtd": 1
+      }
+    ],
+    "materials": [
+      {
+        "material": "copper",
+        "qtd": 9,
+        "mode": "*"
+      },
+      {
+        "material": "silicon",
+        "qtd": 4,
+        "mode": "*"
+      },
+      {
+        "material": "titanium",
+        "qtd": 40,
+        "mode": "*"
+      },
+      {
+        "material": "carbon",
+        "qtd": 40,
+        "mode": "adv"
+      },
+      {
+        "material": "aluminum",
+        "qtd": 75,
+        "mode": "*"
+      },
+      {
+        "material": "iron",
+        "qtd": 7,
+        "mode": "*"
+      },
+      {
+        "material": "moonCement",
+        "qtd": 50,
+        "mode": "*"
+      }
+    ]
+  },
+  "operation": {
+    "energyCost": 3200,
+    "requiredRoles": [
+      {
+        "key": "systemsEngineer",
+        "qtd": 1
+      }
+    ]
+  },
+  "maintenance": {
+    "factor": 0.1,
+    "requiredBots": 3,
+    "materials": [
+      {
+        "material": "titanium",
+        "qtd": 2,
+        "mode": "*"
+      },
+      {
+        "material": "aluminum",
+        "qtd": 5,
+        "mode": "*"
+      }
+    ]
+  },
+  "size": {
+    "height": 8,
+    "width": 10,
+    "length": 15
+  },
+  "satelliteBulding": {
+    "time": 96,
+    "energyCost": 12000,
+    "weight": 300,
+    "durability": 5,
+    "colisionImpactResistence": 200000,
+    "maxRadiationResistence": 5,
+    "requiredBots": 1,
+    "requiredRoles": [
+      {
+        "key": "eletricEngineer",
+        "qtd": 1
+      },
+      {
+        "key": "materialsEngineer",
+        "qtd": 1
+      }
+    ],
+    "materials": [
+      {
+        "material": "copper",
+        "qtd": 20,
+        "mode": "*"
+      },
+      {
+        "material": "lithium",
+        "qtd": 10,
+        "mode": "*"
+      },
+      {
+        "material": "silicon",
+        "qtd": 20,
+        "mode": "*"
+      },
+      {
+        "material": "glass",
+        "qtd": 5,
+        "mode": "adv"
+      },
+      {
+        "material": "titanium",
+        "qtd": 40,
+        "mode": "*"
+      },
+      {
+        "material": "carbon",
+        "qtd": 10,
+        "mode": "adv"
+      },
+      {
+        "material": "aluminum",
+        "qtd": 100,
+        "mode": "*"
+      },
+      {
+        "material": "iron",
+        "qtd": 7,
+        "mode": "*"
+      },
+      {
+        "material": "hidrogen",
+        "qtd": 2,
+        "mode": "adv"
+      },
+      {
+        "material": "integratedCircuit",
+        "qtd": 4,
+        "mode": "*"
+      }
+    ],
+    "launchFuel": [
+      {
+        "key": "methane",
+        "qtd": 1125,
+        "mode": "*"
+      },
+      {
+        "key": "oxigen",
+        "qtd": 375,
+        "mode": "*"
+      }
+    ],
+    "maintenance": {
+      "factor": 0.5,
+      "materials": [
+        {
+          "material": "silicon",
+          "qtd": 5,
+          "mode": "*"
+        },
+        {
+          "material": "aluminum",
+          "qtd": 5,
+          "mode": "*"
+        },
+        {
+          "material": "titanium",
+          "qtd": 5,
+          "mode": "*"
+        }
+      ],
+      "requiredBots": 1
+    }
+  }
+}

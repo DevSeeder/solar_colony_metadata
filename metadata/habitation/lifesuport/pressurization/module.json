@@ -5,7 +5,7 @@
             "values": {
                 "durability": "years",
                 "earthDevelopmentCost": "USD",
-                "impactColisionResistence": "joules",
+                "impactColisionResistence": "MJ",
                 "energyCostBySquadMeter": "Wh",
                 "building.time": "h",
                 "building.energyCost": "W"

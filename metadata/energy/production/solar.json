@@ -6,7 +6,7 @@
                 "conversionEfficiency": "%",
                 "temperatureResistance": "celsius",
                 "radiationResistance": "gy",
-                "impactColisionResistance": "joules",
+                "impactColisionResistance": "MJ",
                 "durability": "years",
                 "flexibility": "GPa",
                 "earthDevelopmentCost": "USD",

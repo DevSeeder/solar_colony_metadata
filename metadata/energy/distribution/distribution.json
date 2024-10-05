@@ -9,7 +9,7 @@
                 "durability": "years",
                 "maxTemperatureResistance": "celsius",
                 "radiationResistance": "Gy",
-                "impactColisionResistance": "joules",
+                "impactColisionResistance": "MJ",
                 "installationTime": "h",
                 "installationPeople": "un",
                 "developmentTime": "h",

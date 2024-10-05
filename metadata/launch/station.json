@@ -1,0 +1,258 @@
+{
+    "config": [
+      {
+        "path": "building",
+        "values": {
+          "durability": "years",
+          "energyCost": "W",
+          "time": "h"
+        }
+      },
+      {
+        "path": "operation",
+        "values": {
+          "energyCost": "Wh"
+        }
+      },
+      {
+        "path": "size",
+        "values": {
+          "height": "m",
+          "width": "m",
+          "length": "m"
+        }
+      },
+      {
+        "path": "rocketBuilding",
+        "values": {
+          "time": "h",
+          "energyCost": "W",
+          "weight": "Kg",
+          "durability": "years",
+          "collisionImpactResistance": "MJ",
+          "maxRadiationResistance": "Gy"
+        }
+      }
+    ],
+    "building": {
+      "description": "Estação de lançamento para foguetes projetados para missões de ida e volta entre a Terra e a Lua, equipada com infraestrutura para montagem, teste e lançamento.",
+      "components": [
+        {
+          "name": "Plataforma de Lançamento",
+          "description": "Área dedicada ao lançamento de foguetes, equipada com sistemas de controle e segurança."
+        },
+        {
+          "name": "Hangar de Montagem",
+          "description": "Espaço para montagem e manutenção de foguetes antes do lançamento."
+        },
+        {
+          "name": "Sistema de Abastecimento",
+          "description": "Instalação para abastecer foguetes com combustível antes do lançamento."
+        },
+        {
+          "name": "Centro de Controle",
+          "description": "Sala de controle para monitoramento e comando das operações de lançamento."
+        },
+        {
+          "name": "Área de Segurança",
+          "description": "Zona de segurança para proteger o pessoal durante os lançamentos."
+        }
+      ],
+      "durability": 25,
+      "energyCost": 10000,
+      "time": 200,
+      "requiredBots": 8,
+      "requiredRoles": [
+        {
+          "key": "launchEngineer",
+          "qtd": 4
+        },
+        {
+          "key": "systemsEngineer",
+          "qtd": 2
+        },
+        {
+          "key": "materialsEngineer",
+          "qtd": 2
+        },
+        {
+          "key": "safetyOfficer",
+          "qtd": 1
+        }
+      ],
+      "materials": [
+        {
+          "material": "aluminum",
+          "qtd": 150,
+          "mode": "*"
+        },
+        {
+          "material": "steel",
+          "qtd": 100,
+          "mode": "*"
+        },
+        {
+          "material": "compositeMaterials",
+          "qtd": 80,
+          "mode": "adv"
+        },
+        {
+          "material": "titanium",
+          "qtd": 40,
+          "mode": "*"
+        },
+        {
+          "material": "copper",
+          "qtd": 30,
+          "mode": "*"
+        },
+        {
+          "material": "liquidOxygen",
+          "qtd": 5000,
+          "mode": "*"
+        },
+        {
+          "material": "kerosene",
+          "qtd": 4000,
+          "mode": "*"
+        }
+      ]
+    },
+    "operation": {
+      "energyCost": 7000,
+      "requiredRoles": [
+        {
+          "key": "launchEngineer",
+          "qtd": 1
+        },
+        {
+          "key": "systemsEngineer",
+          "qtd": 1
+        },
+        {
+          "key": "safetyOfficer",
+          "qtd": 1
+        }
+      ]
+    },
+    "maintenance": {
+      "factor": 0.2,
+      "requiredBots": 5,
+      "materials": [
+        {
+          "material": "aluminum",
+          "qtd": 10,
+          "mode": "*"
+        },
+        {
+          "material": "steel",
+          "qtd": 5,
+          "mode": "*"
+        },
+        {
+          "material": "compositeMaterials",
+          "qtd": 4,
+          "mode": "adv"
+        }
+      ]
+    },
+    "size": {
+      "height": 20,
+      "width": 30,
+      "length": 50
+    },
+    "rocketBuilding": {
+      "time": 96,
+      "energyCost": 25000,
+      "weight": 50000,
+      "durability": 15,
+      "collisionImpactResistance": 500000,
+      "maxRadiationResistance": 15,
+      "requiredBots": 4,
+      "requiredRoles": [
+        {
+          "key": "launchEngineer",
+          "qtd": 2
+        },
+        {
+          "key": "systemsEngineer",
+          "qtd": 1
+        },
+        {
+          "key": "materialsEngineer",
+          "qtd": 1
+        }
+      ],
+      "materials": [
+        {
+          "material": "aluminum",
+          "qtd": 2000,
+          "mode": "*"
+        },
+        {
+          "material": "titanium",
+          "qtd": 500,
+          "mode": "*"
+        },
+        {
+          "material": "liquidHydrogen",
+          "qtd": 3000,
+          "mode": "*"
+        },
+        {
+          "material": "liquidOxygen",
+          "qtd": 7000,
+          "mode": "*"
+        },
+        {
+          "material": "compositeMaterials",
+          "qtd": 600,
+          "mode": "adv"
+        },
+        {
+          "material": "integratedCircuits",
+          "qtd": 50,
+          "mode": "*"
+        },
+        {
+          "material": "steel",
+          "qtd": 800,
+          "mode": "*"
+        }
+      ],
+      "launchFuel": [
+        {
+          "key": "liquidOxygen",
+          "qtd": 7000,
+          "mode": "*"
+        },
+        {
+          "key": "kerosene",
+          "qtd": 4000,
+          "mode": "*"
+        }
+      ],
+      "maintenance": {
+        "factor": 0.3,
+        "materials": [
+          {
+            "material": "liquidHydrogen",
+            "qtd": 200,
+            "mode": "*"
+          },
+          {
+            "material": "compositeMaterials",
+            "qtd": 100,
+            "mode": "adv"
+          },
+          {
+            "material": "aluminum",
+            "qtd": 50,
+            "mode": "*"
+          }
+        ],
+        "requiredBots": 3
+      }
+    }
+  }
+  

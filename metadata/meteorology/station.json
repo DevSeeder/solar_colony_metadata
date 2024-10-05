@@ -154,7 +154,7 @@
     "requiredBots": 1,
     "requiredRoles": [
       {
-        "key": "eletricEngineer",
+        "key": "electricalEngineer",
         "qtd": 1
       },
       {

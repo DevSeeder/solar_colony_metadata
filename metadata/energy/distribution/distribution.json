@@ -39,7 +39,7 @@
                 "weight": 0.2,
                 "extraRequiredRoles": [
                     {
-                        "key": "eletricEngineer",
+                        "key": "electricalEngineer",
                         "qtd": 1
                     }
                 ]
@@ -82,7 +82,7 @@
                 "weight": 2700,
                 "extraRequiredRoles": [
                     {
-                        "key": "eletricEngineer",
+                        "key": "electricalEngineer",
                         "qtd": 1
                     },
                     {

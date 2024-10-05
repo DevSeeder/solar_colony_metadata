@@ -1,0 +1,87 @@
+{
+    "config": [
+      {
+        "path": "magneticField",
+        "values": {
+          "size.height": "m",
+          "size.width": "m",
+          "size.length": "m",
+          "magneticFieldStrength": "T",
+          "radiationResistance": "Gy",
+          "impactResistance": "MJ",
+          "durability": "years",
+          "oxygenLoss": "%",
+          "energyCostBySquadMeter": "Wh"
+        }
+      },
+      {
+        "path": "building",
+        "values": {
+          "time": "h",
+          "energyCost": "W"
+        }
+      }
+    ],
+    "magneticField": {
+      "description": "Lunar magnetic field generator designed to provide protection against solar radiation and cosmic rays, maintaining a habitable environment.",
+      "size": {
+        "height": 5,
+        "width": 20,
+        "length": 20
+      },
+      "magneticFieldStrength": 0.1,
+      "radiationResistance": 10,
+      "impactResistance": 100,
+      "durability": 25,
+      "oxygenLoss": 0.5,
+      "energyCostBySquadMeter": 2000  
+    },
+    "building": {
+      "time": 150,
+      "energyCost": 2000,
+      "materials": [
+        {
+          "material": "copper",
+          "qtd": 1000,
+          "mode": "adv"
+        },
+        {
+          "material": "iron",
+          "qtd": 600,
+          "mode": "adv"
+        },
+        {
+          "material": "moonCement",
+          "qtd": 0.25,
+          "mode": "adv"
+        },
+        {
+          "material": "silicon",
+          "qtd": 500,
+          "mode": "*"
+        }
+      ],
+      "requiredBots": 3,
+      "requiredRoles": [
+        {
+          "key": "electricalEngineer",
+          "qtd": 2
+        },
+        {
+          "key": "constructionEngineer",
+          "qtd": 1
+        }
+      ]
+    },
+    "maintenance": {
+      "interval": 0.5,
+      "requiredMaterials": [
+        {
+          "material": "copper",
+          "qtd": 20,
+          "mode": "*"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,83 @@
+{
+  "config": [
+    {
+      "path": "glassDome",
+      "values": {
+        "size.height": "m",
+        "size.width": "m",
+        "size.length": "m",
+        "radiationResistance": "Gy",
+        "impactResistance": "MJ",
+        "durability": "years",
+        "oxygenLoss": "%"
+      }
+    },
+    {
+      "path": "construction",
+      "values": {
+        "time": "h",
+        "energyCost": "W"
+      }
+    }
+  ],
+  "glassDome": {
+    "description": "Lunar glass dome designed for habitation, offering protection against radiation, meteor impacts, and providing a controlled environment.",
+    "requiredLevel": 15,
+    "size": {
+      "height": 5,
+      "width": 20,
+      "length": 20
+    },
+    "radiationResistance": 10,
+    "impactResistance": 150,
+    "durability": 30,
+    "oxygenLoss": 2
+  },
+  "construction": {
+    "time": 120,
+    "energyCost": 1000,
+    "materials": [
+      {
+        "material": "glass",
+        "qtd": 800,
+        "mode": "adv"
+      },
+      {
+        "material": "glass",
+        "qtd": 100,
+        "mode": "simple"
+      },
+      {
+        "material": "moonCement",
+        "qtd": 0.5,
+        "mode": "adv"
+      },
+      {
+        "material": "aluminum",
+        "qtd": 200,
+        "mode": "*"
+      }
+    ],
+    "requiredBots": 2,
+    "requiredRoles": [
+      {
+        "key": "constructionEngineer",
+        "qtd": 2
+      },
+      {
+        "key": "materialsEngineer",
+        "qtd": 1
+      }
+    ]
+  },
+  "maintenance": {
+    "interval": 0.25,
+    "requiredMaterials": [
+      {
+        "material": "glass",
+        "qtd": 10,
+        "mode": "*"
+      }
+    ]
+  }
+}

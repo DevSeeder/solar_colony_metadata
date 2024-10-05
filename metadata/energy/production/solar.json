@@ -176,7 +176,7 @@
                 "developmentPeople": 4,
                 "extraRequiredRoles": [
                     {
-                        "key": "eletricEngineer",
+                        "key": "electricalEngineer",
                         "qtd": 1
                     }
                 ],
@@ -196,7 +196,7 @@
                         "sequence": 0,
                         "method": "multijunctionBuilding",
                         "requiredRoles": [
-                            "eletricEngineer"
+                            "electricalEngineer"
                         ]
                     }
                 ]
@@ -221,7 +221,7 @@
                 "developmentPeople": 5,
                 "extraRequiredRoles": [
                     {
-                        "key": "eletricEngineer",
+                        "key": "electricalEngineer",
                         "qtd": 1
                     },
                     {
@@ -264,7 +264,7 @@
                         "sequence": 0.3,
                         "method": "multijunctionBuilding",
                         "requiredRoles": [
-                            "eletricEngineer"
+                            "electricalEngineer"
                         ]
                     }
                 ]
@@ -297,7 +297,7 @@
             "requiredRoles": [
                 "chemical",
                 "materialsEngineer",
-                "eletricEngineer"
+                "electricalEngineer"
             ]
         }
     },
@@ -443,7 +443,7 @@
             "qtd": 1
         },
         {
-            "key": "eletricEngineer",
+            "key": "electricalEngineer",
             "qtd": 1
         }
     ]

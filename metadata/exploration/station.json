@@ -1,0 +1,126 @@
+{
+    "config": [
+      {
+        "path": "building",
+        "values": {
+          "durability": "years",
+          "energyCost": "W",
+          "time": "h"
+        }
+      },
+      {
+        "path": "operation",
+        "values": {
+          "energyCost": "Wh"
+        }
+      },
+      {
+        "path": "size",
+        "values": {
+          "height": "m",
+          "width": "m",
+          "length": "m"
+        }
+      }
+    ],
+    "building": {
+      "description": "Central de operações e controle para missões de exploração lunar, equipada com sistemas de monitoramento, comunicação e análise de dados.",
+      "components": [
+        {
+          "name": "Sala de Controle",
+          "description": "Espaço centralizado para monitoramento de todas as operações e comunicação com as equipes de campo."
+        },
+        {
+          "name": "Centro de Análise de Dados",
+          "description": "Instalação dedicada à análise de amostras e dados coletados durante as expedições."
+        },
+        {
+          "name": "Sala de Briefing",
+          "description": "Espaço para reuniões e briefings antes e depois das expedições."
+        },
+        {
+          "name": "Área de Simulação",
+          "description": "Instalação para simulações de operações e testes de protocolos de missão."
+        },
+        {
+          "name": "Laboratório de Pesquisa",
+          "description": "Espaço para pesquisa e desenvolvimento de novas tecnologias e métodos de exploração."
+        }
+      ],
+      "durability": 30,
+      "energyCost": 15000,
+      "time": 300,
+      "requiredBots": 5,
+      "requiredRoles": [
+        {
+          "key": "contructionEngineer",
+          "qtd": 2
+        },
+        {
+          "key": "materialsEngineer",
+          "qtd": 2
+        }
+      ],
+      "materials": [
+        {
+          "material": "aluminum",
+          "qtd": 120,
+          "mode": "*"
+        },
+        {
+          "material": "steel",
+          "qtd": 60,
+          "mode": "*"
+        },
+        {
+          "material": "integratedCircuits",
+          "qtd": 25,
+          "mode": "*"
+        },
+        {
+          "material": "glass",
+          "qtd": 30,
+          "mode": "*"
+        }
+      ]
+    },
+    "operation": {
+      "energyCost": 8000,
+      "requiredRoles": [
+        {
+          "key": "commander",
+          "qtd": 1
+        },
+        {
+          "key": "systemsEngineer",
+          "qtd": 1
+        },
+        {
+          "key": "geologist",
+          "qtd": 1
+        }
+      ]
+    },
+    "maintenance": {
+      "factor": 0.25,
+      "requiredBots": 3,
+      "materials": [
+        {
+          "material": "aluminum",
+          "qtd": 10,
+          "mode": "*"
+        },
+        {
+          "material": "integratedCircuits",
+          "qtd": 1,
+          "mode": "*"
+        }
+      ]
+    },
+    "size": {
+      "height": 25,
+      "width": 40,
+      "length": 60
+    }
+  }
+  

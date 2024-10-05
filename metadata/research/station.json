@@ -1,0 +1,127 @@
+{
+    "config": [
+        {
+            "path": "building",
+            "values": {
+                "durability": "years",
+                "energyCost": "W",
+                "time": "h"
+            }
+        },
+        {
+            "path": "operation",
+            "values": {
+                "energyCost": "Wh"
+            }
+        },
+        {
+            "path": "size",
+            "values": {
+                "height": "m",
+                "width": "m",
+                "length": "m"
+            }
+        }
+    ],
+    "building": {
+        "description": "Estação de pesquisa lunar projetada para realizar experimentos científicos, análises de amostras lunares e suporte para operações de superfície lunar. Equipado com laboratórios, sistemas de comunicação e módulos de habitação.",
+        "durability": 25,
+        "energyCost": 7000,
+        "time": 240,
+        "requiredBots": 4,
+        "requiredRoles": [
+            {
+                "key": "constructionEngineer",
+                "qtd": 2
+            },
+            {
+                "key": "materialsEngineer",
+                "qtd": 2
+            },
+            {
+                "key": "systemsEngineer",
+                "qtd": 1
+            }
+        ],
+        "materials": [
+            {
+                "material": "aluminum",
+                "qtd": 150,
+                "mode": "*"
+            },
+            {
+                "material": "titanium",
+                "qtd": 80,
+                "mode": "*"
+            },
+            {
+                "material": "carbonFiber",
+                "qtd": 60,
+                "mode": "adv"
+            },
+            {
+                "material": "silicon",
+                "qtd": 40,
+                "mode": "*"
+            },
+            {
+                "material": "moonCement",
+                "qtd": 90,
+                "mode": "*"
+            },
+            {
+                "material": "copper",
+                "qtd": 25,
+                "mode": "*"
+            },
+            {
+                "material": "glass",
+                "qtd": 15,
+                "mode": "adv"
+            }
+        ]
+    },
+    "operation": {
+        "energyCost": 5000,
+        "requiredRoles": [
+            {
+                "key": "systemsEngineer",
+                "qtd": 1
+            },
+            {
+                "key": "lifeSupportSpecialist",
+                "qtd": 1
+            },
+            {
+                "key": "scientist",
+                "qtd": 2
+            }
+        ]
+    },
+    "maintenance": {
+        "factor": 0.5,
+        "requiredBots": 4,
+        "materials": [
+            {
+                "material": "aluminum",
+                "qtd": 7,
+                "mode": "*"
+            },
+            {
+                "material": "titanium",
+                "qtd": 5,
+                "mode": "*"
+            },
+            {
+                "material": "silicon",
+                "qtd": 6,
+                "mode": "*"
+            }
+        ]
+    },
+    "size": {
+        "height": 15,
+        "width": 25,
+        "length": 40
+    }
+}

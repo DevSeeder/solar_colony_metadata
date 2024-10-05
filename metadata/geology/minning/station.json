@@ -61,7 +61,7 @@
                         "qtd": 1
                     },
                     {
-                        "key": "contructionEngineer",
+                        "key": "engineer",
                         "qtd": 1
                     }
                 ]
@@ -156,7 +156,7 @@
     "buildingRequiredBots": 4,
     "buildingRequiredRoles": [
         {
-            "key": "contructionEngineer",
+            "key": "engineer",
             "qtd": 2
         },
         {

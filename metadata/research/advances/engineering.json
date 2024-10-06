@@ -15,7 +15,7 @@
             "node": "energy",
             "stepLevel": 1,
             "requiredLevel": 3,
-            "researchPoints": 10,
+            "researchPoints": 100,
             "time": 5,
             "requiredResearchers": 1
         },
@@ -26,7 +26,7 @@
             "node": "energy",
             "stepLevel": 2,
             "requiredLevel": 5,
-            "researchPoints": 10,
+            "researchPoints": 100,
             "time": 5,
             "requiredResearchers": 1
         },
@@ -37,7 +37,7 @@
             "node": "energy",
             "stepLevel": 2,
             "requiredLevel": 10,
-            "researchPoints": 25,
+            "researchPoints": 500,
             "time": 10,
             "requiredResearchers": 2
         },
@@ -48,7 +48,18 @@
             "node": "energy",
             "stepLevel": 2,
             "requiredLevel": 10,
-            "researchPoints": 25,
+            "researchPoints": 500,
+            "time": 10,
+            "requiredResearchers": 2
+        },
+        {
+            "key": "microwaveWireless",
+            "path": "energy.distribution",
+            "description": "As antenas de transmissão de energia por micro-ondas são dispositivos inovadores projetados para converter energia elétrica em ondas eletromagnéticas, permitindo a transmissão sem fio de energia a longas distâncias. Os principais benefícios dessa tecnologia incluem a eficiência na transferência de energia, a redução de perdas associadas ao transporte por fios e a flexibilidade na instalação em locais remotos ou de difícil acesso",
+            "node": "energy",
+            "stepLevel": 2,
+            "requiredLevel": 10,
+            "researchPoints": 500,
             "time": 10,
             "requiredResearchers": 2
         },
@@ -59,7 +70,7 @@
             "node": "energy",
             "stepLevel": 3,
             "requiredLevel": 15,
-            "researchPoints": 50,
+            "researchPoints": 1000,
             "time": 30,
             "requiredResearchers": 3
         },
@@ -70,7 +81,7 @@
             "node": "energy",
             "stepLevel": 3,
             "requiredLevel": 15,
-            "researchPoints": 50,
+            "researchPoints": 1000,
             "time": 30,
             "requiredResearchers": 3
         },
@@ -81,7 +92,7 @@
             "node": "energy",
             "stepLevel": 4,
             "requiredLevel": 20,
-            "researchPoints": 100,
+            "researchPoints": 5000,
             "time": 50,
             "requiredResearchers": 4
         },
@@ -92,7 +103,7 @@
             "node": "energy",
             "stepLevel": 4,
             "requiredLevel": 20,
-            "researchPoints": 100,
+            "researchPoints": 5000,
             "time": 50,
             "requiredResearchers": 4
         }

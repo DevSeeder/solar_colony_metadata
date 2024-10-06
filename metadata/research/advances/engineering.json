@@ -20,9 +20,31 @@
             "requiredResearchers": 1
         },
         {
+            "key": "sulfurFlowBattery",
+            "path": "energy.storage",
+            "description": "A bateria de fluxo de enxofre é uma solução avançada de armazenamento de energia que utiliza enxofre dissolvido em um eletrólito líquido, permitindo a circulação entre dois tanques externos e uma célula de conversão. Essa tecnologia oferece alta capacidade de armazenamento e escalabilidade, sendo ideal para grandes sistemas de energia renovável. Com uma durabilidade elevada e baixa necessidade de manutenção, as baterias de fluxo de enxofre são uma escolha eficiente para suportar demandas energéticas constantes em ambientes extremos e garantir um fornecimento confiável de energia.",
+            "node": "energy",
+            "stepLevel": 2,
+            "requiredLevel": 5,
+            "researchPoints": 10,
+            "time": 5,
+            "requiredResearchers": 1
+        },
+        {
             "key": "rosa",
             "path": "energy.production.solar",
             "description": "O Roll-Out Solar Array (ROSAs) é uma tecnologia inovadora de geração de energia solar, projetada para maximizar a captura de luz solar em ambientes lunares. Com sua estrutura dobrável e leve, esses painéis solares podem ser facilmente implantados em diferentes locais da colônia, oferecendo alta eficiência na conversão de energia. A capacidade de se expandir e adaptar a várias configurações permite que os ROSAs sejam instalados rapidamente, otimizando a produção energética em áreas estratégicas. Essa tecnologia não apenas melhora a autosuficiência da colônia, mas também garante que os colonos tenham acesso a uma fonte de energia confiável e sustentável, essencial para o desenvolvimento e a expansão da vida na Lua.",
+            "node": "energy",
+            "stepLevel": 2,
+            "requiredLevel": 10,
+            "researchPoints": 25,
+            "time": 10,
+            "requiredResearchers": 2
+        },
+        {
+            "key": "lithiumIon",
+            "path": "energy.storage",
+            "description": "A bateria de íon de lítio é uma tecnologia de armazenamento de energia amplamente utilizada, reconhecida por sua alta densidade de energia, leveza e eficiência. Ela utiliza lítio como material principal para os eletrodos, permitindo recargas rápidas e ciclos de vida mais longos em comparação com outras baterias. É ideal para aplicações que exigem alta performance e portabilidade, sendo amplamente empregada em dispositivos eletrônicos e sistemas de energia renovável. Sua confiabilidade e eficiência a tornam uma escolha comum para fornecer energia consistente em diversas indústrias.",
             "node": "energy",
             "stepLevel": 2,
             "requiredLevel": 10,
@@ -42,9 +64,31 @@
             "requiredResearchers": 3
         },
         {
+            "key": "solidState",
+            "path": "energy.storage",
+            "description": "A bateria de estado sólido é uma tecnologia inovadora de armazenamento de energia que utiliza um eletrólito sólido em vez do líquido convencional, resultando em maior segurança e eficiência. Essa configuração permite uma densidade de energia significativamente mais alta, o que se traduz em maior capacidade de armazenamento em um formato mais compacto. Com menor risco de vazamento e degradação térmica, as baterias de estado sólido têm o potencial de oferecer ciclos de vida mais longos e melhor desempenho em condições extremas.",
+            "node": "energy",
+            "stepLevel": 3,
+            "requiredLevel": 15,
+            "researchPoints": 50,
+            "time": 30,
+            "requiredResearchers": 3
+        },
+        {
             "key": "imm",
             "path": "energy.production.solar",
             "description": "A tecnologia Inverted Metamorphic Multijunction (IMM) é um avanço revolucionário na geração de energia solar, ideal para ambientes desafiadores como a Lua. Composta por várias camadas de materiais semicondutores dispostas em uma configuração invertida, essa tecnologia permite uma captura excepcional de energia solar, alcançando eficiências superiores a 45%. O design inovador das células IMM maximiza a absorção de luz, mesmo em condições de iluminação variável, e é altamente resistente às radiações e temperaturas extremas do ambiente lunar. A adoção das células IMM representa um marco na busca por soluções energéticas sustentáveis, garantindo que a colônia lunar não apenas atenda às suas necessidades energéticas, mas também abra novos horizontes para a exploração espacial e a inovação tecnológica.",
+            "node": "energy",
+            "stepLevel": 4,
+            "requiredLevel": 20,
+            "researchPoints": 100,
+            "time": 50,
+            "requiredResearchers": 4
+        },
+        {
+            "key": "supercapacitor",
+            "path": "energy.storage",
+            "description": "O supercapacitor é um dispositivo de armazenamento de energia que combina as vantagens de capacitores e baterias, oferecendo uma alta densidade de potência e capacidade de carregamento rápido. Ele armazena energia por meio de uma interação eletroquímica, permitindo ciclos de carga e descarga muito mais rápidos em comparação com as baterias convencionais. Os supercapacitores são ideais para aplicações que exigem bursts de energia, como em veículos elétricos e sistemas de energia renovável, onde a necessidade de fornecer energia instantaneamente é crucial. Além disso, eles têm uma longa vida útil e requerem menos manutenção, tornando-se uma escolha eficiente para complementar ou substituir tecnologias de armazenamento de energia em diversas aplicações.",
             "node": "energy",
             "stepLevel": 4,
             "requiredLevel": 20,

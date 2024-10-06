@@ -81,7 +81,7 @@
                         ]
                     }
                 },
-                "weight": 300,
+                "weight": 30,
                 "totalEnergyStorage": 1200
             }
         },
@@ -167,7 +167,7 @@
                         }
                     ]
                 },
-                "weight": 1400,
+                "weight": 140,
                 "totalEnergyStorage": 1500
             }
         },
@@ -334,7 +334,7 @@
                     },
                     "extraRequiredRoles": []
                 },
-                "weight": 80,
+                "weight": 8,
                 "totalEnergyStorage": 2000
             }
         },
@@ -416,7 +416,7 @@
                         }
                     ]
                 },
-                "weight": 50,
+                "weight": 5,
                 "totalEnergyStorage": 2700
             }
         }

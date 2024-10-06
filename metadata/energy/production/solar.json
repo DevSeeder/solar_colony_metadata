@@ -13,7 +13,6 @@
                 "instalationTime": "h",
                 "instalationPeople": "un",
                 "developmentTime": "h",
-                "developmentPeople": "un",
                 "weight": "Kg"
             }
         },
@@ -50,12 +49,11 @@
                 "instalationTime": 8,
                 "instalationPeople": 2,
                 "developmentTime": 7,
-                "developmentPeople": 3,
-                "extraRequiredRoles": [],
+                "requiredRoles": [],
                 "energy": 16,
                 "weight": 16
             },
-            "extraMaterials": []
+            "materials": []
         },
         {
             "key": "perovskiteCells",
@@ -73,12 +71,11 @@
                 "instalationTime": 2,
                 "instalationPeople": 2,
                 "developmentTime": 13,
-                "developmentPeople": 3,
-                "extraRequiredRoles": [],
+                "requiredRoles": [],
                 "energy": 18,
                 "weight": 18
             },
-            "extraMaterials": [
+            "materials": [
                 {
                     "name": "organicCompounds",
                     "qtd": 1,
@@ -123,12 +120,11 @@
                 "instalationTime": 3,
                 "instalationPeople": 2,
                 "developmentTime": 10,
-                "developmentPeople": 3,
-                "extraRequiredRoles": [],
+                "requiredRoles": [],
                 "energy": 25,
                 "weight": 10
             },
-            "extraMaterials": [
+            "materials": [
                 {
                     "name": "organicCompounds",
                     "qtd": 2,
@@ -149,7 +145,7 @@
                 "development": [
                     {
                         "sequence": 0,
-                        "method": "rosaBuilding",
+                        "method": "rosaMounting",
                         "requiredRoles": [
                             "engineer"
                         ]
@@ -173,8 +169,7 @@
                 "instalationTime": 4,
                 "instalationPeople": 2,
                 "developmentTime": 15,
-                "developmentPeople": 4,
-                "extraRequiredRoles": [
+                "requiredRoles": [
                     {
                         "key": "engineer",
                         "qtd": 1
@@ -183,7 +178,7 @@
                 "energy": 20,
                 "weight": 12
             },
-            "extraMaterials": [
+            "materials": [
                 {
                     "name": "semiconductorAlloys",
                     "qtd": 2,
@@ -218,8 +213,7 @@
                 "instalationTime": 5,
                 "instalationPeople": 3,
                 "developmentTime": 20,
-                "developmentPeople": 5,
-                "extraRequiredRoles": [
+                "requiredRoles": [
                     {
                         "key": "engineer",
                         "qtd": 2
@@ -228,7 +222,7 @@
                 "energy": 30,
                 "weight": 15
             },
-            "extraMaterials": [
+            "materials": [
                 {
                     "name": "semiconductorAlloys",
                     "qtd": 2,
@@ -301,11 +295,13 @@
         "materials": [
             {
                 "name": "rutile",
-                "qtd": 1
+                "qtd": 1,
+                "mode": "*"
             },
             {
                 "name": "dopingElements",
-                "qtd": 2
+                "qtd": 2,
+                "mode": "adv"
             }
         ]
     },
@@ -435,7 +431,11 @@
         },
         {
             "key": "engineer",
-            "qtd": 2
+            "qtd": 1
+        },
+        {
+            "key": "physical",
+            "qtd": 1
         }
     ]
 }

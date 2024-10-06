@@ -22,8 +22,8 @@
     },
     {
       "key": "organicCompounds",
-      "unityKg": 0.1,
-      "price": 15
+      "unityKg": 1,
+      "price": 20
     },
     {
       "key": "aluminum",
@@ -299,6 +299,16 @@
       "key": "galliumNitrate",
       "unityKg": 0.01,
       "price": 100
+    },
+    {
+      "key": "gallium",
+      "unityKg": 1,
+      "price": 300
+    },
+    {
+      "key": "indium",
+      "unityKg": 1,
+      "price": 1000
     },
     {
       "key": "polyurethaneFoam",

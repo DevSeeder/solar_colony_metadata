@@ -492,6 +492,56 @@
       "levelRequired": 3
     },
     {
+      "material": "organicCompounds",
+      "processes": [
+        {
+          "time": 100,
+          "energyCost": 1000,
+          "materials": [
+            {
+              "material": "biomass",
+              "qtd": 1,
+              "mode": "*"
+            }
+          ]
+        },
+        {
+          "time": 100,
+          "energyCost": 1000,
+          "materials": [
+            {
+              "material": "feces",
+              "qtd": 1,
+              "mode": "*"
+            }
+          ]
+        },
+        {
+          "time": 100,
+          "energyCost": 1000,
+          "materials": [
+            {
+              "material": "urine",
+              "qtd": 1,
+              "mode": "*"
+            }
+          ]
+        },
+        {
+          "time": 50,
+          "energyCost": 1000,
+          "materials": [
+            {
+              "material": "fertilizer",
+              "qtd": 1,
+              "mode": "*"
+            }
+          ]
+        }
+      ],
+      "levelRequired": 3
+    },
+    {
       "material": "fertilizer",
       "processes": [
         {
@@ -960,6 +1010,27 @@
             },
             {
               "material": "oxigen",
+              "qtd": 2,
+              "mode": "*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "material": "semiconductorAlloys",
+      "processes": [
+        {
+          "time": 12,
+          "energyCost": 30000,
+          "materials": [
+            {
+              "material": "galium",
+              "qtd": 2,
+              "mode": "*"
+            },
+            {
+              "material": "indium",
               "qtd": 2,
               "mode": "*"
             }

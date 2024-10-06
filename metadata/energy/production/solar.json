@@ -10,7 +10,8 @@
                 "durability": "years",
                 "flexibility": "GPa",
                 "earthDevelopmentCost": "USD",
-                "developmentTime": "h",
+                "bulding.energyCost": "W",
+                "bulding.time": "h",
                 "weight": "Kg"
             }
         },
@@ -44,8 +45,11 @@
                 "durability": 7,
                 "flexibility": 160,
                 "earthDevelopmentCost": 330,
-                "developmentTime": 7,
-                "extraRequiredRoles": [],
+                "bulding": {
+                    "energyCost": 14000,
+                    "time": 7,
+                    "extraRequiredRoles": []
+                },
                 "energy": 16,
                 "weight": 16
             },
@@ -64,8 +68,11 @@
                 "durability": 12,
                 "flexibility": 150,
                 "earthDevelopmentCost": 300,
-                "developmentTime": 13,
-                "extraRequiredRoles": [],
+                "bulding": {
+                    "energyCost": 13000,
+                    "time": 13,
+                    "extraRequiredRoles": []
+                },
                 "energy": 18,
                 "weight": 18
             },
@@ -113,8 +120,11 @@
                 "durability": 15,
                 "flexibility": 100,
                 "earthDevelopmentCost": 400,
-                "developmentTime": 10,
-                "extraRequiredRoles": [],
+                "bulding": {
+                    "energyCost": 20000,
+                    "time": 10,
+                    "extraRequiredRoles": []
+                },
                 "energy": 25,
                 "weight": 10
             },
@@ -160,13 +170,16 @@
                 "durability": 20,
                 "flexibility": 80,
                 "earthDevelopmentCost": 800,
-                "developmentTime": 15,
-                "extraRequiredRoles": [
-                    {
-                        "key": "engineer",
-                        "qtd": 1
-                    }
-                ],
+                "bulding": {
+                    "energyCost": 80000,
+                    "time": 15,
+                    "extraRequiredRoles": [
+                        {
+                            "key": "engineer",
+                            "qtd": 1
+                        }
+                    ]
+                },
                 "energy": 20,
                 "weight": 12
             },
@@ -203,13 +216,16 @@
                 "durability": 25,
                 "flexibility": 70,
                 "earthDevelopmentCost": 1200,
-                "developmentTime": 20,
-                "extraRequiredRoles": [
-                    {
-                        "key": "engineer",
-                        "qtd": 2
-                    }
-                ],
+                "bulding": {
+                    "energyCost": 120000,
+                    "time": 20,
+                    "extraRequiredRoles": [
+                        {
+                            "key": "engineer",
+                            "qtd": 2
+                        }
+                    ]
+                },
                 "energy": 30,
                 "weight": 15
             },

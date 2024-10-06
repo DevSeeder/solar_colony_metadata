@@ -9,11 +9,10 @@
                 "cycleLife": "cycles",
                 "energyDensity": "Wh/kg",
                 "powerDensity": "W/kg",
-                "earthDevelopmentCost": "USD",
-                "developmentTime": "h",
-                "developmentPeople": "un",
+                "earthDevelopmentCost": "US",
+                "building.time": "h",
                 "weight": "Kg",
-                "totalEnergyStorage": "Wh"
+                "totalEnergyStorage": "W"
             }
         },
         {
@@ -39,16 +38,17 @@
             "stepLevel": 1,
             "requiredLevel": 1,
             "metricValues": {
-                "units": 10,
-                "capacity": 100,
+                "units": 1,
+                "capacity": 10,
                 "initialVoltage": 12,
                 "maxTemperatureResistance": 100,
                 "cycleLife": 300,
                 "energyDensity": 30,
                 "powerDensity": 180,
-                "earthDevelopmentCost": 1500,
-                "developmentTime": 50,
-                "developmentPeople": 3,
+                "earthDevelopmentCost": 150,
+                "building": {
+                    "time": 5
+                },
                 "weight": 300,
                 "requiredRoles": [
                     {
@@ -56,7 +56,7 @@
                         "qtd": 1
                     }
                 ],
-                "totalEnergyStorage": 12000
+                "totalEnergyStorage": 1200
             },
             "extraBuildingMethods": {
                 "development": [
@@ -95,16 +95,17 @@
             "stepLevel": 2,
             "requiredLevel": 5,
             "metricValues": {
-                "units": 10,
+                "units": 1,
                 "capacity": 750,
                 "initialVoltage": 2.0,
                 "maxTemperatureResistance": 75,
                 "cycleLife": 1500,
                 "energyDensity": 70,
                 "powerDensity": 90,
-                "earthDevelopmentCost": 8000,
-                "developmentTime": 100,
-                "developmentPeople": 3,
+                "earthDevelopmentCost": 800,
+                "building": {
+                    "time": 10
+                },
                 "weight": 1400,
                 "requiredRoles": [
                     {
@@ -112,7 +113,7 @@
                         "qtd": 1
                     }
                 ],
-                "totalEnergyStorage": 15000
+                "totalEnergyStorage": 1500
             },
             "extraMaterials": [
                 {
@@ -178,19 +179,20 @@
             "stepLevel": 3,
             "requiredLevel": 10,
             "metricValues": {
-                "units": 10,
-                "capacity": 1000,
+                "units": 1,
+                "capacity": 100,
                 "initialVoltage": 3.7,
                 "maxTemperatureResistance": 85,
                 "cycleLife": 2000,
                 "energyDensity": 200,
                 "powerDensity": 300,
-                "earthDevelopmentCost": 3000,
-                "developmentTime": 60,
-                "developmentPeople": 2,
+                "earthDevelopmentCost": 300,
+                "building": {
+                    "time": 6
+                },
                 "weight": 10,
                 "requiredRoles": [],
-                "totalEnergyStorage": 18850
+                "totalEnergyStorage": 1885
             },
             "extraMaterials": [
                 {
@@ -256,19 +258,20 @@
             "stepLevel": 4,
             "requiredLevel": 15,
             "metricValues": {
-                "units": 10,
+                "units": 1,
                 "capacity": 500,
                 "initialVoltage": 4.0,
                 "maxTemperatureResistance": 0,
                 "cycleLife": 5000,
                 "energyDensity": 400,
                 "powerDensity": 500,
-                "earthDevelopmentCost": 6000,
-                "developmentTime": 75,
-                "developmentPeople": 2,
+                "earthDevelopmentCost": 600,
+                "building": {
+                    "time": 7
+                },
                 "weight": 80,
                 "requiredRoles": [],
-                "totalEnergyStorage": 20000
+                "totalEnergyStorage": 2000
             },
             "extraMaterials": [
                 {
@@ -339,16 +342,17 @@
             "stepLevel": 5,
             "requiredLevel": 20,
             "metricValues": {
-                "units": 10,
-                "capacity": 1000,
+                "units": 1,
+                "capacity": 100,
                 "initialVoltage": 2.7,
                 "maxTemperatureResistance": 75,
                 "cycleLife": 100000,
                 "energyDensity": 10,
                 "powerDensity": 1000,
-                "earthDevelopmentCost": 3000,
-                "developmentTime": 80,
-                "developmentPeople": 3,
+                "earthDevelopmentCost": 300,
+                "building": {
+                    "time": 8
+                },
                 "weight": 50,
                 "requiredRoles": [
                     {
@@ -356,7 +360,7 @@
                         "qtd": 1
                     }
                 ],
-                "totalEnergyStorage": 27000
+                "totalEnergyStorage": 2700
             },
             "extraMaterials": [
                 [
@@ -447,17 +451,24 @@
             {
                 "material": "sulfur",
                 "qtd": 5,
-                "techs": ["sulfurFlowBattery", "solidState"]
+                "techs": [
+                    "sulfurFlowBattery",
+                    "solidState"
+                ]
             },
             {
                 "material": "lithium",
                 "qtd": 6,
-                "techs": ["lithiumIon"]
+                "techs": [
+                    "lithiumIon"
+                ]
             },
             {
                 "material": "carbon",
                 "qtd": 1,
-                "techs": ["supercapacitor"]
+                "techs": [
+                    "supercapacitor"
+                ]
             }
         ]
     },
@@ -521,17 +532,24 @@
                 {
                     "material": "sulfur",
                     "qtd": 10,
-                    "techs": ["sulfurFlowBattery", "solidState"]
+                    "techs": [
+                        "sulfurFlowBattery",
+                        "solidState"
+                    ]
                 },
                 {
                     "material": "lithium",
                     "qtd": 12,
-                    "techs": ["lithiumIon"]
+                    "techs": [
+                        "lithiumIon"
+                    ]
                 },
                 {
                     "material": "carbon",
                     "qtd": 2,
-                    "techs": ["supercapacitor"]
+                    "techs": [
+                        "supercapacitor"
+                    ]
                 }
             ]
         },
@@ -552,17 +570,24 @@
                 {
                     "material": "sulfur",
                     "qtd": 20,
-                    "techs": ["sulfurFlowBattery", "solidState"]
+                    "techs": [
+                        "sulfurFlowBattery",
+                        "solidState"
+                    ]
                 },
                 {
                     "material": "lithium",
                     "qtd": 24,
-                    "techs": ["lithiumIon"]
+                    "techs": [
+                        "lithiumIon"
+                    ]
                 },
                 {
                     "material": "carbon",
                     "qtd": 4,
-                    "techs": ["supercapacitor"]
+                    "techs": [
+                        "supercapacitor"
+                    ]
                 }
             ]
         }

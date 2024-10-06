@@ -16,6 +16,9 @@
             }
         }
     ],
+    "metaItem": {
+        "techs": "connection"
+    },
     "techs": [
         {
             "key": "aluminiumWire",
@@ -40,7 +43,8 @@
                     }
                 ]
             },
-            "extraMaterials": [
+            "creation": {},
+            "materials": [
                 {
                     "material": "aluminum",
                     "qtd": 1,
@@ -84,9 +88,8 @@
                         "qtd": 1
                     }
                 ]
-                
             },
-            "extraMaterials": [
+            "materials": [
                 {
                     "material": "aluminum",
                     "qtd": 1750,

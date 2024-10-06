@@ -31,6 +31,9 @@
             }
         }
     ],
+    "metaItem": {
+        "techs": "component"
+    },
     "techs": [
         {
             "key": "thinFilm",

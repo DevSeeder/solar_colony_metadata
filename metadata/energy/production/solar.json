@@ -49,7 +49,8 @@
                     "energyCost": 14000,
                     "time": 7,
                     "extraRequiredRoles": [],
-                    "materials": []
+                    "materials": [],
+                    "extraCreationMethods": {}
                 },
                 "energy": 16,
                 "weight": 16
@@ -88,23 +89,23 @@
                             "qtd": 1,
                             "mode": "simple"
                         }
-                    ]
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0,
+                                "method": "perovskiteBuilding",
+                                "usedRoles": [
+                                    "physicist",
+                                    "engineer",
+                                    "chemical"
+                                ]
+                            }
+                        ]
+                    }
                 },
                 "energy": 18,
                 "weight": 18
-            },
-            "extraCreationMethods": {
-                "development": [
-                    {
-                        "sequence": 0,
-                        "method": "perovskiteBuilding",
-                        "usedRoles": [
-                            "physicist",
-                            "engineer",
-                            "chemical"
-                        ]
-                    }
-                ]
             }
         },
         {
@@ -140,21 +141,21 @@
                             "qtd": 1,
                             "mode": "simple"
                         }
-                    ]
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0,
+                                "method": "rosaMounting",
+                                "usedRoles": [
+                                    "engineer"
+                                ]
+                            }
+                        ]
+                    }
                 },
                 "energy": 25,
                 "weight": 10
-            },
-            "extraCreationMethods": {
-                "development": [
-                    {
-                        "sequence": 0,
-                        "method": "rosaMounting",
-                        "usedRoles": [
-                            "engineer"
-                        ]
-                    }
-                ]
             }
         },
         {
@@ -185,22 +186,22 @@
                             "qtd": 2,
                             "mode": "*"
                         }
-                    ]
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0,
+                                "method": "multijunctionBuilding",
+                                "usedRoles": [
+                                    "chemical",
+                                    "engineer"
+                                ]
+                            }
+                        ]
+                    }
                 },
                 "energy": 20,
                 "weight": 12
-            },
-            "extraCreationMethods": {
-                "development": [
-                    {
-                        "sequence": 0,
-                        "method": "multijunctionBuilding",
-                        "usedRoles": [
-                            "chemical",
-                            "engineer"
-                        ]
-                    }
-                ]
             }
         },
         {
@@ -236,39 +237,39 @@
                             "qtd": 10,
                             "mode": "*"
                         }
-                    ]
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0.1,
+                                "method": "advancedPolymersBuilding",
+                                "usedRoles": [
+                                    "engineer",
+                                    "chemical"
+                                ]
+                            },
+                            {
+                                "sequence": 0.2,
+                                "method": "nanoMaterialsBuilding",
+                                "usedRoles": [
+                                    "engineer",
+                                    "chemical",
+                                    "physicist"
+                                ]
+                            },
+                            {
+                                "sequence": 0.3,
+                                "method": "multijunctionBuilding",
+                                "usedRoles": [
+                                    "chemical",
+                                    "engineer"
+                                ]
+                            }
+                        ]
+                    }
                 },
                 "energy": 30,
                 "weight": 15
-            },
-            "extraCreationMethods": {
-                "development": [
-                    {
-                        "sequence": 0.1,
-                        "method": "advancedPolymersBuilding",
-                        "usedRoles": [
-                            "engineer",
-                            "chemical"
-                        ]
-                    },
-                    {
-                        "sequence": 0.2,
-                        "method": "nanoMaterialsBuilding",
-                        "usedRoles": [
-                            "engineer",
-                            "chemical",
-                            "physicist"
-                        ]
-                    },
-                    {
-                        "sequence": 0.3,
-                        "method": "multijunctionBuilding",
-                        "usedRoles": [
-                            "chemical",
-                            "engineer"
-                        ]
-                    }
-                ]
             }
         }
     ],

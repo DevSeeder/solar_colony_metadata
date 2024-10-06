@@ -34,7 +34,7 @@
       }
     }
   ],
-  "building": {
+  "creation": {
     "description": "Station capable of detecting solar storms, moonquakes, and meteor impacts. Equipped with an antenna for communication and a satellite launch base.",
     "components": [
       {

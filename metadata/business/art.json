@@ -1,7 +1,7 @@
 {
     "config": [
       {
-        "path": "building",
+        "path": "creation",
         "values": {
           "durability": "years",
           "energyCost": "W",
@@ -24,7 +24,7 @@
       }
     ],
     "requiredLevel": 35,
-    "building": {
+    "creation": {
       "description": "Estúdio de arte e fotografia lunar, projetado para oferecer aos colonos e visitantes a oportunidade de explorar a criatividade e capturar a beleza da paisagem lunar.",
       "components": [
         {

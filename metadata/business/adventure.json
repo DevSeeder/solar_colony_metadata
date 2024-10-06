@@ -1,7 +1,7 @@
 {
     "config": [
       {
-        "path": "building",
+        "path": "creation",
         "values": {
           "durability": "years",
           "energyCost": "W",
@@ -24,7 +24,7 @@
       }
     ],
     "requiredLevel": 40,
-    "building": {
+    "creation": {
       "description": "Estação de turismo de aventura lunar, oferecendo atividades como caminhadas, escaladas e exploração de crateras, projetada para proporcionar experiências únicas em um ambiente de baixa gravidade.",
       "components": [
         {

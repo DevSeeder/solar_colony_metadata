@@ -79,7 +79,7 @@
           "qtd": 0.75
         }
       ],
-      "building": {
+      "creation": {
         "time": 15,
         "energyCost": 90000,
         "materials": [
@@ -193,7 +193,7 @@
           "qtd": 0.5
         }
       ],
-      "building": {
+      "creation": {
         "time": 15,
         "energyCost": 90000,
         "materials": [
@@ -290,7 +290,7 @@
           "qtd": 0.5
         }
       ],
-      "building": {
+      "creation": {
         "time": 15,
         "energyCost": 90000,
         "materials": [
@@ -396,7 +396,7 @@
           "qtd": 10
         }
       ],
-      "building": {
+      "creation": {
         "time": 20,
         "energyCost": 120000,
         "materials": [
@@ -523,7 +523,7 @@
           "qtd": 1
         }
       ],
-      "building": {
+      "creation": {
         "time": 20,
         "energyCost": 120000,
         "materials": [

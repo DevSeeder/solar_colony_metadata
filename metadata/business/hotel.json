@@ -1,7 +1,7 @@
 {
     "config": [
         {
-            "path": "building",
+            "path": "creation",
             "values": {
                 "durability": "years",
                 "energyCost": "W",
@@ -26,7 +26,7 @@
         }
     ],
     "requiredLevel": 30,
-    "building": {
+    "creation": {
         "description": "Luxuoso hotel lunar com vistas deslumbrantes da Terra e do espaço, projetado para acomodar confortavelmente 100 pessoas. Oferece serviços de alta qualidade, incluindo refeições gourmet e experiências exclusivas.",
         "components": [
             {

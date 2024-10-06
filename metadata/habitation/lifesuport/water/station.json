@@ -47,7 +47,7 @@
       ]
     },
     "transportCart": {
-      "building": {
+      "creation": {
         "time": 5,
         "energyCost": 5000,
         "requiredBots": 2,

@@ -6,7 +6,7 @@
                 "earthCostDevelopment": "USD",
                 "weight": "Kg",
                 "durability": "years",
-                "building": {
+                "creation": {
                     "time": "d",
                     "energyCost": "kW"
                 },
@@ -23,7 +23,7 @@
             "earthCostDevelopment": 150000,
             "weight": 900,
             "durability": 7,
-            "building": {
+            "creation": {
                 "time": 3,
                 "energyCost": 500,
                 "materials": [
@@ -112,7 +112,7 @@
             "earthCostDevelopment": 30000,
             "weight": 150,
             "durability": 3,
-            "building": {
+            "creation": {
                 "time": 0.5,
                 "energyCost": 50,
                 "materials": [
@@ -160,7 +160,7 @@
             "earthCostDevelopment": 50000,
             "weight": 50,
             "durability": 5,
-            "building": {
+            "creation": {
                 "time": 2,
                 "energyCost": 300,
                 "materials": [
@@ -203,7 +203,7 @@
             "earthCostDevelopment": 125000,
             "weight": 100,
             "durability": 7,
-            "building": {
+            "creation": {
                 "time": 3,
                 "energyCost": 50,
                 "materials": [
@@ -257,7 +257,7 @@
             "earthCostDevelopment": 500000,
             "weight": 300,
             "durability": 10,
-            "building": {
+            "creation": {
                 "time": 72,
                 "energyCost": 500,
                 "materials": [
@@ -364,7 +364,7 @@
             "earthCostDevelopment": 750000,
             "weight": 600,
             "durability": 12,
-            "building": {
+            "creation": {
                 "time": 96,
                 "energyCost": 700,
                 "materials": [
@@ -483,7 +483,7 @@
             "earthCostDevelopment": 300000,
             "weight": 50,
             "durability": 8,
-            "building": {
+            "creation": {
                 "time": 48,
                 "energyCost": 200,
                 "materials": [

@@ -15,7 +15,7 @@
       }
     },
     {
-      "path": "building",
+      "path": "creation",
       "values": {
         "time": "days",
         "energyCost": "W"
@@ -45,7 +45,7 @@
     "durability": 40,
     "energyCost": 800
   },
-  "building": {
+  "creation": {
     "energyCost": 50000,
     "time": 17,
     "materials": [

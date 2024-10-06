@@ -1,7 +1,7 @@
 {
     "config": [
       {
-        "path": "building",
+        "path": "creation",
         "values": {
           "durability": "years",
           "energyCost": "W",
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "building": {
+    "creation": {
       "description": "Central de operações e controle para missões de exploração lunar, equipada com sistemas de monitoramento, comunicação e análise de dados.",
       "components": [
         {

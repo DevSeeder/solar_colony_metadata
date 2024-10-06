@@ -1,7 +1,7 @@
 {
     "config": [
       {
-        "path": "building",
+        "path": "creation",
         "values": {
           "durability": "years",
           "energyCost": "W",
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "building": {
+    "creation": {
       "description": "Centro de astroturismo lunar, projetado para oferecer experiências únicas de observação de estrelas e fenômenos celestiais, além de educar os visitantes sobre o espaço e a astronomia.",
       "components": [
         {

@@ -17,7 +17,7 @@
         "earthDevelopmentCost": 15000,
         "impactColisionResistence": 1200,
         "energyCostBySquadMeter": 20,
-        "building": {
+        "creation": {
             "time": 80,
             "energyCost": 250000,
             "materials": [

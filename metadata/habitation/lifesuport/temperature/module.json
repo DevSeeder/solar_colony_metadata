@@ -25,7 +25,7 @@
             "waterByTemperatureVariationBySuadMeter": 800,
             "energyCostByTemperatureVariationBySuadMeter": 0.1
         },
-        "building": {
+        "creation": {
             "time": 72,
             "energyCost": 200000,
             "materials": [

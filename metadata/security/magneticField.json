@@ -15,7 +15,7 @@
         }
       },
       {
-        "path": "building",
+        "path": "creation",
         "values": {
           "time": "h",
           "energyCost": "W"
@@ -36,7 +36,7 @@
       "oxygenLoss": 0.5,
       "energyCostBySquadMeter": 2000  
     },
-    "building": {
+    "creation": {
       "time": 150,
       "energyCost": 2000,
       "materials": [

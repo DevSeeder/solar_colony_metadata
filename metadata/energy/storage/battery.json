@@ -46,7 +46,7 @@
                 "energyDensity": 30,
                 "powerDensity": 180,
                 "earthDevelopmentCost": 150,
-                "building": {
+                "creation": {
                     "time": 5
                 },
                 "weight": 300,
@@ -103,7 +103,7 @@
                 "energyDensity": 70,
                 "powerDensity": 90,
                 "earthDevelopmentCost": 800,
-                "building": {
+                "creation": {
                     "time": 10
                 },
                 "weight": 1400,
@@ -187,7 +187,7 @@
                 "energyDensity": 200,
                 "powerDensity": 300,
                 "earthDevelopmentCost": 300,
-                "building": {
+                "creation": {
                     "time": 6
                 },
                 "weight": 10,
@@ -266,7 +266,7 @@
                 "energyDensity": 400,
                 "powerDensity": 500,
                 "earthDevelopmentCost": 600,
-                "building": {
+                "creation": {
                     "time": 7
                 },
                 "weight": 80,
@@ -350,7 +350,7 @@
                 "energyDensity": 10,
                 "powerDensity": 1000,
                 "earthDevelopmentCost": 300,
-                "building": {
+                "creation": {
                     "time": 8
                 },
                 "weight": 50,

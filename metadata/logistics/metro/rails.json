@@ -1,7 +1,7 @@
 {
     "config": [
         {
-            "path": "building",
+            "path": "creation",
             "values": {
                 "energyCost": "W",
                 "time": "days"
@@ -16,7 +16,7 @@
             }
         }
     ],
-    "building": {
+    "creation": {
         "energyCost": 500000, 
         "time": 30, 
         "materials": [

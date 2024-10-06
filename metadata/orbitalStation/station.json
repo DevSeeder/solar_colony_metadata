@@ -1,7 +1,7 @@
 {
     "config": [
       {
-        "path": "building",
+        "path": "creation",
         "values": {
           "durability": "years",
           "energyCost": "W",
@@ -34,7 +34,7 @@
         }
       }
     ],
-    "building": {
+    "creation": {
       "description": "Lunar orbital station designed for long-term missions, research, and support for lunar surface operations. Equipped with scientific instruments, communication systems, and docking ports for visiting spacecraft.",
       "components": [
         {

@@ -14,7 +14,7 @@
         "range": 100,
         "impactColisionResistence": 500000,
         "durability": 20,
-        "building": {
+        "creation": {
             "energyCost": 900,
             "time": 1.5,
             "requiredBots": 1,

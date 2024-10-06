@@ -10,8 +10,8 @@
                 "durability": "years",
                 "flexibility": "GPa",
                 "earthDevelopmentCost": "USD",
-                "bulding.energyCost": "W",
-                "bulding.time": "h",
+                "creation.energyCost": "W",
+                "creation.time": "h",
                 "weight": "Kg"
             }
         },
@@ -45,7 +45,7 @@
                 "durability": 7,
                 "flexibility": 160,
                 "earthDevelopmentCost": 330,
-                "bulding": {
+                "creation": {
                     "energyCost": 14000,
                     "time": 7,
                     "extraRequiredRoles": []
@@ -68,7 +68,7 @@
                 "durability": 12,
                 "flexibility": 150,
                 "earthDevelopmentCost": 300,
-                "bulding": {
+                "creation": {
                     "energyCost": 13000,
                     "time": 13,
                     "extraRequiredRoles": []
@@ -120,7 +120,7 @@
                 "durability": 15,
                 "flexibility": 100,
                 "earthDevelopmentCost": 400,
-                "bulding": {
+                "creation": {
                     "energyCost": 20000,
                     "time": 10,
                     "extraRequiredRoles": []
@@ -170,7 +170,7 @@
                 "durability": 20,
                 "flexibility": 80,
                 "earthDevelopmentCost": 800,
-                "bulding": {
+                "creation": {
                     "energyCost": 80000,
                     "time": 15,
                     "extraRequiredRoles": [
@@ -216,7 +216,7 @@
                 "durability": 25,
                 "flexibility": 70,
                 "earthDevelopmentCost": 1200,
-                "bulding": {
+                "creation": {
                     "energyCost": 120000,
                     "time": 20,
                     "extraRequiredRoles": [

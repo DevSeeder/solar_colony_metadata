@@ -33,7 +33,7 @@
             "energyCostByHourByPerson": 326,
             "productionByHour": 40,
             "durability": 7,
-            "building": {
+            "creation": {
                 "energyCost": 200000,
                 "time": 100,
                 "requiredRoles": [
@@ -132,7 +132,7 @@
             "energyCostByHour": 125,
             "productionByHour": 40,
             "durability":11,
-            "building": {
+            "creation": {
                 "energyCost": 40000,
                 "time": 60,
                 "requiredRoles": [

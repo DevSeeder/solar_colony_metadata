@@ -19,7 +19,7 @@
       }
     },
     {
-      "path": "building",
+      "path": "creation",
       "values": {
         "time": "h",
         "energyCost": "W"
@@ -35,7 +35,7 @@
       "length": 15
     }
   },
-  "building": {
+  "creation": {
     "time": 120,
     "energyCost": 55000,
     "requiredMaterials": [

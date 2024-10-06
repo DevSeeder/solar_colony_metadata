@@ -23,7 +23,7 @@
         "energyBy500m": 10000,
         "velocity": 25000,
         "cargoCapacity": 5000,
-        "building": {
+        "creation": {
             "energyCost": 20000, 
             "time": 15, 
             "materials": [

@@ -1,7 +1,7 @@
 {
     "config": [
         {
-            "path": "building",
+            "path": "creation",
             "values": {
                 "durability": "years",
                 "energyCost": "W",
@@ -23,7 +23,7 @@
             }
         }
     ],
-    "building": {
+    "creation": {
         "description": "Centro de lazer e entretenimento destinado aos colonos para a prática de esportes, jogos e atividades recreativas. O espaço inclui áreas de descanso, jogos de mesa, quadras esportivas e uma sala de projeção.",
         "components": [
             {

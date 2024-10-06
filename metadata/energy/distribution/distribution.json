@@ -152,13 +152,6 @@
                             ]
                         },
                         {
-                            "sequence": 2,
-                            "method": "supportMounting",
-                            "usedRoles": [
-                                "engineer"
-                            ]
-                        },
-                        {
                             "sequence": 3,
                             "method": "microwaveTransceiverAssembly",
                             "usedRoles": [
@@ -177,7 +170,8 @@
                     "refinement": {
                         "steps": [
                             "frequencyAndPowerCalibration",
-                            "protectiveLayerAddition"
+                            "protectiveLayerAddition",
+                            "transmissionTests"
                         ],
                         "usedRoles": [
                             "engineer",

@@ -272,38 +272,6 @@
             }
         }
     ],
-    "creationMethods": {
-        "development": [
-            {
-                "sequence": 1,
-                "method": "vacuumDeposition",
-                "usedRoles": [
-                    "physicist",
-                    "engineer"
-                ]
-            },
-            {
-                "sequence": 2,
-                "method": "doping",
-                "usedRoles": [
-                    "physicist",
-                    "chemical"
-                ]
-            }
-        ],
-        "refinement": {
-            "steps": [
-                "thermalRecovery",
-                "chemicalCleaning",
-                "antiReflectiveLayers"
-            ],
-            "usedRoles": [
-                "physicist",
-                "chemical",
-                "engineer"
-            ]
-        }
-    },
     "maintenance": {
         "factor": 0.5,
         "materials": [
@@ -355,7 +323,39 @@
                 "qtd": 2,
                 "mode": "adv"
             }
-        ]
+        ],
+        "creationMethods": {
+            "development": [
+                {
+                    "sequence": 1,
+                    "method": "vacuumDeposition",
+                    "usedRoles": [
+                        "physicist",
+                        "engineer"
+                    ]
+                },
+                {
+                    "sequence": 2,
+                    "method": "doping",
+                    "usedRoles": [
+                        "physicist",
+                        "chemical"
+                    ]
+                }
+            ],
+            "refinement": {
+                "steps": [
+                    "thermalRecovery",
+                    "chemicalCleaning",
+                    "antiReflectiveLayers"
+                ],
+                "usedRoles": [
+                    "physicist",
+                    "chemical",
+                    "engineer"
+                ]
+            }
+        }
     },
     "designs": [
         {

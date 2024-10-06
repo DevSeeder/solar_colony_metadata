@@ -10,7 +10,8 @@
                 "energyDensity": "Wh/kg",
                 "powerDensity": "W/kg",
                 "earthDevelopmentCost": "US",
-                "building.time": "h",
+                "creation.time": "h",
+                "creation.energyCost": "W",
                 "weight": "Kg",
                 "totalEnergyStorage": "W"
             }
@@ -47,47 +48,42 @@
                 "powerDensity": 180,
                 "earthDevelopmentCost": 150,
                 "creation": {
-                    "time": 5
+                    "time": 5,
+                    "energyCost": 250,
+                    "extraRequiredRoles": [
+                        {
+                            "key": "engineer",
+                            "qtd": 1
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "sulfuricAcid",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "name": "lead",
+                            "qtd": 10,
+                            "mode": "*"
+                        }
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0.1,
+                                "method": "leadSmelting",
+                                "usedRoles": [
+                                    "engineer",
+                                    "chemical"
+                                ]
+                            }
+                        ]
+                    }
                 },
                 "weight": 300,
-                "requiredRoles": [
-                    {
-                        "key": "engineer",
-                        "qtd": 1
-                    }
-                ],
                 "totalEnergyStorage": 1200
-            },
-            "extraBuildingMethods": {
-                "development": [
-                    {
-                        "sequence": 0,
-                        "method": "sulfuricAcidBuilding",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    },
-                    {
-                        "sequence": 0.1,
-                        "method": "leadSmelting",
-                        "requiredRoles": [
-                            "engineer"
-                        ]
-                    }
-                ]
-            },
-            "extraMaterials": [
-                {
-                    "name": "sulfuricAcid",
-                    "qtd": 10,
-                    "mode": "*"
-                },
-                {
-                    "name": "lead",
-                    "qtd": 100,
-                    "mode": "*"
-                }
-            ]
+            }
         },
         {
             "key": "sulfurFlowBattery",
@@ -104,73 +100,75 @@
                 "powerDensity": 90,
                 "earthDevelopmentCost": 800,
                 "creation": {
-                    "time": 10
+                    "time": 10,
+                    "energyCost": 25000,
+                    "materials": [
+                        {
+                            "name": "water",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "sulfur",
+                            "qtd": 0.5,
+                            "mode": "*"
+                        },
+                        {
+                            "name": "graphite",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        },
+                        {
+                            "name": "copper",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lithiumSalt",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lithium",
+                            "qtd": 0.25,
+                            "mode": "simple"
+                        }
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0.1,
+                                "method": "cathodePreparation",
+                                "usedRoles": [
+                                    "chemical"
+                                ]
+                            },
+                            {
+                                "sequence": 0.2,
+                                "method": "anodePreparation",
+                                "usedRoles": [
+                                    "chemical"
+                                ]
+                            },
+                            {
+                                "sequence": 0.3,
+                                "method": "electrolyteInjection",
+                                "usedRoles": [
+                                    "engineer",
+                                    "chemical"
+                                ]
+                            }
+                        ]
+                    },
+                    "extraRequiredRoles": [
+                        {
+                            "key": "chemical",
+                            "qtd": 1
+                        }
+                    ]
                 },
                 "weight": 1400,
-                "requiredRoles": [
-                    {
-                        "key": "chemical",
-                        "qtd": 1
-                    }
-                ],
                 "totalEnergyStorage": 1500
-            },
-            "extraMaterials": [
-                {
-                    "name": "water",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "sulfur",
-                    "qtd": 5,
-                    "mode": "*"
-                },
-                {
-                    "name": "graphite",
-                    "qtd": 1,
-                    "mode": "*"
-                },
-                {
-                    "name": "copper",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lithiumSalt",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lithium",
-                    "qtd": 1,
-                    "mode": "simple"
-                }
-            ],
-            "extraBuildingMethods": {
-                "development": [
-                    {
-                        "sequence": 0.1,
-                        "method": "cathodePreparation",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    },
-                    {
-                        "sequence": 0.2,
-                        "method": "anodePreparation",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    },
-                    {
-                        "sequence": 0.3,
-                        "method": "electrolyteInjection",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    }
-                ]
             }
         },
         {
@@ -188,68 +186,70 @@
                 "powerDensity": 300,
                 "earthDevelopmentCost": 300,
                 "creation": {
-                    "time": 6
+                    "time": 6,
+                    "energyCost": 5000,
+                    "materials": [
+                        {
+                            "name": "water",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lithiumOxid",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "graphite",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        },
+                        {
+                            "name": "copper",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lithiumSalt",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lithium",
+                            "qtd": 0.5,
+                            "mode": "simple"
+                        }
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0,
+                                "method": "cathodePreparation",
+                                "usedRoles": [
+                                    "chemical"
+                                ]
+                            },
+                            {
+                                "sequence": 0.1,
+                                "method": "anodePreparation",
+                                "usedRoles": [
+                                    "chemical"
+                                ]
+                            },
+                            {
+                                "sequence": 0.2,
+                                "method": "electrolyteInjection",
+                                "usedRoles": [
+                                    "chemical",
+                                    "engineer"
+                                ]
+                            }
+                        ]
+                    },
+                    "extraRequiredRoles": []
                 },
                 "weight": 10,
-                "requiredRoles": [],
                 "totalEnergyStorage": 1885
-            },
-            "extraMaterials": [
-                {
-                    "name": "water",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lithiumOxid",
-                    "qtd": 2,
-                    "mode": "adv"
-                },
-                {
-                    "name": "graphite",
-                    "qtd": 1,
-                    "mode": "*"
-                },
-                {
-                    "name": "copper",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lithiumSalt",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lithium",
-                    "qtd": 3,
-                    "mode": "simple"
-                }
-            ],
-            "extraBuildingMethods": {
-                "development": [
-                    {
-                        "sequence": 0,
-                        "method": "cathodePreparation",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    },
-                    {
-                        "sequence": 0.1,
-                        "method": "anodePreparation",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    },
-                    {
-                        "sequence": 0.2,
-                        "method": "electrolyteInjection",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    }
-                ]
             }
         },
         {
@@ -267,73 +267,75 @@
                 "powerDensity": 500,
                 "earthDevelopmentCost": 600,
                 "creation": {
-                    "time": 7
+                    "time": 7,
+                    "energyCost": 35000,
+                    "materials": [
+                        {
+                            "name": "water",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lithiumOxid",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "graphite",
+                            "qtd": 0.25,
+                            "mode": "*"
+                        },
+                        {
+                            "name": "copper",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lithiumSulfur",
+                            "qtd": 0.25,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lithium",
+                            "qtd": 0.5,
+                            "mode": "simple"
+                        },
+                        {
+                            "name": "sulfur",
+                            "qtd": 0.25,
+                            "mode": "simple"
+                        }
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0.1,
+                                "method": "anodePreparation",
+                                "usedRoles": [
+                                    "chemical"
+                                ]
+                            },
+                            {
+                                "sequence": 0.2,
+                                "method": "solidElectrolyteInjection",
+                                "usedRoles": [
+                                    "chemical",
+                                    "engineer"
+                                ]
+                            },
+                            {
+                                "sequence": 0.3,
+                                "method": "cathodePreparation",
+                                "usedRoles": [
+                                    "chemical"
+                                ]
+                            }
+                        ]
+                    },
+                    "extraRequiredRoles": []
                 },
                 "weight": 80,
-                "requiredRoles": [],
                 "totalEnergyStorage": 2000
-            },
-            "extraMaterials": [
-                {
-                    "name": "water",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lithiumOxid",
-                    "qtd": 2,
-                    "mode": "adv"
-                },
-                {
-                    "name": "graphite",
-                    "qtd": 1,
-                    "mode": "*"
-                },
-                {
-                    "name": "copper",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lithiumSulfur",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lithium",
-                    "qtd": 3,
-                    "mode": "simple"
-                },
-                {
-                    "name": "sulfur",
-                    "qtd": 1,
-                    "mode": "simple"
-                }
-            ],
-            "extraBuildingMethods": {
-                "development": [
-                    {
-                        "sequence": 0.1,
-                        "method": "anodePreparation",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    },
-                    {
-                        "sequence": 0.2,
-                        "method": "solidElectrolyteInjection",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    },
-                    {
-                        "sequence": 0.3,
-                        "method": "cathodePreparation",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    }
-                ]
             }
         },
         {
@@ -351,92 +353,120 @@
                 "powerDensity": 1000,
                 "earthDevelopmentCost": 300,
                 "creation": {
-                    "time": 8
+                    "time": 8,
+                    "energyCost": 1500,
+                    "materials": [
+                        [
+                            {
+                                "name": "carbon",
+                                "qtd": 0.5,
+                                "mode": "*"
+                            },
+                            {
+                                "name": "lithiumSalt",
+                                "qtd": 0.25,
+                                "mode": "adv"
+                            },
+                            {
+                                "name": "copper",
+                                "qtd": 0.25,
+                                "mode": "adv"
+                            },
+                            {
+                                "name": "lithium",
+                                "qtd": 0.25,
+                                "mode": "simple"
+                            },
+                            {
+                                "name": "silica",
+                                "qtd": 0.25,
+                                "mode": "adv"
+                            },
+                            {
+                                "name": "silicon",
+                                "qtd": 0.25,
+                                "mode": "*"
+                            }
+                        ]
+                    ],
+                    "extraCreationMethods": {
+                        "development": [
+                            {
+                                "sequence": 0.1,
+                                "method": "electrodePreparation",
+                                "usedRoles": [
+                                    "engineer"
+                                ]
+                            },
+                            {
+                                "sequence": 0.2,
+                                "method": "electrolyteInjection",
+                                "usedRoles": [
+                                    "chemical",
+                                    "engineer",
+                                    "physicist"
+                                ]
+                            }
+                        ]
+                    },
+                    "extraRequiredRoles": [
+                        {
+                            "key": "engineer",
+                            "qtd": 1
+                        }
+                    ]
                 },
                 "weight": 50,
-                "requiredRoles": [
-                    {
-                        "key": "engineer",
-                        "qtd": 1
-                    }
-                ],
                 "totalEnergyStorage": 2700
-            },
-            "extraMaterials": [
-                [
-                    {
-                        "name": "carbon",
-                        "qtd": 1,
-                        "mode": "*"
-                    },
-                    {
-                        "name": "lithiumSalt",
-                        "qtd": 1,
-                        "mode": "adv"
-                    },
-                    {
-                        "name": "copper",
-                        "qtd": 1,
-                        "mode": "adv"
-                    },
-                    {
-                        "name": "lithium",
-                        "qtd": 1,
-                        "mode": "simple"
-                    },
-                    {
-                        "name": "silica",
-                        "qtd": 1,
-                        "mode": "*"
-                    },
-                    {
-                        "name": "silicon",
-                        "qtd": 2,
-                        "mode": "*"
-                    }
-                ]
-            ],
-            "extraBuildingMethods": {
-                "development": [
-                    {
-                        "sequence": 0.1,
-                        "method": "electrodePreparation",
-                        "requiredRoles": [
-                            "engineer"
-                        ]
-                    },
-                    {
-                        "sequence": 0.2,
-                        "method": "electrolyteInjection",
-                        "requiredRoles": [
-                            "chemical"
-                        ]
-                    }
-                ]
             }
         }
     ],
-    "buildingMethods": {
-        "development": [
-            {
-                "sequence": 1,
-                "method": "electrochemicalAssembly",
-                "requiredRoles": [
-                    "chemical"
+    "creation": {
+        "creationMethods": {
+            "development": [
+                {
+                    "sequence": 1,
+                    "method": "electrochemicalAssembly",
+                    "usedRoles": [
+                        "chemical",
+                        "engineer",
+                        "physicist"
+                    ]
+                }
+            ],
+            "refinement": {
+                "steps": [
+                    "chemicalCleaning",
+                    "chargeDischargeCycle",
+                    "thermalInsulation"
+                ],
+                "usedRoles": [
+                    "chemical",
+                    "physicist",
+                    "engineer"
                 ]
             }
+        },
+        "requiredRoles": [
+            {
+                "key": "engineer",
+                "qtd": 1
+            },
+            {
+                "key": "chemical",
+                "qtd": 1
+            },
+            {
+                "key": "physicist",
+                "qtd": 1
+            }
         ],
-        "refinement": {
-            "steps": [
-                "chemicalCleaning",
-                "chargeDischargeCycle",
-                "thermalInsulation"
-            ],
-            "requiredRoles": [
-                "chemical",
-                "engineer"
-            ]
-        }
+        "materials": [
+            {
+                "name": "silica",
+                "qtd": 30
+            }
+        ]
     },
     "maintenance": {
         "factor": 0.5,
@@ -472,12 +502,6 @@
             }
         ]
     },
-    "materials": [
-        {
-            "name": "silica",
-            "qtd": 30
-        }
-    ],
     "designs": [
         {
             "key": "box",
@@ -590,20 +614,6 @@
                     ]
                 }
             ]
-        }
-    ],
-    "requiredRoles": [
-        {
-            "key": "engineer",
-            "qtd": 1
-        },
-        {
-            "key": "chemical",
-            "qtd": 1
-        },
-        {
-            "key": "physicist",
-            "qtd": 1
         }
     ]
 }

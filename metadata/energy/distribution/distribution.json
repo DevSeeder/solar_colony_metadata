@@ -1,18 +1,18 @@
 {
     "config": [
         {
-            "path": "techs[].metricValues",
+            "path": "techs[]",
             "values": {
-                "range": "m",
-                "energyLost": "%",
-                "energySupported": "Wh",
-                "durability": "years",
-                "maxTemperatureResistance": "celsius",
-                "radiationResistance": "Gy",
-                "impactColisionResistance": "MJ",
-                "developmentTime": "h",
-                "developmentPeople": "un",
-                "weight": "Kg"
+                "metricValues.range": "m",
+                "metricValues.energyLost": "%",
+                "metricValues.energySupported": "Wh",
+                "metricValues.durability": "years",
+                "metricValues.maxTemperatureResistance": "celsius",
+                "metricValues.radiationResistance": "Gy",
+                "metricValues.impactColisionResistance": "MJ",
+                "creation.time": "h",
+                "creation.energyCost": "W",
+                "metricValues.weight": "Kg"
             }
         }
     ],
@@ -33,24 +33,57 @@
                 "maxTemperatureResistance": 150,
                 "radiationResistance": 20,
                 "impactColisionResistance": 10000,
-                "developmentTime": 5,
-                "developmentPeople": 1,
-                "weight": 0.2,
-                "extraRequiredRoles": [
+                "weight": 0.2
+            },
+            "creation": {
+                "time": 5,
+                "energyCost": 17000,
+                "requiredRoles": [
                     {
                         "key": "engineer",
                         "qtd": 1
+                    },
+                    {
+                        "key": "physicist",
+                        "qtd": 1
                     }
-                ]
-            },
-            "creation": {},
-            "materials": [
-                {
-                    "material": "aluminum",
-                    "qtd": 1,
-                    "mode": "*"
+                ],
+                "materials": [
+                    {
+                        "material": "aluminum",
+                        "qtd": 1,
+                        "mode": "*"
+                    }
+                ],
+                "creationMethods": {
+                    "development": [
+                        {
+                            "sequence": 1,
+                            "method": "extrusion",
+                            "usedRoles": [
+                                "engineer"
+                            ]
+                        },
+                        {
+                            "sequence": 2,
+                            "method": "annealing",
+                            "usedRoles": [
+                                "engineer",
+                                "physicist"
+                            ]
+                        }
+                    ],
+                    "refinement": {
+                        "steps": [
+                            "cutting",
+                            "packaging"
+                        ],
+                        "usedRoles": [
+                            "engineer"
+                        ]
+                    }
                 }
-            ],
+            },
             "maintenance": {
                 "factor": 0.25,
                 "materials": [
@@ -68,49 +101,101 @@
             "stepLevel": 2,
             "requiredLevel": 10,
             "metricValues": {
-                "range": 100,
+                "range": 1000,
                 "energyLost": 30,
                 "energySupported": 10000,
                 "durability": 12,
                 "maxTemperatureResistance": 115,
                 "radiationResistance": 10,
                 "impactColisionResistance": 25000,
-                "developmentTime": 112,
-                "developmentPeople": 4,
-                "weight": 2700,
-                "extraRequiredRoles": [
+                "weight": 2700
+            },
+            "creation": {
+                "time": 112,
+                "energyCost": 1000,
+                "materials": [
                     {
-                        "key": "engineer",
-                        "qtd": 3
+                        "material": "aluminum",
+                        "qtd": 1750,
+                        "mode": "adv"
                     },
                     {
-                        "key": "systemsEngineer",
+                        "material": "aluminum",
+                        "qtd": 500,
+                        "mode": "simple"
+                    },
+                    {
+                        "material": "silica",
+                        "qtd": 250,
+                        "mode": "*"
+                    },
+                    {
+                        "material": "integratedCirciut",
+                        "qtd": 5,
+                        "mode": "*"
+                    }
+                ],
+                "creationMethods": {
+                    "development": [
+                        {
+                            "sequence": 1,
+                            "method": "metalForming",
+                            "usedRoles": [
+                                "engineer"
+                            ]
+                        },
+                        {
+                            "sequence": 2,
+                            "method": "supportMounting",
+                            "usedRoles": [
+                                "engineer"
+                            ]
+                        },
+                        {
+                            "sequence": 2,
+                            "method": "supportMounting",
+                            "usedRoles": [
+                                "engineer"
+                            ]
+                        },
+                        {
+                            "sequence": 3,
+                            "method": "microwaveTransceiverAssembly",
+                            "usedRoles": [
+                                "engineer",
+                                "physicist"
+                            ]
+                        },
+                        {
+                            "sequence": 4,
+                            "method": "cablesAndConnectorsInstallation",
+                            "usedRoles": [
+                                "engineer"
+                            ]
+                        }
+                    ],
+                    "refinement": {
+                        "steps": [
+                            "frequencyAndPowerCalibration",
+                            "protectiveLayerAddition"
+                        ],
+                        "usedRoles": [
+                            "engineer",
+                            "physicist"
+                        ]
+                    }
+                },
+                "requiredRoles": [
+                    {
+                        "key": "engineer",
+                        "qtd": 2
+                    },
+                    {
+                        "key": "physicist",
                         "qtd": 1
                     }
                 ]
             },
-            "materials": [
-                {
-                    "material": "aluminum",
-                    "qtd": 1750,
-                    "mode": "adv"
-                },
-                {
-                    "material": "aluminum",
-                    "qtd": 500,
-                    "mode": "simple"
-                },
-                {
-                    "material": "silica",
-                    "qtd": 250,
-                    "mode": "*"
-                },
-                {
-                    "material": "integratedCirciut",
-                    "qtd": 5,
-                    "mode": "*"
-                }
-            ],
             "maintenance": {
                 "factor": 0.25,
                 "materials": [

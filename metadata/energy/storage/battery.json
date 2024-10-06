@@ -54,7 +54,7 @@
                 "developmentTime": 50,
                 "developmentPeople": 3,
                 "weight": 300,
-                "extraRequiredRoles": [
+                "requiredRoles": [
                     {
                         "key": "engineer",
                         "qtd": 1
@@ -112,7 +112,7 @@
                 "developmentTime": 100,
                 "developmentPeople": 3,
                 "weight": 1400,
-                "extraRequiredRoles": [
+                "requiredRoles": [
                     {
                         "key": "chemical",
                         "qtd": 1
@@ -197,7 +197,7 @@
                 "developmentTime": 60,
                 "developmentPeople": 2,
                 "weight": 10,
-                "extraRequiredRoles": [],
+                "requiredRoles": [],
                 "totalEnergyStorage": 18850
             },
             "extraMaterials": [
@@ -277,7 +277,7 @@
                 "developmentTime": 75,
                 "developmentPeople": 2,
                 "weight": 80,
-                "extraRequiredRoles": [],
+                "requiredRoles": [],
                 "totalEnergyStorage": 20000
             },
             "extraMaterials": [
@@ -362,7 +362,7 @@
                 "developmentTime": 80,
                 "developmentPeople": 3,
                 "weight": 50,
-                "extraRequiredRoles": [
+                "requiredRoles": [
                     {
                         "key": "engineer",
                         "qtd": 1
@@ -586,6 +586,10 @@
         },
         {
             "key": "chemical",
+            "qtd": 1
+        },
+        {
+            "key": "physical",
             "qtd": 1
         }
     ]

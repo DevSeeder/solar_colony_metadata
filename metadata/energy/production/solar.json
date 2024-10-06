@@ -49,7 +49,7 @@
                 "instalationTime": 8,
                 "instalationPeople": 2,
                 "developmentTime": 7,
-                "requiredRoles": [],
+                "extraRequiredRoles": [],
                 "energy": 16,
                 "weight": 16
             },
@@ -71,7 +71,7 @@
                 "instalationTime": 2,
                 "instalationPeople": 2,
                 "developmentTime": 13,
-                "requiredRoles": [],
+                "extraRequiredRoles": [],
                 "energy": 18,
                 "weight": 18
             },
@@ -97,8 +97,10 @@
                     {
                         "sequence": 0,
                         "method": "perovskiteBuilding",
-                        "requiredRoles": [
-                            "engineer"
+                        "usedRoles": [
+                            "physical",
+                            "engineer",
+                            "chemical"
                         ]
                     }
                 ]
@@ -120,7 +122,7 @@
                 "instalationTime": 3,
                 "instalationPeople": 2,
                 "developmentTime": 10,
-                "requiredRoles": [],
+                "extraRequiredRoles": [],
                 "energy": 25,
                 "weight": 10
             },
@@ -146,7 +148,7 @@
                     {
                         "sequence": 0,
                         "method": "rosaMounting",
-                        "requiredRoles": [
+                        "usedRoles": [
                             "engineer"
                         ]
                     }
@@ -169,7 +171,7 @@
                 "instalationTime": 4,
                 "instalationPeople": 2,
                 "developmentTime": 15,
-                "requiredRoles": [
+                "extraRequiredRoles": [
                     {
                         "key": "engineer",
                         "qtd": 1
@@ -190,7 +192,8 @@
                     {
                         "sequence": 0,
                         "method": "multijunctionBuilding",
-                        "requiredRoles": [
+                        "usedRoles": [
+                            "chemical",
                             "engineer"
                         ]
                     }
@@ -213,7 +216,7 @@
                 "instalationTime": 5,
                 "instalationPeople": 3,
                 "developmentTime": 20,
-                "requiredRoles": [
+                "extraRequiredRoles": [
                     {
                         "key": "engineer",
                         "qtd": 2
@@ -239,21 +242,25 @@
                     {
                         "sequence": 0.1,
                         "method": "advancedPolymersBuilding",
-                        "requiredRoles": [
-                            "engineer"
+                        "usedRoles": [
+                            "engineer",
+                            "chemical"
                         ]
                     },
                     {
                         "sequence": 0.2,
                         "method": "nanoMaterialsBuilding",
-                        "requiredRoles": [
-                            "engineer"
+                        "usedRoles": [
+                            "engineer",
+                            "chemical",
+                            "physical"
                         ]
                     },
                     {
                         "sequence": 0.3,
                         "method": "multijunctionBuilding",
-                        "requiredRoles": [
+                        "usedRoles": [
+                            "chemical",
                             "engineer"
                         ]
                     }
@@ -266,14 +273,16 @@
             {
                 "sequence": 1,
                 "method": "vacuumDeposition",
-                "requiredRoles": [
+                "usedRoles": [
+                    "physical",
                     "engineer"
                 ]
             },
             {
                 "sequence": 2,
                 "method": "doping",
-                "requiredRoles": [
+                "usedRoles": [
+                    "physical",
                     "chemical"
                 ]
             }
@@ -284,7 +293,8 @@
                 "chemicalCleaning",
                 "antiReflectiveLayers"
             ],
-            "requiredRoles": [
+            "usedRoles": [
+                "physical",
                 "chemical",
                 "engineer"
             ]

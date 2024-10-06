@@ -98,7 +98,7 @@
                         "sequence": 0,
                         "method": "perovskiteBuilding",
                         "usedRoles": [
-                            "physical",
+                            "physicist",
                             "engineer",
                             "chemical"
                         ]
@@ -253,7 +253,7 @@
                         "usedRoles": [
                             "engineer",
                             "chemical",
-                            "physical"
+                            "physicist"
                         ]
                     },
                     {
@@ -274,7 +274,7 @@
                 "sequence": 1,
                 "method": "vacuumDeposition",
                 "usedRoles": [
-                    "physical",
+                    "physicist",
                     "engineer"
                 ]
             },
@@ -282,7 +282,7 @@
                 "sequence": 2,
                 "method": "doping",
                 "usedRoles": [
-                    "physical",
+                    "physicist",
                     "chemical"
                 ]
             }
@@ -294,7 +294,7 @@
                 "antiReflectiveLayers"
             ],
             "usedRoles": [
-                "physical",
+                "physicist",
                 "chemical",
                 "engineer"
             ]
@@ -444,7 +444,7 @@
             "qtd": 1
         },
         {
-            "key": "physical",
+            "key": "physicist",
             "qtd": 1
         }
     ]

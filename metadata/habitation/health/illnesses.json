@@ -177,7 +177,7 @@
     {
       "key": "atrophy",
       "probability": 5,
-      "medicine": "physicalTherapy",
+      "medicine": "physicistTherapy",
       "cureTime": 15,
       "deathTime": 0,
       "disenable": true,

@@ -55,7 +55,7 @@
       "requiredBots": 3,
       "requiredRoles": [
         {
-          "key": "physical",
+          "key": "physicist",
           "qtd": 2
         },
         {

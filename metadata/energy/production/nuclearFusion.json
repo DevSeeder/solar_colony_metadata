@@ -55,7 +55,7 @@
                 "requiredRoles": [
                     "chemical",
                     "engineer",
-                    "physical"
+                    "physicist"
                 ]
             },
             {
@@ -64,7 +64,7 @@
                 "requiredRoles": [
                     "chemical",
                     "engineer",
-                    "physical"
+                    "physicist"
                 ]
             },
             {
@@ -116,7 +116,7 @@
             "qtd": 2
         },
         {
-            "key": "physical",
+            "key": "physicist",
             "qtd": 3
         },
         {

@@ -1,0 +1,106 @@
+{
+    "config": [
+      {
+        "path": "sections",
+        "values": {
+          "fabrication.capacity": "items",
+          "storage.capacity": "items"
+        }
+      },
+      {
+        "path": "metricValues",
+        "values": {
+          "durability": "years",
+          "energyCost": "Wh"
+        }
+      },
+      {
+        "path": "building",
+        "values": {
+          "time": "days",
+          "energyCost": "W"
+        }
+      },
+      {
+        "path": "size",
+        "values": {
+          "width": "m",
+          "length": "m",
+          "height": "m"
+        }
+      }
+    ],
+    "sections": {
+      "fabrication": {
+        "initial": 5,
+        "capacity": 10
+      },
+      "storage": {
+        "capacity": 100
+      }
+    },
+    "metricValues": {
+      "durability": 50,
+      "energyCost": 500
+    },
+    "building": {
+      "energyCost": 45000,
+      "time": 10,
+      "materials": [
+        {
+          "material": "titanium",
+          "qtd": 4000,
+          "mode": "*"
+        },
+        {
+          "material": "aluminium",
+          "qtd": 1000,
+          "mode": "*"
+        },
+        {
+          "material": "polymer",
+          "qtd": 200,
+          "mode": "adv"
+        },
+        {
+          "material": "moonCement",
+          "qtd": 200,
+          "mode": "*"
+        },
+        {
+          "material": "silicon",
+          "qtd": 800,
+          "mode": "*"
+        }
+      ],
+      "requiredBots": 5,
+      "requiredRoles": [
+        {
+          "key": "engineer",
+          "qtd": 5
+        }
+      ]
+    },
+    "maintenance": {
+      "factor": 0.75,
+      "requiredBots": 4,
+      "materials": [
+        {
+          "material": "aluminium",
+          "qtd": 150,
+          "mode": "*"
+        },
+        {
+          "material": "moonCement",
+          "qtd": 50,
+          "mode": "*"
+        }
+      ]
+    },
+    "size": {
+      "width": 50,
+      "length": 30,
+      "height": 4
+    }
+  }
+  

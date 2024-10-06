@@ -48,12 +48,12 @@
                 "creation": {
                     "energyCost": 14000,
                     "time": 7,
-                    "extraRequiredRoles": []
+                    "extraRequiredRoles": [],
+                    "materials": []
                 },
                 "energy": 16,
                 "weight": 16
-            },
-            "materials": []
+            }
         },
         {
             "key": "perovskiteCells",
@@ -71,29 +71,29 @@
                 "creation": {
                     "energyCost": 13000,
                     "time": 13,
-                    "extraRequiredRoles": []
+                    "extraRequiredRoles": [],
+                    "materials": [
+                        {
+                            "name": "organicCompounds",
+                            "qtd": 1,
+                            "mode": "*"
+                        },
+                        {
+                            "name": "leadIodide",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lead",
+                            "qtd": 1,
+                            "mode": "simple"
+                        }
+                    ]
                 },
                 "energy": 18,
                 "weight": 18
             },
-            "materials": [
-                {
-                    "name": "organicCompounds",
-                    "qtd": 1,
-                    "mode": "*"
-                },
-                {
-                    "name": "leadIodide",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lead",
-                    "qtd": 1,
-                    "mode": "simple"
-                }
-            ],
-            "extraBuildingMethods": {
+            "extraCreationMethods": {
                 "development": [
                     {
                         "sequence": 0,
@@ -123,29 +123,29 @@
                 "creation": {
                     "energyCost": 20000,
                     "time": 10,
-                    "extraRequiredRoles": []
+                    "extraRequiredRoles": [],
+                    "materials": [
+                        {
+                            "name": "organicCompounds",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "name": "leadIodide",
+                            "qtd": 1,
+                            "mode": "adv"
+                        },
+                        {
+                            "name": "lead",
+                            "qtd": 1,
+                            "mode": "simple"
+                        }
+                    ]
                 },
                 "energy": 25,
                 "weight": 10
             },
-            "materials": [
-                {
-                    "name": "organicCompounds",
-                    "qtd": 2,
-                    "mode": "*"
-                },
-                {
-                    "name": "leadIodide",
-                    "qtd": 1,
-                    "mode": "adv"
-                },
-                {
-                    "name": "lead",
-                    "qtd": 1,
-                    "mode": "simple"
-                }
-            ],
-            "extraBuildingMethods": {
+            "extraCreationMethods": {
                 "development": [
                     {
                         "sequence": 0,
@@ -178,19 +178,19 @@
                             "key": "engineer",
                             "qtd": 1
                         }
+                    ],
+                    "materials": [
+                        {
+                            "name": "semiconductorAlloys",
+                            "qtd": 2,
+                            "mode": "*"
+                        }
                     ]
                 },
                 "energy": 20,
                 "weight": 12
             },
-            "materials": [
-                {
-                    "name": "semiconductorAlloys",
-                    "qtd": 2,
-                    "mode": "*"
-                }
-            ],
-            "extraBuildingMethods": {
+            "extraCreationMethods": {
                 "development": [
                     {
                         "sequence": 0,
@@ -224,24 +224,24 @@
                             "key": "engineer",
                             "qtd": 2
                         }
+                    ],
+                    "materials": [
+                        {
+                            "name": "semiconductorAlloys",
+                            "qtd": 2,
+                            "mode": "*"
+                        },
+                        {
+                            "material": "silicon",
+                            "qtd": 10,
+                            "mode": "*"
+                        }
                     ]
                 },
                 "energy": 30,
                 "weight": 15
             },
-            "materials": [
-                {
-                    "name": "semiconductorAlloys",
-                    "qtd": 2,
-                    "mode": "*"
-                },
-                {
-                    "material": "silicon",
-                    "qtd": 10,
-                    "mode": "*"
-                }
-            ],
-            "extraBuildingMethods": {
+            "extraCreationMethods": {
                 "development": [
                     {
                         "sequence": 0.1,
@@ -272,7 +272,7 @@
             }
         }
     ],
-    "buildingMethods": {
+    "creationMethods": {
         "development": [
             {
                 "sequence": 1,
@@ -319,28 +319,44 @@
             }
         ]
     },
-    "materials": [
-        {
-            "name": "silicon",
-            "qtd": 10,
-            "mode": "*"
-        },
-        {
-            "name": "rutile",
-            "qtd": 2,
-            "mode": "*"
-        },
-        {
-            "name": "aluminum",
-            "qtd": 2,
-            "mode": "adv"
-        },
-        {
-            "name": "dopingElements",
-            "qtd": 2,
-            "mode": "adv"
-        }
-    ],
+    "creation": {
+        "requiredRoles": [
+            {
+                "key": "chemical",
+                "qtd": 1
+            },
+            {
+                "key": "engineer",
+                "qtd": 1
+            },
+            {
+                "key": "physicist",
+                "qtd": 1
+            }
+        ],
+        "materials": [
+            {
+                "name": "silicon",
+                "qtd": 10,
+                "mode": "*"
+            },
+            {
+                "name": "rutile",
+                "qtd": 2,
+                "mode": "*"
+            },
+            {
+                "name": "aluminum",
+                "qtd": 2,
+                "mode": "adv"
+            },
+            {
+                "name": "dopingElements",
+                "qtd": 2,
+                "mode": "adv"
+            }
+        ]
+    },
     "designs": [
         {
             "key": "squad",
@@ -393,7 +409,7 @@
             "upgrade": 35,
             "requiredLevel": 10,
             "minimumStep": 1,
-            "costMaterials": [
+            "materials": [
                 {
                     "material": "iron",
                     "qtd": 1,
@@ -411,7 +427,7 @@
             "upgrade": 40,
             "requiredLevel": 15,
             "minimumStep": 1,
-            "costMaterials": [
+            "materials": [
                 {
                     "material": "silicon",
                     "qtd": 10,
@@ -424,7 +440,7 @@
             "upgrade": 50,
             "requiredLevel": 20,
             "minimumStep": 4,
-            "costMaterials": [
+            "materials": [
                 {
                     "material": "silicon",
                     "qtd": 20,
@@ -436,20 +452,6 @@
                     "mode": "*"
                 }
             ]
-        }
-    ],
-    "requiredRoles": [
-        {
-            "key": "chemical",
-            "qtd": 1
-        },
-        {
-            "key": "engineer",
-            "qtd": 1
-        },
-        {
-            "key": "physicist",
-            "qtd": 1
         }
     ]
 }

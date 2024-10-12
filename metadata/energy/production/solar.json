@@ -233,11 +233,11 @@
                         {
                             "name": "semiconductorAlloys",
                             "qtd": 2,
-                            "mode": "*"
+                            "mode": "av"
                         },
                         {
                             "material": "silicon",
-                            "qtd": 10,
+                            "qtd": 15,
                             "mode": "*"
                         }
                     ],
@@ -280,13 +280,13 @@
         "factor": 0.5,
         "materials": [
             {
-                "name": "rutile",
-                "qtd": 1,
+                "name": "aluminum",
+                "qtd": 2,
                 "mode": "*"
             },
             {
                 "name": "dopingElements",
-                "qtd": 2,
+                "qtd": 1,
                 "mode": "adv"
             }
         ]
@@ -309,18 +309,23 @@
         "materials": [
             {
                 "name": "silicon",
-                "qtd": 10,
+                "qtd": 20,
                 "mode": "*"
             },
             {
                 "name": "rutile",
                 "qtd": 2,
-                "mode": "*"
+                "mode": "adv"
             },
             {
                 "name": "aluminum",
-                "qtd": 2,
+                "qtd": 20,
                 "mode": "adv"
+            },
+            {
+                "name": "glass",
+                "qtd": 10,
+                "mode": "*"
             },
             {
                 "name": "dopingElements",

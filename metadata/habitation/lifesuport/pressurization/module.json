@@ -6,9 +6,9 @@
                 "durability": "years",
                 "earthDevelopmentCost": "USD",
                 "impactColisionResistence": "MJ",
-                "energyCostBySquadMeter": "Wh",
+                "energyRequiredBySquadMeter": "Wh",
                 "building.time": "h",
-                "building.energyCost": "W"
+                "building.energyRequired": "W"
             }
         }
     ],
@@ -16,10 +16,10 @@
         "durability": 20,
         "earthDevelopmentCost": 15000,
         "impactColisionResistence": 1200,
-        "energyCostBySquadMeter": 20,
+        "energyRequiredBySquadMeter": 20,
         "creation": {
             "time": 80,
-            "energyCost": 250000,
+            "energyRequired": 250000,
             "materials": [
                 {
                     "material": "aluminium",

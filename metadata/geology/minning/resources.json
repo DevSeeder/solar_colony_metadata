@@ -5,9 +5,9 @@
       "values": {
         "abundance": "%",
         "depositSizes": "t",
-        "extraction.energyCostByUnit": "W",
+        "extraction.energyRequiredByUnit": "W",
         "extraction.timeByUnit": "h",
-        "processing.energyCostByUnit": "W",
+        "processing.energyRequiredByUnit": "W",
         "processing.timeByUnit": "h"
       }
     }
@@ -18,11 +18,11 @@
       "abundance": 100,
       "depositSizes": [50, 200, 1000],
       "extraction": {
-        "energyCostByUnit": 400,
+        "energyRequiredByUnit": 400,
         "timeByUnit": 1
       },
       "processing": {
-        "energyCostByUnit": 6500,
+        "energyRequiredByUnit": 6500,
         "timeByUnit": 6
       }
     },
@@ -31,11 +31,11 @@
       "abundance": 70,
       "depositSizes": [50, 100, 500],
       "extraction": {
-        "energyCostByUnit": 400,
+        "energyRequiredByUnit": 400,
         "timeByUnit": 1
       },
       "processing": {
-        "energyCostByUnit": 6500,
+        "energyRequiredByUnit": 6500,
         "timeByUnit": 6
       }
     },
@@ -44,11 +44,11 @@
       "abundance": 100,
       "depositSizes": [500, 1500, 5000],
       "extraction": {
-        "energyCostByUnit": 350,
+        "energyRequiredByUnit": 350,
         "timeByUnit": 1.5
       },
       "processing": {
-        "energyCostByUnit": 3000,
+        "energyRequiredByUnit": 3000,
         "timeByUnit": 4
       }
     },
@@ -57,11 +57,11 @@
       "abundance": 50,
       "depositSizes": [20, 100, 400],
       "extraction": {
-        "energyCostByUnit": 250,
+        "energyRequiredByUnit": 250,
         "timeByUnit": 0.8
       },
       "processing": {
-        "energyCostByUnit": 5000,
+        "energyRequiredByUnit": 5000,
         "timeByUnit": 5
       }
     },
@@ -70,11 +70,11 @@
       "abundance": 80,
       "depositSizes": [100, 300, 1200],
       "extraction": {
-        "energyCostByUnit": 500,
+        "energyRequiredByUnit": 500,
         "timeByUnit": 2
       },
       "processing": {
-        "energyCostByUnit": 7000,
+        "energyRequiredByUnit": 7000,
         "timeByUnit": 5.5
       }
     },
@@ -83,11 +83,11 @@
       "abundance": 25,
       "depositSizes": [20, 80, 300],
       "extraction": {
-        "energyCostByUnit": 600,
+        "energyRequiredByUnit": 600,
         "timeByUnit": 3
       },
       "processing": {
-        "energyCostByUnit": 8000,
+        "energyRequiredByUnit": 8000,
         "timeByUnit": 6
       }
     },
@@ -96,11 +96,11 @@
       "abundance": 35,
       "depositSizes": [1, 5, 20],
       "extraction": {
-        "energyCostByUnit": 55,
+        "energyRequiredByUnit": 55,
         "timeByUnit": 2
       },
       "processing": {
-        "energyCostByUnit": 750,
+        "energyRequiredByUnit": 750,
         "timeByUnit": 4
       }
     },
@@ -109,11 +109,11 @@
       "abundance": 10,
       "depositSizes": [5, 25, 100],
       "extraction": {
-        "energyCostByUnit": 450,
+        "energyRequiredByUnit": 450,
         "timeByUnit": 2
       },
       "processing": {
-        "energyCostByUnit": 6000,
+        "energyRequiredByUnit": 6000,
         "timeByUnit": 4
       }
     },
@@ -122,11 +122,11 @@
       "abundance": 40,
       "depositSizes": [10, 50, 100],
       "extraction": {
-        "energyCostByUnit": 150,
+        "energyRequiredByUnit": 150,
         "timeByUnit": 1.5
       },
       "processing": {
-        "energyCostByUnit": 1750,
+        "energyRequiredByUnit": 1750,
         "timeByUnit": 3
       }
     },
@@ -135,11 +135,11 @@
       "abundance": 70,
       "depositSizes": [50, 200, 1000],
       "extraction": {
-        "energyCostByUnit": 2000,
+        "energyRequiredByUnit": 2000,
         "timeByUnit": 2
       },
       "processing": {
-        "energyCostByUnit": 100,
+        "energyRequiredByUnit": 100,
         "timeByUnit": 0.15
       }
     },
@@ -148,11 +148,11 @@
       "abundance": 90,
       "depositSizes": [100, 500, 1500],
       "extraction": {
-        "energyCostByUnit": 450,
+        "energyRequiredByUnit": 450,
         "timeByUnit": 2
       },
       "processing": {
-        "energyCostByUnit": 7000,
+        "energyRequiredByUnit": 7000,
         "timeByUnit": 5
       }
     },
@@ -161,11 +161,11 @@
       "abundance": 20,
       "depositSizes": [10, 50, 200],
       "extraction": {
-        "energyCostByUnit": 400,
+        "energyRequiredByUnit": 400,
         "timeByUnit": 2
       },
       "processing": {
-        "energyCostByUnit": 6000,
+        "energyRequiredByUnit": 6000,
         "timeByUnit": 4.5
       }
     },
@@ -174,11 +174,11 @@
       "abundance": 30,
       "depositSizes": [25, 100, 250],
       "extraction": {
-        "energyCostByUnit": 700,
+        "energyRequiredByUnit": 700,
         "timeByUnit": 3
       },
       "processing": {
-        "energyCostByUnit": 8500,
+        "energyRequiredByUnit": 8500,
         "timeByUnit": 6
       }
     },
@@ -187,11 +187,11 @@
       "abundance": 80,
       "depositSizes": [100, 5000, 100000],
       "extraction": {
-        "energyCostByUnit": 10000,
+        "energyRequiredByUnit": 10000,
         "timeByUnit": 20
       },
       "processing": {
-        "energyCostByUnit": 90000,
+        "energyRequiredByUnit": 90000,
         "timeByUnit": 40
       }
     },
@@ -200,11 +200,11 @@
       "abundance": 60,
       "depositSizes": [100, 500, 2000],
       "extraction": {
-        "energyCostByUnit": 400,
+        "energyRequiredByUnit": 400,
         "timeByUnit": 1.0
       },
       "processing": {
-        "energyCostByUnit": 3500,
+        "energyRequiredByUnit": 3500,
         "timeByUnit": 3
       }
     },
@@ -213,11 +213,11 @@
       "abundance": 70,
       "depositSizes": [150, 700, 2500],
       "extraction": {
-        "energyCostByUnit": 300,
+        "energyRequiredByUnit": 300,
         "timeByUnit": 1.0
       },
       "processing": {
-        "energyCostByUnit": 4500,
+        "energyRequiredByUnit": 4500,
         "timeByUnit": 4
       }
     },
@@ -226,11 +226,11 @@
       "abundance": 70,
       "depositSizes": [150, 700, 2500],
       "extraction": {
-        "energyCostByUnit": 300,
+        "energyRequiredByUnit": 300,
         "timeByUnit": 1.0
       },
       "processing": {
-        "energyCostByUnit": 4500,
+        "energyRequiredByUnit": 4500,
         "timeByUnit": 4
       }
     },
@@ -239,11 +239,11 @@
       "abundance": 50,
       "depositSizes": [10, 50, 100],
       "extraction": {
-        "energyCostByUnit": 350,
+        "energyRequiredByUnit": 350,
         "timeByUnit": 1.0
       },
       "processing": {
-        "energyCostByUnit": 4000,
+        "energyRequiredByUnit": 4000,
         "timeByUnit": 3
       }
     },
@@ -252,11 +252,11 @@
       "abundance": 50,
       "depositSizes": [10, 50, 100],
       "extraction": {
-        "energyCostByUnit": 350,
+        "energyRequiredByUnit": 350,
         "timeByUnit": 1.0
       },
       "processing": {
-        "energyCostByUnit": 4000,
+        "energyRequiredByUnit": 4000,
         "timeByUnit": 3
       }
     },
@@ -265,11 +265,11 @@
       "abundance": 100,
       "depositSizes": [10000, 500000, 1000000],
       "extraction": {
-        "energyCostByUnit": 50,
+        "energyRequiredByUnit": 50,
         "timeByUnit": 0.5
       },
       "processing": {
-        "energyCostByUnit": 50,
+        "energyRequiredByUnit": 50,
         "timeByUnit": 0.1
       }
     },
@@ -278,11 +278,11 @@
       "abundance": 15,
       "depositSizes": [5, 30, 100],
       "extraction": {
-        "energyCostByUnit": 500,
+        "energyRequiredByUnit": 500,
         "timeByUnit": 2
       },
       "processing": {
-        "energyCostByUnit": 6000,
+        "energyRequiredByUnit": 6000,
         "timeByUnit": 4
       }
     },
@@ -291,11 +291,11 @@
       "abundance": 5,
       "depositSizes": [1, 10, 50],
       "extraction": {
-        "energyCostByUnit": 700,
+        "energyRequiredByUnit": 700,
         "timeByUnit": 3
       },
       "processing": {
-        "energyCostByUnit": 8500,
+        "energyRequiredByUnit": 8500,
         "timeByUnit": 6
       }
     },
@@ -304,11 +304,11 @@
       "abundance": 25,
       "depositSizes": [20, 100, 400],
       "extraction": {
-        "energyCostByUnit": 350,
+        "energyRequiredByUnit": 350,
         "timeByUnit": 1.5
       },
       "processing": {
-        "energyCostByUnit": 5000,
+        "energyRequiredByUnit": 5000,
         "timeByUnit": 4
       }
     },
@@ -317,11 +317,11 @@
       "abundance": 30,
       "depositSizes": [50, 200, 800],
       "extraction": {
-        "energyCostByUnit": 300,
+        "energyRequiredByUnit": 300,
         "timeByUnit": 1.2
       },
       "processing": {
-        "energyCostByUnit": 4000,
+        "energyRequiredByUnit": 4000,
         "timeByUnit": 3.5
       }
     }
@@ -332,7 +332,7 @@
       "abundance": 80,
       "depositSizes": [100, 500, 2000],
       "extraction": {
-        "energyCostByUnit": 500,
+        "energyRequiredByUnit": 500,
         "timeByUnit": 2
       },
       "minerals": [
@@ -375,7 +375,7 @@
       "abundance": 50,
       "depositSizes": [10, 50, 200],
       "extraction": {
-        "energyCostByUnit": 500,
+        "energyRequiredByUnit": 500,
         "timeByUnit": 2
       },
       "minerals": [
@@ -394,7 +394,7 @@
       "abundance": 70,
       "depositSizes": [100, 500, 1500],
       "extraction": {
-        "energyCostByUnit": 400,
+        "energyRequiredByUnit": 400,
         "timeByUnit": 2
       },
       "minerals": [
@@ -417,7 +417,7 @@
       "abundance": 45,
       "depositSizes": [50, 200, 500],
       "extraction": {
-        "energyCostByUnit": 600,
+        "energyRequiredByUnit": 600,
         "timeByUnit": 2.5
       },
       "minerals": [
@@ -440,7 +440,7 @@
       "abundance": 20,
       "depositSizes": [10, 50, 200],
       "extraction": {
-        "energyCostByUnit": 200,
+        "energyRequiredByUnit": 200,
         "timeByUnit": 1
       },
       "components": [

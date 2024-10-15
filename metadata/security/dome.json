@@ -16,7 +16,7 @@
       "path": "construction",
       "values": {
         "time": "h",
-        "energyCost": "W"
+        "energyRequired": "W"
       }
     }
   ],
@@ -35,7 +35,7 @@
   },
   "construction": {
     "time": 120,
-    "energyCost": 1000,
+    "energyRequired": 1000,
     "materials": [
       {
         "material": "glass",

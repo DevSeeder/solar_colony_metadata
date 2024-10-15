@@ -11,14 +11,14 @@
           "impactResistance": "MJ",
           "durability": "years",
           "oxygenLoss": "%",
-          "energyCostBySquadMeter": "Wh"
+          "energyRequiredBySquadMeter": "Wh"
         }
       },
       {
         "path": "creation",
         "values": {
           "time": "h",
-          "energyCost": "W"
+          "energyRequired": "W"
         }
       }
     ],
@@ -34,11 +34,11 @@
       "impactResistance": 100,
       "durability": 25,
       "oxygenLoss": 0.5,
-      "energyCostBySquadMeter": 2000  
+      "energyRequiredBySquadMeter": 2000  
     },
     "creation": {
       "time": 150,
-      "energyCost": 2000,
+      "energyRequired": 2000,
       "materials": [
         {
           "material": "copper",

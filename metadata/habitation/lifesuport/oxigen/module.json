@@ -3,16 +3,16 @@
         {
             "path": "techs[]",
             "values": {
-                "energyCostByHourByPerson": "W",
+                "energyRequiredByHourByPerson": "W",
                 "productionByHour": "g",
                 "durability": "years",
-                "building.energyCost": "W",
+                "building.energyRequired": "W",
                 "earthDevelopmentCost": "USD",
                 "building.time": "h",
                 "size.width": "m",
                 "size.length": "m",
                 "size.height": "m",
-                "upgrades[].energyCostByLight": "w"
+                "upgrades[].energyRequiredByLight": "w"
             }
         },
         {
@@ -30,11 +30,11 @@
             "stepLevel": 1,
             "levelRequired": 1,
             "earthDevelopmentCost": 125000,
-            "energyCostByHourByPerson": 326,
+            "energyRequiredByHourByPerson": 326,
             "productionByHour": 40,
             "durability": 7,
             "creation": {
-                "energyCost": 200000,
+                "energyRequired": 200000,
                 "time": 100,
                 "requiredRoles": [
                     {
@@ -128,12 +128,12 @@
             "stepLevel": 2,
             "levelRequired": 15,
             "earthDevelopmentCost": 125000,
-            "energyCostByHourByPerson": 2.5,
-            "energyCostByHour": 125,
+            "energyRequiredByHourByPerson": 2.5,
+            "energyRequiredByHour": 125,
             "productionByHour": 40,
             "durability":11,
             "creation": {
-                "energyCost": 40000,
+                "energyRequired": 40000,
                 "time": 60,
                 "requiredRoles": [
                     {
@@ -210,7 +210,7 @@
                 {
                     "key": "ledPainels",
                     "upgradeAction": "supplyLightWhenDark",
-                    "energyCostByLight": 400,
+                    "energyRequiredByLight": 400,
                     "requiredMaterials": [
                         {
                             "material": "silicon",

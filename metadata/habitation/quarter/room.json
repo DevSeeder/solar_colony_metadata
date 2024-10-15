@@ -11,14 +11,14 @@
       "path": "metricValues",
       "values": {
         "durability": "years",
-        "energyCost": "Wh"
+        "energyRequired": "Wh"
       }
     },
     {
       "path": "creation",
       "values": {
         "time": "days",
-        "energyCost": "W"
+        "energyRequired": "W"
       }
     },
     {
@@ -42,10 +42,10 @@
   },
   "metricValues": {
     "durability": 40,
-    "energyCost": 675
+    "energyRequired": 675
   },
   "creation": {
-    "energyCost": 37000,
+    "energyRequired": 37000,
     "time": 7,
     "materials": [
       {

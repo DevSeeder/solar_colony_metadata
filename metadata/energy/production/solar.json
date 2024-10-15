@@ -10,7 +10,7 @@
                 "durability": "years",
                 "flexibility": "GPa",
                 "earthDevelopmentCost": "USD",
-                "creation.energyCost": "W",
+                "creation.energyRequired": "W",
                 "creation.time": "h",
                 "weight": "Kg"
             }
@@ -49,7 +49,7 @@
                 "flexibility": 160,
                 "earthDevelopmentCost": 2650,
                 "creation": {
-                    "energyCost": 112000,
+                    "energyRequired": 112000,
                     "time": 35,
                     "extraRequiredRoles": [],
                     "materials": [],
@@ -59,7 +59,7 @@
             }
         },
         {
-            "key": "perovskiteCells",
+            "key": "perovskite",
             "softName": "Células de Perovskita",
             "stepLevel": 2,
             "requiredLevel": 3,
@@ -72,7 +72,7 @@
                 "flexibility": 150,
                 "earthDevelopmentCost": 2400,
                 "creation": {
-                    "energyCost": 48000,
+                    "energyRequired": 48000,
                     "time": 24,
                     "extraRequiredRoles": [],
                     "materials": [
@@ -123,7 +123,7 @@
                 "flexibility": 100,
                 "earthDevelopmentCost": 3200,
                 "creation": {
-                    "energyCost": 76000,
+                    "energyRequired": 76000,
                     "time": 32,
                     "extraRequiredRoles": [],
                     "materials": [
@@ -172,7 +172,7 @@
                 "flexibility": 80,
                 "earthDevelopmentCost": 6400,
                 "creation": {
-                    "energyCost": 375000,
+                    "energyRequired": 375000,
                     "time": 64,
                     "extraRequiredRoles": [
                         {
@@ -217,7 +217,7 @@
                 "flexibility": 70,
                 "earthDevelopmentCost": 9600,
                 "creation": {
-                    "energyCost": 500000,
+                    "energyRequired": 500000,
                     "time": 72,
                     "extraRequiredRoles": [
                         {
@@ -241,7 +241,7 @@
                         "development": [
                             {
                                 "sequence": 0.1,
-                                "method": "advancedPolymersBuilding",
+                                "method": "advPolymersBuilding",
                                 "usedRoles": [
                                     "engineer",
                                     "chemical"
@@ -249,7 +249,7 @@
                             },
                             {
                                 "sequence": 0.2,
-                                "method": "nanoMaterialsBuilding",
+                                "method": "nanomaterialsBuilding",
                                 "usedRoles": [
                                     "engineer",
                                     "chemical",
@@ -273,6 +273,7 @@
     ],
     "maintenance": {
         "factor": 0.5,
+        "requiredBots": 1,
         "materials": [
             {
                 "name": "aluminum",
@@ -340,7 +341,7 @@
                 },
                 {
                     "sequence": 2,
-                    "method": "doping",
+                    "method": "siliconDoping",
                     "usedRoles": [
                         "physicist",
                         "chemical"
@@ -349,7 +350,6 @@
             ],
             "refinement": {
                 "steps": [
-                    "thermalRecovery",
                     "chemicalCleaning",
                     "antiReflectiveLayers"
                 ],
@@ -380,7 +380,7 @@
             "height": 500
         },
         {
-            "key": "hexagon",
+            "key": "hexagonal",
             "stepLevel": 3,
             "requiredLevel": 7,
             "upgrade": 45,
@@ -409,7 +409,7 @@
     ],
     "upgrades": [
         {
-            "key": "solarFollowers",
+            "key": "sunFollowers",
             "upgrade": 35,
             "requiredMinDesignStep": 2,
             "requiredLevel": 10,

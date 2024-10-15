@@ -3,15 +3,15 @@
     {
       "path": "foods[]",
       "values": {
-        "energyCost": "Wh",
+        "energyRequired": "Wh",
         "durability": "years",
         "building.time": "days",
-        "building.energyCost": "W",
+        "building.energyRequired": "W",
         "size.width": "m",
         "size.length": "m",
         "size.height": "m",
         "harvestTime": "days",
-        "upgrades[].energyCostByLight": "W"
+        "upgrades[].energyRequiredByLight": "W"
       }
     },
     {
@@ -27,7 +27,7 @@
       "tech": "greenhouseAgriculture",
       "stepLevel": 1,
       "requiredLevel": 1,
-      "energyCost": 1600,
+      "energyRequired": 1600,
       "durability": 15,
       "harvestTime": 7,
       "capacity": 25,
@@ -81,7 +81,7 @@
       ],
       "creation": {
         "time": 15,
-        "energyCost": 90000,
+        "energyRequired": 90000,
         "materials": [
           {
             "material": "aluminium",
@@ -150,7 +150,7 @@
           }
         ]
       },
-      "energyCost": 1000,
+      "energyRequired": 1000,
       "harvestTime": 4,
       "fuelByKg": [
         {
@@ -195,7 +195,7 @@
       ],
       "creation": {
         "time": 15,
-        "energyCost": 90000,
+        "energyRequired": 90000,
         "materials": [
           {
             "material": "aluminium",
@@ -260,7 +260,7 @@
           }
         ]
       },
-      "energyCost": 800,
+      "energyRequired": 800,
       "harvestTime": {
         "fish": 180,
         "seaweed": 21
@@ -292,7 +292,7 @@
       ],
       "creation": {
         "time": 15,
-        "energyCost": 90000,
+        "energyRequired": 90000,
         "materials": [
           {
             "material": "aluminium",
@@ -362,7 +362,7 @@
           }
         ]
       },
-      "energyCost": 500,
+      "energyRequired": 500,
       "harvestTime": {
         "eggs": 7,
         "freshMeat": 42,
@@ -398,7 +398,7 @@
       ],
       "creation": {
         "time": 20,
-        "energyCost": 120000,
+        "energyRequired": 120000,
         "materials": [
           {
             "material": "aluminium",
@@ -446,7 +446,7 @@
         {
           "key": "automatedFeeder",
           "upgradeAction": "supplyFeedAutomatically",
-          "energyCostByOperation": 200,
+          "energyRequiredByOperation": 200,
           "requiredMaterials": [
             {
               "material": "silicon",
@@ -472,7 +472,7 @@
       "stepLevel": 5,
       "requiredLevel": 15,
       "capacity": 25,
-      "energyCost": 500,
+      "energyRequired": 500,
       "harvestTime": 15,
       "operation": {
         "requiredRoles": [
@@ -525,7 +525,7 @@
       ],
       "creation": {
         "time": 20,
-        "energyCost": 120000,
+        "energyRequired": 120000,
         "materials": [
           {
             "material": "aluminium",
@@ -575,7 +575,7 @@
     {
       "key": "ledPainels",
       "upgradeAction": "supplyLightWhenDark",
-      "energyCostByLight": 400,
+      "energyRequiredByLight": 400,
       "requiredMaterials": [
         {
           "material": "silicon",

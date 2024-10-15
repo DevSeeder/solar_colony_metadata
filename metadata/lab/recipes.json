@@ -4,7 +4,7 @@
       "path": "recipes[]",
       "values": {
         "processes.time": "h",
-        "processes.energyCost": "W"
+        "processes.energyRequired": "W"
       }
     }
   ],
@@ -14,7 +14,7 @@
       "processes": [
         {
           "time": 2.5,
-          "energyCost": 1500,
+          "energyRequired": 1500,
           "materials": [
             {
               "material": "lead",
@@ -36,7 +36,7 @@
       "processes": [
         {
           "time": 1,
-          "energyCost": 1000,
+          "energyRequired": 1000,
           "materials": [
             {
               "material": "lithium",
@@ -58,7 +58,7 @@
       "processes": [
         {
           "time": 10,
-          "energyCost": 30000,
+          "energyRequired": 30000,
           "materials": [
             {
               "material": "carbon",
@@ -75,7 +75,7 @@
       "processes": [
         {
           "time": 6,
-          "energyCost": 75000,
+          "energyRequired": 75000,
           "materials": [
             {
               "material": "carbon",
@@ -92,7 +92,7 @@
       "processes": [
         {
           "time": 1.5,
-          "energyCost": 1500,
+          "energyRequired": 1500,
           "materials": [
             {
               "material": "water",
@@ -119,7 +119,7 @@
       "processes": [
         {
           "time": 1.5,
-          "energyCost": 1500,
+          "energyRequired": 1500,
           "materials": [
             {
               "material": "sulfur",
@@ -141,7 +141,7 @@
       "processes": [
         {
           "time": 1,
-          "energyCost": 1500,
+          "energyRequired": 1500,
           "materials": [
             {
               "material": "lithium",
@@ -168,7 +168,7 @@
       "processes": [
         {
           "time": 2,
-          "energyCost": 2000,
+          "energyRequired": 2000,
           "materials": [
             {
               "material": "lithium",
@@ -190,7 +190,7 @@
       "processes": [
         {
           "time": 7,
-          "energyCost": 850,
+          "energyRequired": 850,
           "materials": [
             {
               "material": "sodium",
@@ -212,7 +212,7 @@
       "processes": [
         {
           "time": 7,
-          "energyCost": 6000,
+          "energyRequired": 6000,
           "materials": [
             {
               "material": "magnesiumChloride",
@@ -229,7 +229,7 @@
       "processes": [
         {
           "time": 40,
-          "energyCost": 40000,
+          "energyRequired": 40000,
           "materials": [
             {
               "material": "silicon",
@@ -266,7 +266,7 @@
       "processes": [
         {
           "time": 7,
-          "energyCost": 6000,
+          "energyRequired": 6000,
           "materials": [
             {
               "material": "silicon",
@@ -298,7 +298,7 @@
       "processes": [
         {
           "time": 2,
-          "energyCost": 2000,
+          "energyRequired": 2000,
           "materials": [
             {
               "material": "aluminium",
@@ -320,7 +320,7 @@
       "processes": [
         {
           "time": 2,
-          "energyCost": 3000,
+          "energyRequired": 3000,
           "materials": [
             {
               "material": "carbon",
@@ -342,7 +342,7 @@
       "processes": [
         {
           "time": 2,
-          "energyCost": 1000,
+          "energyRequired": 1000,
           "materials": [
             {
               "material": "carbon",
@@ -364,7 +364,7 @@
       "processes": [
         {
           "time": 4,
-          "energyCost": 4000,
+          "energyRequired": 4000,
           "materials": [
             {
               "material": "sodium",
@@ -386,7 +386,7 @@
       "processes": [
         {
           "time": 5,
-          "energyCost": 5000,
+          "energyRequired": 5000,
           "materials": [
             {
               "material": "aluminium",
@@ -408,7 +408,7 @@
       "processes": [
         {
           "time": 1,
-          "energyCost": 400,
+          "energyRequired": 400,
           "materials": [
             {
               "material": "silicon",
@@ -430,7 +430,7 @@
       "processes": [
         {
           "time": 2,
-          "energyCost": 500,
+          "energyRequired": 500,
           "materials": [
             {
               "material": "poliol",
@@ -457,7 +457,7 @@
       "processes": [
         {
           "time": 7,
-          "energyCost": 750,
+          "energyRequired": 750,
           "materials": [
             {
               "material": "water",
@@ -479,7 +479,7 @@
       "processes": [
         {
           "time": 300,
-          "energyCost": 12,
+          "energyRequired": 12,
           "materials": [
             {
               "material": "biomass",
@@ -496,7 +496,7 @@
       "processes": [
         {
           "time": 100,
-          "energyCost": 1000,
+          "energyRequired": 1000,
           "materials": [
             {
               "material": "biomass",
@@ -507,7 +507,7 @@
         },
         {
           "time": 100,
-          "energyCost": 1000,
+          "energyRequired": 1000,
           "materials": [
             {
               "material": "feces",
@@ -518,7 +518,7 @@
         },
         {
           "time": 100,
-          "energyCost": 1000,
+          "energyRequired": 1000,
           "materials": [
             {
               "material": "urine",
@@ -529,7 +529,7 @@
         },
         {
           "time": 50,
-          "energyCost": 1000,
+          "energyRequired": 1000,
           "materials": [
             {
               "material": "fertilizer",
@@ -546,7 +546,7 @@
       "processes": [
         {
           "time": 200,
-          "energyCost": 20000,
+          "energyRequired": 20000,
           "materials": [
             {
               "material": "biomass",
@@ -563,7 +563,7 @@
       "processes": [
         {
           "time": 2,
-          "energyCost": 100,
+          "energyRequired": 100,
           "materials": [
             {
               "material": "silicate",
@@ -589,7 +589,7 @@
       "processes": [
         {
           "time": 3,
-          "energyCost": 150,
+          "energyRequired": 150,
           "materials": [
             {
               "material": "water",
@@ -615,7 +615,7 @@
       "processes": [
         {
           "time": 1,
-          "energyCost": 80,
+          "energyRequired": 80,
           "materials": [
             {
               "material": "aluminium",
@@ -636,7 +636,7 @@
       "processes": [
         {
           "time": 4,
-          "energyCost": 200,
+          "energyRequired": 200,
           "materials": [
             {
               "material": "silicon",
@@ -657,7 +657,7 @@
       "processes": [
         {
           "time": 1.5,
-          "energyCost": 60,
+          "energyRequired": 60,
           "materials": [
             {
               "material": "silicon",
@@ -678,7 +678,7 @@
       "processes": [
         {
           "time": 5,
-          "energyCost": 250,
+          "energyRequired": 250,
           "materials": [
             {
               "material": "zirconium",
@@ -709,7 +709,7 @@
       "processes": [
         {
           "time": 3,
-          "energyCost": 180,
+          "energyRequired": 180,
           "materials": [
             {
               "material": "titanium",
@@ -730,7 +730,7 @@
       "processes": [
         {
           "time": 2,
-          "energyCost": 150,
+          "energyRequired": 150,
           "materials": [
             {
               "material": "ethanol",
@@ -751,7 +751,7 @@
       "processes": [
         {
           "time": 4,
-          "energyCost": 200,
+          "energyRequired": 200,
           "materials": [
             {
               "material": "hexamethylenediamine",
@@ -772,7 +772,7 @@
       "processes": [
         {
           "time": 3,
-          "energyCost": 120,
+          "energyRequired": 120,
           "materials": [
             {
               "material": "silica",
@@ -793,7 +793,7 @@
       "processes": [
         {
           "time": 4,
-          "energyCost": 250,
+          "energyRequired": 250,
           "materials": [
             {
               "material": "sodium",
@@ -819,7 +819,7 @@
       "processes": [
         {
           "time": 8,
-          "energyCost": 300,
+          "energyRequired": 300,
           "materials": [
             {
               "material": "hidrogen",
@@ -840,7 +840,7 @@
       "processes": [
         {
           "time": 2,
-          "energyCost": 300,
+          "energyRequired": 300,
           "materials": [
             {
               "material": "carbonicDioxide",
@@ -856,7 +856,7 @@
       "processes": [
         {
           "time": 12,
-          "energyCost": 500,
+          "energyRequired": 500,
           "materials": [
             {
               "material": "sodium",
@@ -882,7 +882,7 @@
       "processes": [
         {
           "time": 10,
-          "energyCost": 400,
+          "energyRequired": 400,
           "materials": [
             {
               "material": "ethanol",
@@ -903,7 +903,7 @@
       "processes": [
         {
           "time": 6,
-          "energyCost": 4600,
+          "energyRequired": 4600,
           "materials": [
             {
               "material": "hidrogen",
@@ -934,7 +934,7 @@
       "processes": [
         {
           "time": 6,
-          "energyCost": 4600,
+          "energyRequired": 4600,
           "materials": [
             {
               "material": "hidrogen",
@@ -965,7 +965,7 @@
       "processes": [
         {
           "time": 6,
-          "energyCost": 5400,
+          "energyRequired": 5400,
           "materials": [
             {
               "material": "water",
@@ -996,7 +996,7 @@
       "processes": [
         {
           "time": 10,
-          "energyCost": 3000,
+          "energyRequired": 3000,
           "materials": [
             {
               "material": "water",
@@ -1022,7 +1022,7 @@
       "processes": [
         {
           "time": 12,
-          "energyCost": 30000,
+          "energyRequired": 30000,
           "materials": [
             {
               "material": "galium",

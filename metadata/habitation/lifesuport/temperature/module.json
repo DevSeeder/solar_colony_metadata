@@ -6,11 +6,11 @@
                 "durability": "years",
                 "earthDevelopmentCost": "USD",
                 "impactColisionResistence": "MJ",
-                "warming.energyCostByTemperatureVariationBySuadMeter": "Wh",
+                "warming.energyRequiredByTemperatureVariationBySuadMeter": "Wh",
                 "cooling.waterByTemperatureVariationBySuadMeter": "l",
-                "cooling.energyCostByTemperatureVariationBySuadMeter": "Wh",
+                "cooling.energyRequiredByTemperatureVariationBySuadMeter": "Wh",
                 "building.time": "h",
-                "building.energyCost": "W"
+                "building.energyRequired": "W"
             }
         }
     ],
@@ -19,15 +19,15 @@
         "earthDevelopmentCost": 8000,
         "impactColisionResistence": 1000,
         "warming": {
-            "energyCostByTemperatureVariationBySuadMeter": 0.05
+            "energyRequiredByTemperatureVariationBySuadMeter": 0.05
         },
         "cooling": {
             "waterByTemperatureVariationBySuadMeter": 800,
-            "energyCostByTemperatureVariationBySuadMeter": 0.1
+            "energyRequiredByTemperatureVariationBySuadMeter": 0.1
         },
         "creation": {
             "time": 72,
-            "energyCost": 200000,
+            "energyRequired": 200000,
             "materials": [
                 {
                     "material": "aluminium",

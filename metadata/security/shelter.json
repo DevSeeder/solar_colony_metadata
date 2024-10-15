@@ -22,7 +22,7 @@
       "path": "creation",
       "values": {
         "time": "h",
-        "energyCost": "W"
+        "energyRequired": "W"
       }
     }
   ],
@@ -37,7 +37,7 @@
   },
   "creation": {
     "time": 120,
-    "energyCost": 55000,
+    "energyRequired": 55000,
     "requiredMaterials": [
       {
         "material": "moonCement",

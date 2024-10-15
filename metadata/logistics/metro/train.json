@@ -7,7 +7,7 @@
                 "energyBy500m": "W",
                 "velocity": "m/s",
                 "cargoCapacity": "Kg",
-                "building.energyCost": "W",
+                "building.energyRequired": "W",
                 "building.time": "days"
             }
         },
@@ -24,7 +24,7 @@
         "velocity": 25000,
         "cargoCapacity": 5000,
         "creation": {
-            "energyCost": 20000, 
+            "energyRequired": 20000, 
             "time": 15, 
             "materials": [
                 {

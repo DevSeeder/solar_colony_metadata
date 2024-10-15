@@ -4,14 +4,14 @@
         "path": "creation",
         "values": {
           "durability": "years",
-          "energyCost": "W",
+          "energyRequired": "W",
           "time": "h"
         }
       },
       {
         "path": "operation",
         "values": {
-          "energyCost": "Wh"
+          "energyRequired": "Wh"
         }
       },
       {
@@ -48,7 +48,7 @@
         }
       ],
       "durability": 30,
-      "energyCost": 15000,
+      "energyRequired": 15000,
       "time": 300,
       "requiredBots": 5,
       "requiredRoles": [
@@ -85,7 +85,7 @@
       ]
     },
     "operation": {
-      "energyCost": 8000,
+      "energyRequired": 8000,
       "requiredRoles": [
         {
           "key": "commander",

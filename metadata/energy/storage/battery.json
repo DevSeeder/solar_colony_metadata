@@ -11,7 +11,7 @@
                 "metricValues.powerDensity": "W/kg",
                 "metricValues.earthDevelopmentCost": "US",
                 "creation.time": "h",
-                "creation.energyCost": "W",
+                "creation.energyRequired": "W",
                 "metricValues.weight": "Kg",
                 "metricValues.totalEnergyStorage": "W"
             }
@@ -55,7 +55,7 @@
             },
             "creation": {
                 "time": 5,
-                "energyCost": 250,
+                "energyRequired": 250,
                 "extraRequiredRoles": [
                     {
                         "key": "engineer",
@@ -117,7 +117,7 @@
             },
             "creation": {
                 "time": 10,
-                "energyCost": 25000,
+                "energyRequired": 25000,
                 "materials": [
                     {
                         "name": "water",
@@ -213,7 +213,7 @@
             },           
             "creation": {
                 "time": 6,
-                "energyCost": 5000,
+                "energyRequired": 5000,
                 "materials": [
                     {
                         "name": "water",
@@ -304,7 +304,7 @@
             },
             "creation": {
                 "time": 7,
-                "energyCost": 35000,
+                "energyRequired": 35000,
                 "materials": [
                     {
                         "name": "water",
@@ -400,7 +400,7 @@
             },
             "creation": {
                 "time": 8,
-                "energyCost": 1500,
+                "energyRequired": 1500,
                 "materials": [
                     [
                         {

@@ -4,14 +4,14 @@
             "path": "creation",
             "values": {
                 "durability": "years",
-                "energyCost": "W",
+                "energyRequired": "W",
                 "time": "h"
             }
         },
         {
             "path": "operation",
             "values": {
-                "energyCost": "Wh",
+                "energyRequired": "Wh",
                 "foodCost": "USD",
                 "waterCost": "USD"
             }
@@ -51,7 +51,7 @@
             }
         ],
         "durability": 25,
-        "energyCost": 8000,
+        "energyRequired": 8000,
         "time": 240,
         "requiredBots": 6,
         "requiredRoles": [
@@ -93,7 +93,7 @@
         ]
     },
     "operation": {
-        "energyCost": 5000,
+        "energyRequired": 5000,
         "foodCostByPerson": 3,
         "waterCostByPerson": 20,
         "requiredRoles": [

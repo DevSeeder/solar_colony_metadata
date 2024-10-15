@@ -4,14 +4,14 @@
         "path": "creation",
         "values": {
           "durability": "years",
-          "energyCost": "W",
+          "energyRequired": "W",
           "time": "h"
         }
       },
       {
         "path": "operation",
         "values": {
-          "energyCost": "Wh"
+          "energyRequired": "Wh"
         }
       },
       {
@@ -45,7 +45,7 @@
         }
       ],
       "durability": 20,
-      "energyCost": 3000,
+      "energyRequired": 3000,
       "time": 100,
       "requiredBots": 4,
       "requiredRoles": [
@@ -88,7 +88,7 @@
       ]
     },
     "operation": {
-      "energyCost": 2000,
+      "energyRequired": 2000,
       "requiredRoles": [
         {
           "key": "hospitalityManager",

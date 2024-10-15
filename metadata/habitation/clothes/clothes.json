@@ -3,7 +3,7 @@
     {
       "path": "clothes",
       "values": {
-        "energyCost": "W",
+        "energyRequired": "W",
         "time": "hours",
         "materialQty": "kg"
       }
@@ -30,7 +30,7 @@
           "mode": "*"
         }
       ],
-      "energyCost": 500,
+      "energyRequired": 500,
       "time": 2
     },
     {
@@ -113,7 +113,7 @@
           "description": "Sistema de comunicação integrado para falar com a base."
         }
       ],
-      "energyCost": 2000,
+      "energyRequired": 2000,
       "time": 24
     }
   ]

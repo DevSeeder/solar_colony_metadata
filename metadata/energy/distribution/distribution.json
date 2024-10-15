@@ -11,7 +11,7 @@
                 "metricValues.radiationResistance": "Gy",
                 "metricValues.impactColisionResistance": "MJ",
                 "creation.time": "h",
-                "creation.energyCost": "W",
+                "creation.energyRequired": "W",
                 "metricValues.weight": "Kg"
             }
         }
@@ -37,7 +37,7 @@
             },
             "creation": {
                 "time": 5,
-                "energyCost": 17000,
+                "energyRequired": 17000,
                 "requiredRoles": [
                     {
                         "key": "engineer",
@@ -112,7 +112,7 @@
             },
             "creation": {
                 "time": 112,
-                "energyCost": 1000,
+                "energyRequired": 1000,
                 "materials": [
                     {
                         "material": "aluminum",

@@ -3,7 +3,7 @@
         {
             "path": "creation",
             "values": {
-                "energyCost": "W",
+                "energyRequired": "W",
                 "time": "month"
             }
         },
@@ -17,7 +17,7 @@
         }
     ],
     "creation": {
-        "energyCost": 75000,
+        "energyRequired": 75000,
         "time": 1,
         "materials": [
             {

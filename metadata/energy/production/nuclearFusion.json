@@ -11,7 +11,7 @@
                 "developmentTime": "months",
                 "developmentPeople": "un",
                 "weight": "t",
-                "energyCost": "W"
+                "energyRequired": "W"
             }
         }
     ],
@@ -31,7 +31,7 @@
                 "developmentPeople": 8,
                 "extraRequiredRoles": [],
                 "weight": 150,
-                "energyCost": 14000
+                "energyRequired": 14000
             },
             "extraMaterials": [
                 {

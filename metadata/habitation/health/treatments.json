@@ -4,7 +4,7 @@
             "path": "treatments[]",
             "values": {
                 "time": "h",
-                "energyCost": "W"
+                "energyRequired": "W"
             }
         }
     ],
@@ -12,13 +12,13 @@
         {
             "treatment": "psychologySession",
             "time": 1,
-            "energyCost": 50,
+            "energyRequired": 50,
             "materials": []
         },
         {
             "treatment": "chemotherapy",
             "time": 6,
-            "energyCost": 300,
+            "energyRequired": 300,
             "materials": [
                 {
                     "material": "zirconium",
@@ -29,13 +29,13 @@
         {
             "treatment": "physiotherapy",
             "time": 2,
-            "energyCost": 80,
+            "energyRequired": 80,
             "materials": []
         },
         {
             "treatment": "surgery",
             "time": 4,
-            "energyCost": 500,
+            "energyRequired": 500,
             "materials": [
                 {
                     "material": "polyurethaneFoam",

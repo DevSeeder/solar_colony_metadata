@@ -3,7 +3,7 @@
         {
             "path": "creation",
             "values": {
-                "energyCost": "W",
+                "energyRequired": "W",
                 "time": "days"
             }
         },
@@ -17,7 +17,7 @@
         }
     ],
     "creation": {
-        "energyCost": 80000, 
+        "energyRequired": 80000, 
         "time": 15, 
         "materials": [
             {

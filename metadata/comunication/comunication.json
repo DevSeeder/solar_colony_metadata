@@ -13,7 +13,7 @@
         {
             "path": "creation",
             "values": {
-                "energyCost": "W",
+                "energyRequired": "W",
                 "time": "hours",
                 "failureRate": "%"
             }
@@ -103,7 +103,7 @@
         }       
     ],
     "creation": {
-        "energyCost": 150000, 
+        "energyRequired": 150000, 
         "time": 20, 
         "materials": [
             {

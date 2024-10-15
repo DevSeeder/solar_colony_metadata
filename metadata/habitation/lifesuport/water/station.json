@@ -5,9 +5,9 @@
       "values": {
         "durability": "years",
         "time": "h",
-        "energyCost": "W",
+        "energyRequired": "W",
         "transportCart.building.time": "h",
-        "transportCart.building.energyCost": "W",
+        "transportCart.building.energyRequired": "W",
         "transportCart.weight": "Kg",
         "transportCart.capacity": "t",
         "transportCart.velocity": "m/s",
@@ -49,7 +49,7 @@
     "transportCart": {
       "creation": {
         "time": 5,
-        "energyCost": 5000,
+        "energyRequired": 5000,
         "requiredBots": 2,
         "requiredRoles": [
           {
@@ -138,7 +138,7 @@
     }
   ],
   "time": 540,
-  "energyCost": 100000,
+  "energyRequired": 100000,
   "buildingRequiredBots": 4,
   "buildingRequiredRoles": [
     {

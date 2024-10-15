@@ -8,7 +8,7 @@
                 "durability": "years",
                 "creation": {
                     "time": "d",
-                    "energyCost": "kW"
+                    "energyRequired": "kW"
                 },
                 "terrainCapability.features.maxInclineAngle": "°",
                 "thermalProtection.minTemperature": "celsius",
@@ -25,7 +25,7 @@
             "durability": 7,
             "creation": {
                 "time": 3,
-                "energyCost": 500,
+                "energyRequired": 500,
                 "materials": [
                     {
                         "material": "steel",
@@ -99,7 +99,7 @@
                     ],
                     "cost": [
                         {
-                            "key": "energyCost",
+                            "key": "energyRequired",
                             "type": "up",
                             "value": 50
                         }
@@ -114,7 +114,7 @@
             "durability": 3,
             "creation": {
                 "time": 0.5,
-                "energyCost": 50,
+                "energyRequired": 50,
                 "materials": [
                     {
                         "material": "aluminium",
@@ -162,7 +162,7 @@
             "durability": 5,
             "creation": {
                 "time": 2,
-                "energyCost": 300,
+                "energyRequired": 300,
                 "materials": [
                     {
                         "material": "aluminium",
@@ -205,7 +205,7 @@
             "durability": 7,
             "creation": {
                 "time": 3,
-                "energyCost": 50,
+                "energyRequired": 50,
                 "materials": [
                     {
                         "material": "steel",
@@ -259,7 +259,7 @@
             "durability": 10,
             "creation": {
                 "time": 72,
-                "energyCost": 500,
+                "energyRequired": 500,
                 "materials": [
                     {
                         "material": "aluminum",
@@ -315,7 +315,7 @@
                 }
             },
             "operation": {
-                "energyCost": 200,
+                "energyRequired": 200,
                 "requiredRoles": [
                     {
                         "key": "machineOperator",
@@ -366,7 +366,7 @@
             "durability": 12,
             "creation": {
                 "time": 96,
-                "energyCost": 700,
+                "energyRequired": 700,
                 "materials": [
                     {
                         "material": "aluminum",
@@ -422,7 +422,7 @@
                 }
             },
             "operation": {
-                "energyCost": 250,
+                "energyRequired": 250,
                 "requiredRoles": [
                     {
                         "key": "commander",
@@ -485,7 +485,7 @@
             "durability": 8,
             "creation": {
                 "time": 48,
-                "energyCost": 200,
+                "energyRequired": 200,
                 "materials": [
                     {
                         "material": "aluminum",
@@ -533,7 +533,7 @@
                 }
             },
             "operation": {
-                "energyCost": 50,
+                "energyRequired": 50,
                 "requiredRoles": [
                     {
                         "key": "systemsEngineer",

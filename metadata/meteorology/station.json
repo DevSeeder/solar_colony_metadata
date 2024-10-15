@@ -4,14 +4,14 @@
       "path": "bulding",
       "values": {
         "durability": "years",
-        "energyCost": "W",
+        "energyRequired": "W",
         "time": "h"
       }
     },
     {
       "path": "operation",
       "values": {
-        "energyCost": "Wh"
+        "energyRequired": "Wh"
       }
     },
     {
@@ -26,7 +26,7 @@
       "path": "satelliteBuilding",
       "values": {
         "time": "h",
-        "energyCost": "W",
+        "energyRequired": "W",
         "weight": "Kg",
         "durability": "years",
         "colisionImpactResistence": "MJ",
@@ -59,7 +59,7 @@
       }
     ],
     "durability": 25,
-    "energyCost": 4300,
+    "energyRequired": 4300,
     "time": 72,
     "requiredBots": 3,
     "requiredRoles": [
@@ -115,7 +115,7 @@
     ]
   },
   "operation": {
-    "energyCost": 3200,
+    "energyRequired": 3200,
     "requiredRoles": [
       {
         "key": "systemsEngineer",
@@ -146,7 +146,7 @@
   },
   "satelliteBulding": {
     "time": 96,
-    "energyCost": 12000,
+    "energyRequired": 12000,
     "weight": 300,
     "durability": 5,
     "colisionImpactResistence": 200000,

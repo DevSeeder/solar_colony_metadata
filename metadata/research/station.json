@@ -4,14 +4,14 @@
             "path": "creation",
             "values": {
                 "durability": "years",
-                "energyCost": "W",
+                "energyRequired": "W",
                 "time": "h"
             }
         },
         {
             "path": "operation",
             "values": {
-                "energyCost": "Wh"
+                "energyRequired": "Wh"
             }
         },
         {
@@ -26,7 +26,7 @@
     "creation": {
         "description": "Estação de pesquisa lunar projetada para realizar experimentos científicos, análises de amostras lunares e suporte para operações de superfície lunar. Equipado com laboratórios, sistemas de comunicação e módulos de habitação.",
         "durability": 25,
-        "energyCost": 7000,
+        "energyRequired": 7000,
         "time": 240,
         "requiredBots": 4,
         "requiredRoles": [
@@ -78,7 +78,7 @@
         ]
     },
     "operation": {
-        "energyCost": 5000,
+        "energyRequired": 5000,
         "requiredRoles": [
             {
                 "key": "systemsEngineer",

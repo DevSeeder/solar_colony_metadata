@@ -8,7 +8,7 @@
         "earthDevelopmentCost": "USD",
         "durability": "years",
         "building.time": "h",
-        "building.energyCost": "W",
+        "building.energyRequired": "W",
         "consume.byPersonByDay": "l",
         "consume.limitWithoutWater": "days",
         "size.width": "m",
@@ -28,7 +28,7 @@
     },
     "creation": {
       "time": 8,
-      "energyCost": 1000000,
+      "energyRequired": 1000000,
       "requiredMaterials": [
         {
           "material": "aluminium",

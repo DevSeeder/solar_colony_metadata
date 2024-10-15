@@ -5,7 +5,7 @@
             "values": {
                 "range": 100,
                 "impactColisionResistence": "MJ",
-                "building.energyCost": "W",
+                "building.energyRequired": "W",
                 "building.time": "h"
             }
         }
@@ -15,7 +15,7 @@
         "impactColisionResistence": 500000,
         "durability": 20,
         "creation": {
-            "energyCost": 900,
+            "energyRequired": 900,
             "time": 1.5,
             "requiredBots": 1,
             "materials": [

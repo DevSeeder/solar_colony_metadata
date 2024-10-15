@@ -16,7 +16,7 @@
         "path": "construction",
         "values": {
           "time": "h",
-          "energyCost": "W"
+          "energyRequired": "W"
         }
       }
     ],
@@ -34,7 +34,7 @@
     },
     "construction": {
       "time": 200,
-      "energyCost": 20000,
+      "energyRequired": 20000,
       "materials": [
         {
           "material": "aluminium",
